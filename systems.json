@@ -1,0 +1,91 @@
+[
+  {
+    "id": "ms_multi_gear_maneuver_system",
+    "name": "MULTI-GEAR MANEUVER SYSTEM",
+    "type": "System",
+    "sp": 1,
+    "tags": [
+      {
+        "id": "tg_unique"
+      },
+      {
+        "id": "tg_quick_action"
+      }
+    ],
+    "source": "NONE",
+    "license": "ATLAS",
+    "license_level": 1,
+    "effect": "Used by Sparri hunters to bridge the vast gaps in the ice sheet that cover their world, this system is in high demand and often used by daredevils and thrill-seekers the world over.",
+    "description": "As a quick action, you can fire a zip line 8 spaces long that connects two free spaces you can see (the first space must be adjacent to you). The ends of the line must be attached to a surface, such as a wall or floor. It activates at the end of your turn, granting the following benefits:<li>Size 1/2 characters that are able to grab onto the line that are adjacent to either the start or end point of the zipline can move to the other end as a quick action. They can hop off at any point along the line if they wish.<li>Characters size 1 or larger that cross the line’s space for the first time in a round or start their turn in the line's space must pass an agility save or fall prone.<br>A character can tear down the zip line by passing a hull check as a quick action adjacent to the start or end point of the line, or successfully performing a melee attack against it (evasion 10). Destroying the zip line in this way does not destroy this system and it can be re-used. The line lasts until destroyed or until you use this system again.",
+    "data_type": "system",
+    "aptitude": {}
+  },
+  {
+    "id": "ms_jäger_kunst_i",
+    "name": "JÄGER KUNST I",
+    "type": "System",
+    "sp": 2,
+    "tags": [
+      {
+        "id": "tg_unique"
+      },
+      {
+        "id": "tg_protocol"
+      },
+      {
+        "id": "tg_heat_self",
+        "val": 1
+      }
+    ],
+    "source": "NONE",
+    "license": "ATLAS",
+    "license_level": 2,
+    "effect": "Until the end of your current turn, each time you move adjacent to an object or piece of terrain larger than your mech, your mech moves 2 spaces in any direction as a free action, ignoring engagement and reactions (your mech wall runs, tumbles, or slides around). This effect can trigger multiple times a turn, but only once for each unique object or piece of terrain.",
+    "description": "Converted from earlier hardsuit-only martial arts, Jäger kunst pushes the form beyond all possible human parameters, enabling actions and motions faster than human thought. Many ATLAS suits can be printed with the suite of combat forms already enabled - though letting the mech perform them without learning them yourself is likely to leave you with a wrenched arm or broken leg.",
+    "data_type": "system",
+    "aptitude": {}
+  },
+  {
+    "id": "ms_ricochet_blades",
+    "name": "RICOCHET BLADES",
+    "type": "System",
+    "sp": 3,
+    "tags": [
+      {
+        "id": "tg_limited_3"
+      }
+    ],
+    "source": "NONE",
+    "license": "ATLAS",
+    "license_level": 2,
+    "effect": "As a quick action, mark a line 3 area from your mech. All characters caught within must pass an agility save or take 1d3+2 kinetic damage on a failed save. If the line from the initial throw of this weapon hits a piece of terrain or object size 1 or larger, repeat the line from that object in a new direction that doesn't overlap the object it ricocheted off, forcing all characters caught within to make a new agility save or take 1d3+2 kinetic damage on a failed save.",
+    "description": "These shuriken-like, disc shaped blades are hand-finished by SSC’s Terashima blade enclave. The material is flexible enough to bounce when striking off surfaces, but sharp enough to slice bone and metal.",
+    "data_type": "system",
+    "aptitude": {}
+  },
+  {
+    "id": "ms_jäger_kunst_ii",
+    "name": "JÄGER KUNST II",
+    "type": "System",
+    "sp": 3,
+    "tags": [
+      {
+        "id": "tg_reaction"
+      },
+      {
+        "id": "tg_limited_3"
+      },
+      {
+        "id": "tg_round",
+        "val": 1
+      }
+    ],
+    "source": "NONE",
+    "license": "ATLAS",
+    "license_level": 3,
+    "effect": "1/round, you can perform the following reaction after you take or deal damage with or from a melee attack:<br>Fatal Clash<br>Reaction, 1/round<br>Both you and your target roll a contested hull or agility check (each side chooses which independently). The loser is knocked prone, takes 1d6 kinetic damage, and is knocked back 3 spaces in the direction of the winner’s choosing. The winner can then move 3 in any direction, ignoring engagement and not provoking reactions. In case of a tie, the contest immediately ends.<br>The loser of this contest can immediately force a re-roll of this contest by taking 2 AP kinetic damage if they lose. This damage cannot be prevented or reduced in any way.<br>This contest continues until one side accepts the result or would take a point of structure damage, in which case they immediately lose.",
+    "description": "The rarest of ATLAS mechs can be printed with the residual muscular memories of Jager Kunst masters embedded in them, old Sparri and others that have dedicated lives to their martial art. SSC does not recommended using these embedded systems without proper bodily tempering.",
+    "data_type": "system",
+    "aptitude": {}
+  }
+]

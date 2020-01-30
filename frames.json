@@ -1,0 +1,61 @@
+[
+  {
+    "id": "mf_atlas",
+    "source": "SSC",
+    "name": "ATLAS",
+    "mechtype": [
+      "Striker"
+    ],
+    "y_pos": "",
+    "description": "Originally commissioned and tested as a dueling mech for the House of Smoke, the ATLAS blurs the line between mech and suit of armor. The progeny of a long refinement period and utilizing the bleeding edge of reactor miniaturization tech, the mech was finally condensed down to something resembling a large, sleek hard suit, almost skin-tight at points. Though sacrificing much of the durability of a larger frame, the mech’s essential system are so closely melded with its user’s movements that it offers unparalleled agility.<br>Though originally tightly licensed for select clientele, the Atlas was introduced to the Sparri almost by mistake when a mercenary in the Long Rim won the frame in a game of kapkat. Since then, demand from the Sparri has been so strong that SSC was forced to reconsider its licensing scheme. Considered perfect warrior frames for hunting the native megafauna of Sparr, they are now widely perceived as the iconic frames of Sparri headhunters and daredevils across the Orion Arm, to the point that the Sparri invented a new martial art using the Atlas.<br>Considered heirlooms of great warriors, they are passed down through bloodlines and often repaired and modified manually. The suit’s powerful systems remember the unique movements of all that have worn it before, enabling Sparri hunters to literally call upon their ancestors in battle.",
+    "mounts": [
+      "Flex",
+      "Main"
+    ],
+    "stats": {
+      "size": 0.5,
+      "armor": 0,
+      "hp": 6,
+      "evasion": 12,
+      "edef": 6,
+      "heatcap": 4,
+      "repcap": 2,
+      "sensor_range": 3,
+      "tech_attack": -2,
+      "save": 10,
+      "speed": 6,
+      "sp": 5
+    },
+    "traits": [
+      {
+        "name": "Giantkiller",
+        "description": "The Atlas counts as size 1 for the purposes of ramming and grappling. It ignores engagement from actors larger than itself, can share space with larger actors (even hostile ones) and move through their spaces unimpeded. While sharing space with any character, it gains soft cover, even from that character."
+      },
+      {
+        "name": "Jäger Dodge",
+        "description": "1/round, when the Atlas takes damage from a character larger than itself, as a reaction it can gain resistance to that damage and move 3 spaces in any direction, ignoring engagement and reactions."
+      },
+      {
+        "name": "Finishing Blow",
+        "description": "1/round, the Atlas can deal +1d6 bonus damage with a successful melee attack against a prone target."
+      },
+      {
+        "name": "Exposed Reactor",
+        "description": "The Atlas takes +1 difficulty on all engineering checks and saves"
+      }
+    ],
+    "core_system": {
+      "name": "BLOODLINE active assist",
+      "description": "The ATLAS extends needles into your musculature and ancillary nervous system, melding flesh, machine, and the memory of all who wore it before you.",
+      "active_name": "Final Hunt",
+      "active_effect": "When you take this action, until the end of the current scene gain the following effects:<li>The Atlas's movement from any source (moves, boosts, movement from systems or talents) increases by 1.<li>It always benefits from soft cover, no matter where it is.<li>The Atlas can hide even in the open, without requiring cover (the only way to reveal it is for an actor to search for it or it if breaks hiding the normal way - by boosting, attacking, forcing a save, or taking other actions that break hiding).<li>1/round, when the Atlas makes an attack from hiding, its target must pass a hull save or be knocked prone.",
+      "tags": [
+        {
+          "id": "tg_quick_action"
+        }
+      ]
+    },
+    "data_type": "frame",
+    "aptitude": {}
+  }
+]

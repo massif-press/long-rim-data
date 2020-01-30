@@ -1,0 +1,66 @@
+[
+  {
+    "id": "mw_kraul_rifle",
+    "name": "KRAUL RIFLE",
+    "mount": "Main",
+    "type": "CQB",
+    "damage": [
+      {
+        "type": "kinetic",
+        "val": "1d6"
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 8
+      }
+    ],
+    "tags": [
+      {
+        "id": "tg_inaccurate"
+      }
+    ],
+    "source": "NONE",
+    "license": "ATLAS",
+    "license_level": 1,
+    "effect": "On hit, your target is impaled by the harpoon-like projectile this weapon fires. Any time during your target’s next turn, you can reel in the line and take the boost action as a reaction to any of its actions or movement, as long as your boost moves towards that target by the most direct route possible. Your target must then pass a hull save or be knocked prone, and this effect ends. The line snaps if your target teleports.",
+    "description": "Hunting the Vast, the titans of Sparr, is an incredibly profitable venture - their skins, meat, and bone can turn into months of prosperity for an ambitious raiding party. These popular long rifles, refined to SSC standards, rugged and durable, aid in dragging down the great beasts.",
+    "data_type": "weapon",
+    "aptitude": {}
+  },
+  {
+    "id": "mw_terashima_blade",
+    "name": "TERASHIMA BLADE",
+    "mount": "Main",
+    "type": "melee",
+    "damage": [
+      {
+        "type": "kinetic",
+        "val": "1d6"
+      }
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 1
+      }
+    ],
+    "tags": [
+      {
+        "id": "tg_unique"
+      },
+      {
+        "id": "tg_protocol"
+      }
+    ],
+    "source": "NONE",
+    "license": "ATLAS",
+    "license_level": 3,
+    "effect": "As a protocol, you can take one of the following stances. The stance continues until you take a new stance with this weapon, this weapon is destroyed, or your mech is stunned or jammed. You can start any given fight in one of the following stances if you wish.<br>Troll Stance: This weapon gains inaccurate, AP, and deals +4 damage.<br>Storm Stance: 1/round after hitting with this weapon, you may immediately deal 2 kinetic damage to all other characters adjacent to you and your target as a reaction.<br>Lord’s Stance: While in this stance, you cannot make ranged or tech attacks, but any ranged attack against you that misses deflects off your sword, dealing 2 kinetic, energy, or explosive damage (depending on the attack) to any character of your choice in range 3 and line of sight from you. Any melee attack that misses you in this stance forces the attacker to pass a hull save or become knocked prone.<br>Wind Stance: This weapon gains reliable 2, threat 2, and knock back 2. After attacking with this weapon, hit or miss, you may move 2 spaces in any direction, ignoring engagement and reactions.",
+    "description": "Forged in the fire of a dying star and perfectly balanced, each of these blades bears a unique name. Quiet. Ishtar. Trolljäger. When combined with a mech’s sensors, they are rumored to be fast and durable enough to deflect weapons fire, though such a capability has not been tested.",
+    "data_type": "weapon",
+    "aptitude": {},
+    "sp": 2
+  }
+]

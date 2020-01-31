@@ -1,0 +1,49 @@
+[
+  {
+    "id": "wm_supermassive_mod",
+    "name": "SUPERMASSIVE MOD",
+    "sp": 1,
+    "applied_to": [
+      "melee",
+      "cqb",
+      "cannon"
+    ],
+    "applied_string": "melee, cqb, or cannon",
+    "source": "NONE",
+    "license": "CALIBAN",
+    "license_level": 1,
+    "effect": "Choose one Melee, CQB, or Cannon weapon. This weapon gains overkill and knockback +1. It can be tuned during a full repair to take off safety limiters, gaining knockback +2 instead, but additionally gaining the ordnance tag (ranged) or inaccurate tag (melee).",
+    "description": "The first of a suite of best-practice modifications for close quarters combat out of the Titan-Enceladus Field Project that produced the Caliban, Supermassive Modifications describe a host of modifications that can be made to close-quarters weaponry to enhance their general lethality and utility by lifting safety precautions.",
+    "data_type": "mod",
+    "aptitude": {},
+    "tags": [
+      {
+        "id": "tg_mod"
+      },
+      {
+        "id": "tg_unique"
+      }
+    ]
+  },
+  {
+    "id": "wm_molten_wreathe",
+    "name": "MOLTEN WREATHE",
+    "sp": 2,
+    "applied_to": [
+      "melee"
+    ],
+    "applied_string": "melee",
+    "source": "HORUS",
+    "license": "ZHENG",
+    "license_level": 2,
+    "effect": "Choose one melee weapon. 1/round after hitting a character with an attack roll from this weapon, your mech takes 1 heat and this weapon creates a cone 3 blast originating from your target that must be placed on the opposite side from your attack and oriented directly away from the target. Characters caught in this blast and the main target take 2 explosive damage.",
+    "description": "Redirecting spare reactor power down cabling extending to a melee weapon was an ingenious but foolhardy innovation. The resultant weapon is so hot that on impact it vaporizes parts of its targets internal systems, creating a secondary blast cloud of debris.",
+    "data_type": "mod",
+    "aptitude": {},
+    "tags": [
+      {
+        "id": "tg_mod"
+      }
+    ]
+  }
+]

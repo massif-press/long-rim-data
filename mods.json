@@ -9,7 +9,7 @@
       "cannon"
     ],
     "applied_string": "melee, cqb, or cannon",
-    "source": "NONE",
+    "source": "IPS-N",
     "license": "CALIBAN",
     "license_level": 1,
     "effect": "Choose one Melee, CQB, or Cannon weapon. This weapon gains overkill and knockback +1. It can be tuned during a full repair to take off safety limiters, gaining knockback +2 instead, but additionally gaining the ordnance tag (ranged) or inaccurate tag (melee).",
@@ -33,7 +33,7 @@
       "melee"
     ],
     "applied_string": "melee",
-    "source": "HORUS",
+    "source": "IPS-N",
     "license": "ZHENG",
     "license_level": 2,
     "effect": "Choose one melee weapon. 1/round after hitting a character with an attack roll from this weapon, your mech takes 1 heat and this weapon creates a cone 3 blast originating from your target that must be placed on the opposite side from your attack and oriented directly away from the target. Characters caught in this blast and the main target take 2 explosive damage.",

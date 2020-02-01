@@ -12,7 +12,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "source": "NONE",
+    "source": "SSC",
     "license": "ATLAS",
     "license_level": 1,
     "effect": "As a quick action, you can fire a zip line 8 spaces long that connects two free spaces you can see (the first space must be adjacent to you). The ends of the line must be attached to a surface, such as a wall or floor. It activates at the end of your turn, granting the following benefits:<li>Size 1/2 characters that are able to grab onto the line that are adjacent to either the start or end point of the zipline can move to the other end as a quick action. They can hop off at any point along the line if they wish.<li>Characters size 1 or larger that cross the line’s space for the first time in a round or start their turn in the line's space must pass an agility save or fall prone.<br>A character can tear down the zip line by passing a hull check as a quick action adjacent to the start or end point of the line, or successfully performing a melee attack against it (evasion 10). Destroying the zip line in this way does not destroy this system and it can be re-used. The line lasts until destroyed or until you use this system again.",
@@ -37,7 +37,7 @@
         "val": 1
       }
     ],
-    "source": "NONE",
+    "source": "SSC",
     "license": "ATLAS",
     "license_level": 2,
     "effect": "Until the end of your current turn, each time you move adjacent to an object or piece of terrain larger than your mech, your mech moves 2 spaces in any direction as a free action, ignoring engagement and reactions (your mech wall runs, tumbles, or slides around). This effect can trigger multiple times a turn, but only once for each unique object or piece of terrain.",
@@ -56,7 +56,7 @@
         "val": 3
       }
     ],
-    "source": "NONE",
+    "source": "SSC",
     "license": "ATLAS",
     "license_level": 2,
     "effect": "As a quick action, mark a line 3 area from your mech. All characters caught within must pass an agility save or take 1d3+2 kinetic damage on a failed save. If the line from the initial throw of this weapon hits a piece of terrain or object size 1 or larger, repeat the line from that object in a new direction that doesn't overlap the object it ricocheted off, forcing all characters caught within to make a new agility save or take 1d3+2 kinetic damage on a failed save.",
@@ -82,7 +82,7 @@
         "val": 1
       }
     ],
-    "source": "NONE",
+    "source": "SSC",
     "license": "ATLAS",
     "license_level": 3,
     "effect": "1/round, you can perform the following reaction after you take or deal damage with or from a melee attack:<br>Fatal Clash<br>Reaction, 1/round<br>Both you and your target roll a contested hull or agility check (each side chooses which independently). The loser is knocked prone, takes 1d6 kinetic damage, and is knocked back 3 spaces in the direction of the winner’s choosing. The winner can then move 3 in any direction, ignoring engagement and not provoking reactions. In case of a tie, the contest immediately ends.<br>The loser of this contest can immediately force a re-roll of this contest by taking 2 AP kinetic damage if they lose. This damage cannot be prevented or reduced in any way.<br>This contest continues until one side accepts the result or would take a point of structure damage, in which case they immediately lose.",
@@ -100,7 +100,7 @@
         "id": "tg_shield"
       }
     ],
-    "source": "NONE",
+    "source": "IPS-N",
     "license": "CALIBAN",
     "license_level": 2,
     "effect": "As long as it’s not slowed or immobilized, your mech has resistance to all damage during its turn.",
@@ -122,7 +122,7 @@
         "id": "tg_unique"
       }
     ],
-    "source": "NONE",
+    "source": "IPS-N",
     "license": "CALIBAN",
     "license_level": 2,
     "effect": "You may spend a charge from this system for one of the following effects:<li>Spike grenade (grenade, thrown 5): If a character is targeted by this grenade, it must pass an agility save or have the grenade attach to them, where it arms. If an object is targeted, it simply attaches. At the start or end of your turns, you can cause all spike grenades to detonate as a free action, dealing 1d6 kinetic damage to whatever they’re attached to and knocking back any characters or objects they’re attached to 3 spaces in any direction. A character can detach a grenade by successfully repeating this save as a quick action on their turn, else they detach at the end of the scene.<li>Spike mine (mine, burst 1): Once activated, all characters caught in the burst must pass an agility save or have a spike grenade attach to them as described above.",
@@ -151,7 +151,7 @@
         "val": 1
       }
     ],
-    "source": "NONE",
+    "source": "IPS-N",
     "license": "CALIBAN",
     "license_level": 3,
     "effect": "1/round when your mech boosts, you can engage this system. It flies, gains overshield 3 and it ignores engagement from and may freely pass through the spaces of other characters larger than it (but not end its turn in their spaces).",
@@ -252,13 +252,17 @@
   {
     "id": "ms_rewrite",
     "name": "REWRITE",
-    "type": "System",
+    "type": "Tech",
     "sp": 2,
-    "tags": [],
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
     "source": "HORUS",
     "license": "LICH",
     "license_level": 2,
-    "effect": "Quick Tech<br>Choose a character in sensor range and line of sight. All conditions on that character other than stunned (slowed, impaired, jammed, lock on, shredded) immediately end and transfer to you. These conditions last until the end of your next turn.",
+    "effect": "Choose a character in sensor range and line of sight. All conditions on that character other than stunned (slowed, impaired, jammed, lock on, shredded) immediately end and transfer to you. These conditions last until the end of your next turn.",
     "description": "“I have never been here: I do not know where here is: It has not happened yet: Once, I was: I have never been here: You are all I see: How can you be all I see: Where am I: Where did I go: I have never been here...”<br>— M.A2.SP1 [Audio loop, length 93:03][Dated 5008U, 16:50] (recovered: GZ Alhambra) [UIB-TERMAGANT-TANGENT ROYAL]",
     "data_type": "system",
     "aptitude": {}
@@ -347,7 +351,7 @@
         "id": "tg_quick_tech"
       }
     ],
-    "source": "HORUS",
+    "source": "HA",
     "license": "SUNZI",
     "license_level": 1,
     "effect": "As a quick action, choose and mark two free visible spaces on the ground or the same surface within range 5 of each other. Characters that enter either space for the first time in a round or start their turn there are pushed in a straight line as far as possible towards the other space. If they would collide with another object or character, they stop moving. Grenades, deployables, or other loose objects size 1 or smaller that are thrown or deployed into one space are pushed in the same way towards the other space before activating or detonating (they activate or detonate early if they are forced to stop by another character or object). The area lasts until the end of the scene or if you take this action again, and characters caught in either area can pass a hull save to avoid this effect.",
@@ -369,7 +373,7 @@
         "val": 3
       }
     ],
-    "source": "HORUS",
+    "source": "HA",
     "license": "SUNZI",
     "license_level": 1,
     "effect": "You can spend a charge from this system for one of the following effects:<br>Blink Mine (Mine): Once activated, this mine teleports the character that triggered it to a free valid space of your choice within range 5 of the mine and they become jammed until the end of their next turn. A character can pass an engineering save to avoid the Jamming effect but is still teleported.<br>Warp Grenade (Grenade, Thrown 5, Blast 3): On impact, you can teleport any character (hostile or allied) in the affected area to any free valid space within the same area. Characters can pass an engineering save to avoid this effect.",
@@ -390,7 +394,7 @@
         "id": "tg_quick_tech"
       }
     ],
-    "source": "HORUS",
+    "source": "HA",
     "license": "SUNZI",
     "license_level": 2,
     "effect": "As a quick action, you tear a hole in space, creating a blast 1 area in free visible space in sensor range. Weapons with the blast, line, burst, or cone tags exclude the zone’s space from their area of effect. Characters and objects cannot occupy the same space as the zone. Any character or object that moves at least 1 space into the zone immediately teleports to any free adjacent space of it or its owner’s choice to the zone, or as close as possible if there is no free space.<br>The zone blocks line of sight. However, any character (hostile or allied) may target the zone with a ranged weapon without the line, blast, burst, or cone tags as if making an attack against it. Don’t roll to hit the zone - instead the zone absorbs and re-targets the weapon's attack against a new target of the attacker's choice within range 10 of the zone. Make the attack as if the attack was fired from the zone instead (for purposes of line of sight, cover, etc).<br>The zone lasts until the end of the current scene, if you take this action again, or if you destroy it with a quick action.",
@@ -408,7 +412,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "source": "HORUS",
+    "source": "HA",
     "license": "SUNZI",
     "license_level": 3,
     "effect": "As a quick action, you can mark a free adjacent space to your mech and open up a blink tear. The tear lasts until the end of your next turn. Any character other than you (hostile or allied) that at least partly enters that space as part of any movement can teleport to a free adjacent space to your mech’s current location at the time of their move as a free action or reaction. You can only have one tear open at once, and each one created replaces the previous one.",
@@ -426,7 +430,7 @@
         "id": "tg_quick_tech"
       }
     ],
-    "source": "HORUS",
+    "source": "HA",
     "license": "SUNZI",
     "license_level": 3,
     "effect": "Either you or another character of your choice in your sensor range and line of sight is charged with unstable energy until the start of your next turn. Each time that character takes damage for that duration, you can teleport that character up to 3 spaces in any direction to a free valid space as a reaction. Unwilling characters can pass an engineering save to avoid this effect entirely.",
@@ -444,7 +448,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "source": "HORUS",
+    "source": "IPS-N",
     "license": "ZHENG",
     "license_level": 1,
     "effect": "As a quick action, you can rip up a piece of the environment and hurl it at your enemy. Choose a character in range 5 and line of sight. That character must pass an agility save or take 1d6 kinetic damage and be knocked back 1 space directly away from you. After taking this action, even if your target makes their save, create a size 1 piece of terrain that grants hard cover (10 HP, 5 evasion) in a free adjacent space to your target.<br>If you already have a piece of cover adjacent to you of size 1, you can move it as part of this action, otherwise you rip it out of the ground or environment (if there's nothing to grab nearby or you're not on the ground you can't take this action)",
@@ -465,7 +469,7 @@
         "id": "tg_protocol"
       }
     ],
-    "source": "HORUS",
+    "source": "IPS-N",
     "license": "ZHENG",
     "license_level": 2,
     "effect": "Deal 1d6 kinetic damage to a character you are grappling.",
@@ -483,7 +487,7 @@
         "id": "tg_full_action"
       }
     ],
-    "source": "HORUS",
+    "source": "IPS-N",
     "license": "ZHENG",
     "license_level": 3,
     "effect": "A a full action, you can end a grapple to knock the character you’re grappling back 5 spaces in any direction and knock it prone. During this movement, it can freely pass through but not end its movement in other character's spaces. If it collides with an object or piece of terrain during its movement, it stops, takes 1d6 kinetic damage, and must pass a hull save or become stunned until the end of its next turn. All characters it passes through must pass a hull save or become knocked prone.",

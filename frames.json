@@ -6,7 +6,7 @@
     "mechtype": [
       "Striker"
     ],
-    "y_pos": "",
+    "y_pos": 14,
     "description": "Originally commissioned and tested as a dueling mech for the House of Smoke, the ATLAS blurs the line between mech and suit of armor. The progeny of a long refinement period and utilizing the bleeding edge of reactor miniaturization tech, the mech was finally condensed down to something resembling a large, sleek hard suit, almost skin-tight at points. Though sacrificing much of the durability of a larger frame, the mech’s essential system are so closely melded with its user’s movements that it offers unparalleled agility.<br>Though originally tightly licensed for select clientele, the Atlas was introduced to the Sparri almost by mistake when a mercenary in the Long Rim won the frame in a game of kapkat. Since then, demand from the Sparri has been so strong that SSC was forced to reconsider its licensing scheme. Considered perfect warrior frames for hunting the native megafauna of Sparr, they are now widely perceived as the iconic frames of Sparri headhunters and daredevils across the Orion Arm, to the point that the Sparri invented a new martial art using the Atlas.<br>Considered heirlooms of great warriors, they are passed down through bloodlines and often repaired and modified manually. The suit’s powerful systems remember the unique movements of all that have worn it before, enabling Sparri hunters to literally call upon their ancestors in battle.",
     "mounts": [
       "Flex",
@@ -56,6 +56,7 @@
       ]
     },
     "data_type": "frame",
+    "image_url": "https://i.imgur.com/MWb5XtS.png",
     "aptitude": {}
   },
   {
@@ -66,7 +67,7 @@
       "Striker",
       "Controller"
     ],
-    "y_pos": "",
+    "y_pos": 12.5,
     "description": "The Caliban is a relative newcomer in Interplanetary-Northstar’s line of single-client chassis, already garnering a reputation among Trunk Security for its efficacy inside of the envelope for which it was designed. Unlike many of IPS-N’s frames, the Caliban has no civilian analog or antecedent; it was designed from the ground up to be a military machine.<br>The Caliban is IPS-N’s solution to the Yemanova Problem, or, the Impact-Override Problem. Capital ships, the problem notes, are incredibly expensive and time consuming for corpros and diasporan states to produce and maintain, and anti-ship weaponry has far outstripped capital defenses. In a conventional capital duel, a successful kill means the death of thousands of viable personnel and the loss of millions of units of manna; this leads many commanders to be gun-shy, relying on subline and fighter-class vessels to accomplish battle objectives rather than risk their big ships — a strategy that proves just as costly on average; instead of one or a handful of large ships being destroyed and signifying the end of a battle, engagements grind on for weeks as squadrons of smaller ships engage inside the unpredictability gap, inching towards victory.<br>IPS-N was the first to crack the Yemanova Problem. Their designers identified the need for a rapidly deployable, sub-signature, directed weapon or weapon system; well armed and armored, small enough to enter a ship and efficiently and quickly neutralize personnel in order to achieve victory. IPS-N created the Caliban to solve this mission need.<br>The mech, cultural critics argue, venerates a particular humanity’s form, and is an unconscious nod towards the anthrochauvinist roots of the machine among leading frame designers and fabricators. The Caliban is not that. It was never intended to be an image of man writ large, striding across the battlefield heroically to affect a greater purpose.<br>The Caliban has no roots, as many IPS-N chassis do, in the early efforts of freighter crews and asteroid miners to defend themselves. It was not born from ingenuity - there is no legacy of resilience, heroism, and the frontier spirit to paper over the purpose of its birth. It has no civilian applications in aid, disaster relief, construction, or farming.<br>It is a cleaner, designed to solve a numbers problem on a ledger. It was only made small so it could to fit through most ship doors and bulkheads with minimal problems, crawl up the spinal corridors of ships, and speed up it’s average job completion rate by five minutes.<br>It is a tool designed to kill human beings very, very quickly.",
     "mounts": [
       "Heavy"
@@ -118,6 +119,7 @@
       }
     },
     "data_type": "frame",
+    "image_url": "https://i.imgur.com/111stQO.png",
     "aptitude": {}
   },
   {
@@ -127,7 +129,7 @@
     "mechtype": [
       "Controller"
     ],
-    "y_pos": "",
+    "y_pos": 25,
     "description": "The Kobold p-g made its first appearance among Ungrateful partisans serving the House of Dust, the pattern a clever suite of hardware and software able to be applied to many kinds of mining and heavy industry mechs. The steaming, shuddering final result is an ugly affair, but contains powerful liturgicode meant to unlock its reactor. Custom built to combat Barony suppression forces, the desperate workers who built the first slapdash kobolds found their reactors and factory tools repurposed to deadly effect: able to melt and extrude raw material into a molten polymer that could be used for both barriers and bombs.",
     "mounts": [
       "Main/Aux"
@@ -182,7 +184,7 @@
       "Controller",
       "Support"
     ],
-    "y_pos": "",
+    "y_pos": 8,
     "description": "CALIGULA: So what is it?<br>DOGFRIEND_68: i wish i could fuking tell you, man, it just showed up on our omni. the whole thing in one ping. there’s like a fucking thou ex or two thou exabytes in here, crashed buffer on refresh<br>CALIGULA: Gotta be a joke from Ash, she’s trying to wavedown our rig again. Don’t print it.<br>DOGFRIEND_68: fuck no<br>DOGFRIEND_68: do u think i have a death wish<br>CALIGULA: Yes.<br>CALIGULA: Well who’s it from? Who’s the author?<br>CALIGULA: Hello?<br>CALIGULA: ...<br>DOGFRIEND_68: what the fuck<br>CALIGULA: Who?<br>DOGFRIEND_68: us<br>CALIGULA: us what?<br>DOGFRIEND_68: it’s from us. we made it.<br>CALIGULA: Pretty sure I’d remember if I wrote a whole frame by myself.<br>DOGFRIEND_68: yeah except thats our code man<br>DOGFRIEND_68: also sysop is telling me we didn’t actaully get anything inbound which means its just<br>been here on the node somehow but thats impossible<br>DOGFRIEND_68: it’s dated 15005U.<br>DOGFRIEND_68: ...<br>DOGFRIEND_68: theres audio<li>Transcript M.A2 (recovered) [UIB-TERMAGANT-TANGENT ROYAL]",
     "mounts": [
       "Main/Aux"
@@ -235,7 +237,7 @@
     "mechtype": [
       "Controller"
     ],
-    "y_pos": "",
+    "y_pos": 23,
     "description": "The SUNZI is at the peak of Harrison Armory development in weapons-applicable blink technology, a FRAME that was introduced as late as 5007U to select pilots only. Like the NAPOLEON, it is a compact, highly experimental frame with very limited battlefield presence, using powerful Blackshield technology to tear and warp the physical dimensions of space momentarily. Distortions of this kind are short lived, usually (but not always) visible to the naked eye, and highly unstable. Rumors abound that the SUNZI contains stolen or corrupted Volador technology from the ancient city-ship Mothers Gather and Are Welcome, parts of the extremely advanced machinery that allows their world-ships to remain in blinkspace seemingly indefinitely.<br>Owners of SUNZI licenses waive their privacy rights as part of the extensive (and physically exhausting) licensing process and are often in direct contact with personal handlers from Ras Shamra’s testing forges wishing to collect data.",
     "mounts": [
       "Main/Aux"
@@ -299,7 +301,7 @@
       "Striker",
       "Controller"
     ],
-    "y_pos": "",
+    "y_pos": 30,
     "description": "The ZHENG is a relatively new frame in the IPS-N line and is unusual in that its creation can be attributed almost completely to a single mech operator - Xiong Xiaoli, a Mirrorsmoke mercenary operating out of the Long Rim, protecting Armory shipments of supplies to the early Dawnline shore colonies. A relative unknown before the incident, her convoy was attacked by the White Tiger pirate conglomerate and her entire company was KIA.<br>Xiaoli’s Raleigh was almost totally ripped apart in the ensuing chaos, but she managed to activate a distress beacon and attach it to her mech. Over the next forty five days she survived by scavenging the collapsing and melting wreck of the huge transport ship M.S. Say No More, managing to outsmart the fifty or so pirates searching for her by steadily modifying her mech for unarmed, CQB combat. In an tight, close environment where the ship’s decaying reactor core made combustible ranged weapons incredibly dangerous, she showed incredible efficacy and ingenuity. Xiaoli did not survive, perishing hours before the relief fleet arrived, but bought enough time that MSMC was able to position itself to both resupply the colony, fulfilling its contract, and deal a mortal blow to the Tigers, wiping the pirates out completely in the following skirmishes. Her mech was purchased by IPS-N frame development and the Zheng was introduced shortly afterwards based on her improvements.<br>Xiaoli is widely regarded as a Bodhisattva by many Long Rim colonists and nearly all MSMC mercs are familiar with the several drinking games named after her.",
     "mounts": [
       "Main",

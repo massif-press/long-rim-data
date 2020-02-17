@@ -37,7 +37,7 @@
     "license": "ZHENG",
     "license_level": 2,
     "effect": "Choose one melee weapon. 1/round after hitting a character with an attack roll from this weapon, your mech takes 1 heat and this weapon creates a cone 3 blast originating from your target that must be placed on the opposite side from your attack and oriented directly away from the target. Characters caught in this blast and the main target take 2 explosive damage.",
-    "description": "Redirecting spare reactor power down cabling extending to a melee weapon was an ingenious but foolhardy innovation. The resultant weapon is so hot that on impact it vaporizes parts of its targets internal systems, creating a secondary blast cloud of debris.",
+    "description": "Redirecting spare reactor power down cabling extending to a melee weapon was an ingenious but foolhardy innovation. The resultant weapon is so hot that on impact it vaporizes parts of its target’s internal systems, creating a secondary blast cloud of debris.",
     "data_type": "mod",
     "aptitude": {},
     "tags": [

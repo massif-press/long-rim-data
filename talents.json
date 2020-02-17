@@ -1,0 +1,40 @@
+[
+  {
+    "id": "t_spaceborn",
+    "name": "SPACEBORN",
+    "description": "You’re adept at planting your feet wherever you find them - even on nothing at all. Where those born downwell have a hard time keeping their lunch down, you thrive. Which way is up? It’s up to you.",
+    "ranks": [
+      {
+        "name": "HOME IN THE VOID",
+        "description": "Any mech you create comes with an EVA module installed (you suffer no penalty for operating in underwater or zero-g environments). You can shunt power into this module as a quick action to fly 3 spaces and take heat equal to your mech’s size+1 (rounded up), though you must land at the end of this movement or fall."
+      },
+      {
+        "name": "SEA LEGS",
+        "description": "1/round when your mech is involuntarily moved by another character’s attack or failing a save forced by that character, you can choose the direction you move. After your mech stands up from prone, it can moves 2 space in any direction as a free action. This movement doesn’t provoke reactions and ignores engagement."
+      },
+      {
+        "name": "SCRAPPER",
+        "description": "Characters gain +1 difficulty on checks made to avoid being knocked back, knocked prone, slowed, or immobilized by any attack or ability you inflict on them."
+      }
+    ]
+  },
+  {
+    "id": "t_black_thumb",
+    "name": "BLACK THUMB",
+    "description": "You’re used to station engineering - the kind that regularly requires crawling through nightmarishly tight vents, squeezing past boiling hot steam pipes, and tapping on thin panes of sheet metal between you and certain death. After that, a little combat engineering is nothing.",
+    "ranks": [
+      {
+        "name": "FLESH TO METAL",
+        "description": "While adjacent to your mech, your pilot has resistance to all damage. Dismounting your mech is only a quick action instead of a full action."
+      },
+      {
+        "name": "RODEO",
+        "description": "As a quick action, your pilot can pop the hatch on your mech and climb out, jockeying your own mech. While jockeying your mech, you share its space and move when it moves. You don’t fully dismount (doing so takes a dismount action) and can’t control your mech from outside, so your mech will idle unless it is capable of taking actions independently (if it has an NHP installed, for example, and you handed over control at the start of your turn).<br>You are become a valid target for attacks or other effects while jockeying your mech, and if you take damage your pilot is forced back inside your mech as a reaction, ending this state. Your pilot can also climb back inside as a quick action.<br>While jockeying your pilot can take only the Fight or Reload actions, or any of the following actions:<li>Extinguish (full action): Immediately end any burn affecting your mech, and your pilot and mech gain resistance to burn until the start of your next turn.<li>Field Repair (full action): Heal your mech 2 hp and end the slowed condition on it. Rig Vents (full action): Cool 2 heat from your mech and end the impaired condition on it."
+      },
+      {
+        "name": "RODEO MASTER",
+        "description": "When you exit your mech, your pilot gains overshield 4 and is only forced back inside their mech while jockeying if they lose this overshield. Your Field Repair jockeying action now ends the immobilized condition as well, and your Rig Vents jockeying action now ends the Jammed condition as well."
+      }
+    ]
+  }
+]

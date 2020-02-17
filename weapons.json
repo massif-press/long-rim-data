@@ -25,7 +25,7 @@
     "license": "ATLAS",
     "license_level": 1,
     "effect": "On hit, your target is impaled by the harpoon-like projectile this weapon fires. Any time during your target’s next turn, you can reel in the line and take the boost action as a reaction to any of its actions or movement, as long as your boost moves towards that target by the most direct route possible. Your target must then pass a hull save or be knocked prone, and this effect ends. The line snaps if your target teleports.",
-    "description": "Hunting the Vast, the titans of Sparr, is an incredibly profitable venture - their skins, meat, and bone can turn into months of prosperity for an ambitious raiding party. These popular long rifles, refined to SSC standards, rugged and durable, aid in dragging down the great beasts.",
+    "description": "Hunting the Vast — the titanic megafauna of Sparr — is an incredibly profitable venture. Their skins, meat, bone, and other trophies from their bodies can produce months — even, in rare cases when an especially old, grand, or unique Vast is felled — years of prosperity for the hunters and their kin. These popular long rifles, refined to SSC standards, are rugged and durable, and aid in dragging down the great beasts and their attendants.",
     "data_type": "weapon",
     "aptitude": {}
   },
@@ -57,8 +57,8 @@
     "source": "SSC",
     "license": "ATLAS",
     "license_level": 3,
-    "effect": "As a protocol, you can take one of the following stances. The stance continues until you take a new stance with this weapon, this weapon is destroyed, or your mech is stunned or jammed. You can start any given fight in one of the following stances if you wish.<br>Troll Stance: This weapon gains inaccurate, AP, and deals +4 damage.<br>Storm Stance: 1/round after hitting with this weapon, you may immediately deal 2 kinetic damage to all other characters adjacent to you and your target as a reaction.<br>Lord’s Stance: While in this stance, you cannot make ranged or tech attacks, but any ranged attack against you that misses deflects off your sword, dealing 2 kinetic, energy, or explosive damage (depending on the attack) to any character of your choice in range 3 and line of sight from you. Any melee attack that misses you in this stance forces the attacker to pass a hull save or become knocked prone.<br>Wind Stance: This weapon gains reliable 2, threat 2, and knock back 2. After attacking with this weapon, hit or miss, you may move 2 spaces in any direction, ignoring engagement and reactions.",
-    "description": "Forged in the fire of a dying star and perfectly balanced, each of these blades bears a unique name. Quiet. Ishtar. Trolljäger. When combined with a mech’s sensors, they are rumored to be fast and durable enough to deflect weapons fire, though such a capability has not been tested.",
+    "effect": "As a protocol, you can take one of the following stances. The stance continues until you take a new stance with this weapon, this weapon is destroyed, or your mech is stunned or jammed.<br>You can start any given fight in one of the following stances if you wish.<br>Troll Stance: This weapon gains inaccurate, AP, and deals +3 damage.<br>Storm Stance: 1/round after hitting with this weapon, you may immediately deal 2 kinetic damage to all other characters adjacent to you and your target as a reaction.<br>Lord’s Stance: While in this stance, you cannot make ranged or tech attacks, but any ranged attack against you that misses deflects off your sword, dealing 2 kinetic, energy, or explosive damage (depending on the attack) to any character of your choice in range 3 and line of sight from you. Any melee attack that misses you in this stance forces the attacker to pass a hull save or become knocked prone.<br>Wind Stance: This weapon gains reliable 2, threat 2, and knock back 2. After attacking with this weapon, hit or miss, you may move 2 spaces in any direction, ignoring engagement and reactions.",
+    "description": "Forged in the fire of a corralled star in the Constellation, each of these blades bears a unique name and history defined by their users. Terashima blades are perfectly balanced and tempered, scalable from personal use to Schedule 3 — when combined with a frames’ weapon and sensor suites, they have been proven to be fast and durable enough to deflect weapons fire. Each blade crafted by the Terashima enclave is an heirloom produced once and delivered via conventional travel — their loss is considered an indescribable humiliation of the owner, and an incredible triumph by the one who has taken it. The Terashima enclave keeps the casting mold of each blade produced, and displays them in their central hall with known histories attached.",
     "data_type": "weapon",
     "aptitude": {},
     "sp": 2
@@ -136,8 +136,8 @@
     "source": "IPS-N",
     "license": "CALIBAN",
     "license_level": 3,
-    "effect": "This heavy shotgun can be fired twice before it needs to be reloaded. Alternately, both barrels can be fired at once, causing the weapon to be fired with +1 additional difficulty and requiring a reload as normal, but increasing it’s damage and knockback to 3d6+4 kinetic and knockback 4 respectively.<br>When this weapon is reloaded, you may deal 3 kinetic damage to a character in range 3 from the force of the ejecting shells.",
-    "description": "The IPS-N Heavy Howitzer—Shotgun is a large, breech-loaded, over-under cannon with an extremely efficient kill rate at close range, especially in the narrow ducts and corridors of ships and stations. It has one design flaw, which is that the shells are ejected with enough velocity to decapitate an unarmored human.",
+    "effect": "This heavy shotgun can be fired twice before it needs to be reloaded. Alternately, both barrels can be fired at once, causing the weapon to be fired with +1 additional difficulty and requiring a reload as normal, but increasing it’s damage and knockback to 3d6+4 kinetic and knockback 4 respectively.<br>When this weapon is reloaded, you may deal 6 kinetic damage to a character in range 3 from the force of the ejecting shells.",
+    "description": "The IPS-N Heavy Howitzer—Shotgun is a large, breech-loaded, over-under cannon chambered to fire 155mm shells, shot, and sabots. This is the higher powered version of the HHS-075, designed to phaseout the “Daisy Cutter” at a comparable power level while making it easier to supply armies in the field with the necessary ordinance. It has one design flaw, which is that the shells are ejected with enough velocity to decapitate an unarmored human.",
     "data_type": "weapon",
     "aptitude": {}
   },
@@ -163,7 +163,7 @@
     "license": "KOBOLD",
     "license_level": 1,
     "effect": "This weapon deals damage equal to its range from the target instead of rolling for damage, up to a maximum of 6 damage.",
-    "description": "Bootstrapped from ore mining laser weaponry, this weapon’s deadly glare becomes more effective the longer distance the beam has to focus.",
+    "description": "Bootstrapped from powerful ore mining lasers, the simple Kobold Fusion Rifle is no less deadly for its humble origins. By burning through solid-state batteries to produce the necessary reaction, the Fusion Rifle’s simple operation proved easy enough for untrained Ungratefuls to learn. As their tactics improved and Baronic forces were pushed back, the KFR took on an iconic reputation, and now is a symbol of resistance across the Baronies — often seen stenciled on walls and crossed on Ungrateful flags.",
     "data_type": "weapon",
     "aptitude": {}
   },
@@ -194,7 +194,7 @@
     "license": "KOBOLD",
     "license_level": 2,
     "effect": "Hit or miss, after this weapon attacks a target, if your target is on the ground or a flat surface, place a size 1 piece of terrain in a free adjacent space next to them (10 HP, evasion 5).",
-    "description": "Dripping with molten fury, this carefully rigged weapon barely functions but bought many Barony overseers a painful death covered in boiling ore slag.",
+    "description": "Dripping with molten fury, the Slag Cannon is quick to print and requires little training to use effectively. Temperamental but powerful, the Slag Cannon utilizes a simple rawmat-decomp system wedded to an insulated projector to break down, superheat, and cast a stream of plural-state particles at its target. Once cast in this way, the plural-state particles snap into coherence at a range of roughly 80-100 meters, creating base-element lumps of slag wherever they come to rest.",
     "data_type": "weapon",
     "aptitude": {}
   },
@@ -225,7 +225,7 @@
     "license": "LICH",
     "license_level": 1,
     "effect": "If the damage from this weapon does not destroy its target or cause it to take 1 structure damage, it instead deals only its reliable damage (2), even on hit.",
-    "description": "“Dark. Wet. Drink deep, and descend. The water is warm and well. It is very busy here, though youcannot see it. The swimmers are curious. Open your mouth.”<br>— Speaker 2 (M.A2.SP2) [Audio, length: 120:36][34% corruption][Dated 18593U, 01:50] [UIB-TERMAGANT-TANGENT ROYAL]",
+    "description": "Speaker 2 (M.A2.SP2) [Audio, length: 120:36][34% corruption][Dated 18593U, 01:50] [UIB-TERMAGANTTANGENT ROYAL]<br>“Dark. Wet. Drink deep, and descend. The water is warm and well. It is very busy here, though you cannot see it. The swimmers are curious. Open your mouth.”",
     "data_type": "weapon",
     "aptitude": {}
   },
@@ -318,7 +318,7 @@
     "source": "IPS-N",
     "license": "ZHENG",
     "license_level": 3,
-    "effect": "This weapon can be used with the above profile to Skirmish.<br>As a quick action, you may charge this weapon. While charged, your mech is slowed, you take 2 heat at the start of your turn, and benefit from soft cover. At the start of any of your turns in which your weapon is charged, the weapon gains the following profile:<br>Superheavy Melee, Reliable 8, Knockback 8<br>Threat 3, 4d6+8 explosive damage<br>While charged, this weapon deals 30 AP explosive damage to objects or terrain on hit. If an object or piece of terrain struck by this weapon is destroyed, it explodes, dealing 1d6 kinetic damage to all adjacent characters other than you and knocking them back 1 space.<br>After hitting with this weapon, you lose this charging state. You can also stop charging as a free action, and you also lose the charge if you are stunned or shut down.",
+    "effect": "This weapon can be used with the above profile to Skirmish.<br>As a quick action, you may charge this weapon. While charged, your mech is slowed, you take 2 heat at the start of your turn, and benefit from soft cover. At the start of any of your turns in which your weapon is charged, the weapon gains the following profile:<br>Superheavy Melee, Reliable 8, Knockback 8<br>[threat 3][4d6+8 explosive damage]<br>While charged, this weapon deals 30 AP explosive damage to objects or terrain on hit. If an object or piece of terrain struck by this weapon is destroyed, it explodes, dealing 1d6 kinetic damage to all adjacent characters other than you and knocking them back 1 space.<br>After hitting with this weapon, you lose this charging state. You can also stop charging as a free action, and you also lose the charge if you are stunned or shut down.",
     "description": "The Xiaoli devastator/demolition weapon is legendary for its ability to breach and inflict total destruction on hardened targets. Originally rigged as a last resort by it’s operator, this fist-mounted weapon is essentially a redirection of the mechs’ core reactor. It must be primed before firing, requiring a dangerous power draw from the mechs’ systems and creating an enormous amount of emissions. The weapons’ first firing killed Xiong Xiaoli and five of her opponents, and its tendency to cause enormous collateral damage and its spectacular discharge when fired earned it the moniker ‘Shā mǎ zhǎng’ or Horse Killing Palm.",
     "data_type": "weapon",
     "aptitude": {}
@@ -344,7 +344,7 @@
         "val": "1d6+1"
       }
     ],
-    "effect": "When the Caliban fires the flayer shotgun as part of any action, it can use a powered fist, weapon butt, or other strike to smack an adjacent character after the action resolves, dealing that character 1 kinetic damage and knocking them back 1 space.",
+    "effect": "When the Caliban fires the flayer shotgun as part of any action, it can use the butt end to smack an adjacent character after the action resolves, dealing that character 1 kinetic damage and knocking them back 1 space.",
     "description": "",
     "tags": [
       {

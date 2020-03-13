@@ -144,8 +144,20 @@
     "license_level": 3,
     "effect": {
       "effect_type": "Offensive",
-      "attack": "This heavy shotgun can be fired twice before it needs to be reloaded. Alternately, both barrels can be fired at once, causing the weapon to be fired with +1 additional difficulty and requiring a reload as normal, but increasing it’s damage and knockback to 3d6+4 kinetic and knockback 4 respectively.",
-      "detail": "When this weapon is reloaded, you may deal 6 kinetic damage to a character in range 3 from the force of the ejecting shells."
+      "detail": "This heavy shotgun can be fired twice before it needs to be reloaded. Alternately, it can be fire with the Both Barrels profile.<br>When this weapon is reloaded, you may deal 6 kinetic damage to a character in range 3 from the force of the ejecting shells.",
+      "abilities": [{
+        "effect_type": "Profile",
+        "name": "Both Barrels",
+        "damage": [{
+          "type": "kinetic",
+          "val": "3d6+4"
+        }],
+        "tags": [{
+          "id": "tg_knockback",
+          "val": 4
+        }],
+        "detail": "Fire both barrels at once, causing the weapon to be fired with +1 additional difficulty and requiring a reload as normal."
+      }]
     },
     "description": "The IPS-N Heavy Howitzer—Shotgun is a large, breech-loaded, over-under cannon chambered to fire 155mm shells, shot, and sabots. This is the higher powered version of the HHS-075, designed to phaseout the “Daisy Cutter” at a comparable power level while making it easier to supply armies in the field with the necessary ordinance. It has one design flaw, which is that the shells are ejected with enough velocity to decapitate an unarmored human.",
     "data_type": "weapon",

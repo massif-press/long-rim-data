@@ -4,9 +4,9 @@
     "name": "SUPERMASSIVE MOD",
     "sp": 1,
     "applied_to": [
-      "Melee",
-      "CQB",
-      "Cannon"
+      "melee",
+      "cqb",
+      "cannon"
     ],
     "applied_string": "melee, cqb, or cannon",
     "source": "IPS-N",
@@ -30,7 +30,7 @@
     "name": "MOLTEN WREATHE",
     "sp": 2,
     "applied_to": [
-      "Melee"
+      "melee"
     ],
     "applied_string": "melee",
     "source": "IPS-N",

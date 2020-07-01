@@ -12,8 +12,8 @@
     "source": "IPS-N",
     "license": "CALIBAN",
     "license_level": 1,
-    "effect": "Choose one Melee, CQB, or Cannon weapon. This weapon gains overkill and knockback +1. It can be tuned during a full repair to take off safety limiters, gaining knockback +2 instead, but additionally gaining the ordnance tag (ranged) or inaccurate tag (melee).",
-    "description": "The first of a suite of best-practice modifications for close quarters combat out of the Titan-Enceladus Field Project that produced the Caliban, Supermassive Modifications describe a host of modifications that can be made to close-quarters weaponry to enhance their general lethality and utility by lifting safety precautions.",
+    "effect": "Choose one CQB, CANNON, or MELEE weapon: it gains OVERKILL and KNOCKBACK +1. During a FULL REPAIR, you may tune it to remove safety limiters, increasing this benefit to KNOCKBACK +2 instead; however, it also gains ORDNANCE (if it is ranged) or INACCURATE (if it is melee).",
+    "description": "The first in a suite of best-practice modifications for close-quarters combat out of the same Titan–Enceladus Field Project that produced the Caliban, supermassive mods include a host of alterations to close-quarters weapons designed to enhance their general lethality and utility by lifting safety precautions.",
     "data_type": "mod",
     "aptitude": {},
     "tags": [
@@ -36,8 +36,8 @@
     "source": "IPS-N",
     "license": "ZHENG",
     "license_level": 2,
-    "effect": "Choose one melee weapon. 1/round after hitting a character with an attack roll from this weapon, your mech takes 1 heat and this weapon creates a cone 3 blast originating from your target that must be placed on the opposite side from your attack and oriented directly away from the target. Characters caught in this blast and the main target take 2 explosive damage.",
-    "description": "Redirecting spare reactor power down cabling extending to a melee weapon was an ingenious but foolhardy innovation. The resultant weapon is so hot that on impact it vaporizes parts of its target’s internal systems, creating a secondary blast cloud of debris.",
+    "effect": "Choose one MELEE weapon: 1/round, after you hit a character with this weapon, you take 1 Heat and it projects a superheated Cone 3 cloud oriented away from your target in a direction of your choice. Your target and any characters caught in this cloud each take 2 Explosive Damage.",
+    "description": "Needing a significant boost to her Raleigh’s melee capacity, Xiong decided upon a crude but effective solution: she would re-route her Raleigh’s coldcore dispersion systems into the chassis’ palms with a simple on/off switch, allowing it to superheat equipped weapons. The resultant ad hoc thermal weapon is so hot that it prompts an explosive vaporization of hard and soft surfaces on impact, creating a secondary backblast cloud that is a deadly weapon in its own right. The production version of this system simply adds a sturdier, dedicated routing system and better insulation.",
     "data_type": "mod",
     "aptitude": {},
     "tags": [

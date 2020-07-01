@@ -26,9 +26,9 @@
     "license_level": 1,
     "effect": {
       "effect_type": "Offensive",
-      "hit": "Your target is impaled by the harpoon-like projectile this weapon fires. Any time during your target’s next turn, you can reel in the line and take the boost action as a reaction to any of its actions or movement, as long as your boost moves towards that target by the most direct route possible. Your target must then pass a hull save or be knocked prone, and this effect ends. The line snaps if your target teleports."
+      "hit": "your target is impaled by this weapon’s harpoon-like projectile. Any time after your target takes any action or movement during their next turn, you can reel in the line and boost as a reaction, moving toward that target by the most direct route possible. They must then pass a hull save or be knocked prone; succeed or fail, this effect ends. The line snaps if your target teleports."
     },
-    "description": "Hunting the Vast — the titanic megafauna of Sparr — is an incredibly profitable venture. Their skins, meat, bone, and other trophies from their bodies can produce months — even, in rare cases when an especially old, grand, or unique Vast is felled — years of prosperity for the hunters and their kin. These popular long rifles, refined to SSC standards, are rugged and durable, and aid in dragging down the great beasts and their attendants.",
+    "description": "Hunting the Vast — the titanic megafauna of Sparr — is a dangerous, profitable venture for the Sparri people. Skins, bones, meat, and other trophies from their bodies can create months – or even years, in the case of especially old, grand, or unique beasts – of prosperity for the hunters and their kin. These popular long rifles, refined to SSC standards, are rugged and durable, perfect for dragging down the great creatures and their attendants.",
     "data_type": "weapon",
     "aptitude": {}
   },
@@ -61,10 +61,77 @@
     "license": "ATLAS",
     "license_level": 3,
     "effect": {
-      "effect_type": "Protocol",
-      "detail": "Take one of the following stances. The stance continues until you take a new stance with this weapon, this weapon is destroyed, or your mech is stunned or jammed.<br>You can start any given fight in one of the following stances if you wish.<br><li><b>Troll Stance</b>: This weapon gains inaccurate, AP, and deals +3 damage.</li><li><b>Storm Stance</b>: 1/round after hitting with this weapon, you may immediately deal 2 kinetic damage to all other characters adjacent to you and your target as a reaction.</li><li><b>Lord’s Stance</b>: While in this stance, you cannot make ranged or tech attacks, but any ranged attack against you that misses deflects off your sword, dealing 2 kinetic, energy, or explosive damage (depending on the attack) to any character of your choice in range 3 and line of sight from you. Any melee attack that misses you in this stance forces the attacker to pass a hull save or become knocked prone.</li><li><b>Wind Stance</b>: This weapon gains reliable 2, threat 2, and knock back 2. After attacking with this weapon, hit or miss, you may move 2 spaces in any direction, ignoring engagement and reactions.</li>"
+      "effect_type": "Offensive",
+      "detail": "",
+      "abilities": [{
+          "effect_type": "Protocol",
+          "detail": "You may begin any fight in one of the following stances and may take a stance or shift between stances as a protocol. Once you have taken a stance, you remain in it until you take a new stance, this weapon is destroyed, or you are stunned or jammed. You can also drop a stance as a free action."
+        },{
+          "effect_type": "Profile",
+          "name": "Troll Stance",
+          "damage": [{
+            "type": "kinetic",
+            "val": "1d6+3"
+          }],
+          "range": [{
+            "type": "Threat",
+            "val": 1
+          }],
+          "detail": "",
+          "tags": [{
+            "id": "tg_inaccurate"
+          }, {
+            "id": "tg_ap"
+          }]
+        },{
+          "effect_type": "Profile",
+          "name": "Storm Stance",
+          "damage": [{
+            "type": "kinetic",
+            "val": "1d6"
+          }],
+          "range": [{
+            "type": "Threat",
+            "val": 1
+          }],
+          "detail": "1/round after hitting with this weapon, you may immediately deal 2 kinetic to all other characters adjacent to you and your target as a reaction.",
+          "tags": []
+        },{
+          "effect_type": "Profile",
+          "name": "Lord's Stance",
+          "damage": [{
+            "type": "kinetic",
+            "val": "1d6"
+          }],
+          "range": [{
+            "type": "Threat",
+            "val": 1
+          }],
+          "detail": "You cannot make ranged or tech attacks, but any ranged attack against you that misses deflects off your sword, dealing 2 damage (same type as the attack) to a character of your choice in range 3 and line of sight from you. Any melee attack that misses you forces the attacker to pass a HULL save or be knocked prone.",
+          "tags": []
+        },{
+          "effect_type": "Profile",
+          "name": "Wind Stance",
+          "damage": [{
+            "type": "kinetic",
+            "val": "1d6"
+          }],
+          "range": [{
+            "type": "Threat",
+            "val": 2
+          }],
+          "detail": "After attacking with this weapon, hit or miss, you may move 2 spaces in any direction, ignoring engagement and reactions.",
+          "tags": [{
+            "id": "tg_reliable",
+            "val": 2
+          }, {
+            "id": "tg_knockback",
+            "val": 2
+          }]
+        }
+      ]
     },
-    "description": "Forged in the fire of a corralled star in the Constellation, each of these blades bears a unique name and history defined by their users. Terashima blades are perfectly balanced and tempered, scalable from personal use to Schedule 3 — when combined with a frames’ weapon and sensor suites, they have been proven to be fast and durable enough to deflect weapons fire. Each blade crafted by the Terashima enclave is an heirloom produced once and delivered via conventional travel — their loss is considered an indescribable humiliation of the owner, and an incredible triumph by the one who has taken it. The Terashima enclave keeps the casting mold of each blade produced, and displays them in their central hall with known histories attached.",
+    "description": "Forged in the fire of a corralled star in the Constellation, each of these blades bears a unique name and history defined by its users. Terashima blades are perfectly balanced and tempered, scalable from personal use up to Schedule 3. When combined with the weapon and sensor suites of a frame, they have been proven fast and durable enough to deflect weapons fire. Each blade crafted by the Terashima enclave is an heirloom produced once and delivered via conventional travel – their loss is considered an indescribable humiliation for the owner and an incredible triumph by the one who has taken it. The Terashima enclave keeps the casting mold of each blade it produces and displays them in their central hall alongside records of their known histories.",
     "data_type": "weapon",
     "aptitude": {},
     "sp": 2

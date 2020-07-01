@@ -14,7 +14,7 @@
       },
       {
         "name": "SCRAPPER",
-        "description": "1/round, when your mech hits a character with a melee attack, it can immediately give that character +1 Difficulty on all checks or saves to avoid Knockback, Prone, Slowed or Immobilized until the end of its next turn, including any effects that are part of the trig‐ gering attack."
+        "description": "1/round, when your mech hits a character with a melee attack, it can immediately give that character +1 Difficulty on all checks or saves to avoid Knockback, Prone, Slowed or Immobilized until the end of its next turn, including any effects that are part of the triggering attack."
       }
     ]
   },

@@ -217,7 +217,7 @@
   },
   {
     "id": "ms_seismic_pulse",
-    "name": "SEISMIC PULSE",
+    "name": "SEISMIC RIPPER",
     "type": "System",
     "sp": 2,
     "tags": [
@@ -464,7 +464,7 @@
     "id": "ms_blink_charges",
     "name": "BLINK CHARGES",
     "type": "Deployable",
-    "sp": 2,
+    "sp": 3,
     "tags": [
       {
         "id": "tg_unique"
@@ -534,7 +534,11 @@
     "sp": 2,
     "tags": [
       {
-        "id": "tg_quick_action"
+        "id": "tg_protocol"
+      },
+      {
+        "id": "tg_heat_self",
+        "val": 1
       }
     ],
     "source": "HA",

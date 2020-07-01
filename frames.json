@@ -7,7 +7,7 @@
       "Striker"
     ],
     "y_pos": 14,
-    "description": "Originally commissioned and tested as a dueling mech for the House of Smoke, the ATLAS blurs the line between mechanized chassis and powered personal armor. The result of a long project in SSC’s Exotic Materials group, the Atlas was able to utilize the bleeding edge of reactor miniaturization tech to produce a chassis resembling a large, sleek hard suit, almost skin-tight at points. Though sacrificing much of the durability of a larger frame, the mech’s essential systems are so closely melded with its user’s movements that it offers unparalleled maneuverability.<br>Though originally licensed for only select clientele, SSC allowed a small amount of Atlas chassis to be introduced to select Sparri mercenary groups after the pattern’s design was leaked by ExoMat personnel who accidentally lost a suit to a Sparri Espada in a hotly contested game of Kapkat. Following its limited release, demand from Sparri groups grew so vocal that SSC was forced to reconsider its licensing scheme; considered perfect warrior frames for hunting the native megafauna of Sparr, they are now widely perceived as the iconic frames of Sparri headhunters and daredevils across the Orion Arm, to the point that the Sparri invented a new martial art using the Atlas.<br>Considered heirlooms of great warriors, Atlas frames among the Sparri are tied to family — blood and chosen — and maintained by hand. Each suit on Sparr bears the history of its previous pilots, from the decorations and modifications, to the systemic: the suit’s powerful internal databanks remember the unique movements of all that have worn it before, enabling Sparri hunters to literally call upon their ancestors in battle.",
+    "description": "<p>Originally commissioned as a dueling mech by the Baronic Houses of Smoke and Order, the Atlas blurs the line between mechanized chassis and powered personal armor. Thanks to a long-running research project from SSC's Exotic Materials Group, the designers were able to employ the bleeding edge of reactor miniaturization tech: the result was a chassis that resembled a large, sleek hardsuit, almost skintight in places. While the Atlas sacrifices the durability of a larger frame, its essential systems are so closely melded with its user's movements that it offers unparalleled maneuverability.</p> <p>Although the Atlas was initially licensed only to Baronic clients, its design was leaked when a group of ExoMat personnel lost a suit to a Sparri espada in an intense game of Kapkat. Despite their initial attempt to recover the suit, SSC relented, citing the eager demand from Sparri groups for access to the full license. </p> <p>Considered the perfect warrior frame for hunting the native megafauna of Sparr, the Atlas now enjoys a dual reputation among both the Sparri peoples and Karrakin nobility. To the Sparri, the Atlas &ndash; its combat efficacy notwithstanding &ndash; is highly valued for the direct access its systems allow to their ancestral memory; Atlas frames on Sparr are the heirlooms of great warriors, tied to family (blood and chosen) and maintained by hand. Each suit on Sparr bears the history of its previous pilots in both decorations and FCA-compliant machine learning, which enables Sparri hunters to almost literally call upon their ancestors in battle. The Atlas has become so popular among the Sparri that they even developed a new martial art based on the Atlas: Jäger Kunst. </p> <p>The Karrakin nobility, on the other hand, find the Atlas to be a perfect machine for noble heroism &ndash; that the Sparri have an affinity for it only makes the chassis that much more desirable among Karrakin Sparrist scholars. Commonly decorated with purchased Sparri saga discs, Vast pelts, and saga lines, Karrakin suits blend imagined profiles of Annorum Passacaglia and Annorum Tyrannus-era heroes with profiles of Sparri warriors, daredevils, vast-hunters, and espadas.</p>",
     "mounts": [
       "Flex",
       "Main"
@@ -29,26 +29,26 @@
     "traits": [
       {
         "name": "Giantkiller",
-        "description": "The Atlas counts as size 1 for the purposes of ramming and grappling. It ignores engagement from actors larger than itself, can share space with larger actors (even hostile ones) and move through their spaces unimpeded. While sharing space with any character, it gains soft cover, even from that character."
+        "description": "The Atlas counts as SIZE 1 for RAM and GRAPPLE. It ignores engagement from larger characters and can freely move through and share the spaces they occupy (even if they’re hostile). While occupying the same spaces as any character, it gains soft cover, even from that character."
       },
       {
         "name": "Jäger Dodge",
-        "description": "1/round, when the Atlas takes damage from a character larger than itself, as a reaction it can gain resistance to that damage and move 3 spaces in any direction, ignoring engagement and reactions."
+        "description": "1/round, when you take damage from a larger character, gain RESISTANCE to that damage and move 3 spaces in any direction as a reaction. This ignores engagement and doesn’t provoke reactions."
       },
       {
         "name": "Finishing Blow",
-        "description": "1/round, the Atlas can deal +1d6 bonus damage with a successful melee attack against a prone target."
+        "description": "1/round, deal +1d6 bonus damage on a successful melee attack against a PRONE target."
       },
       {
         "name": "Exposed Reactor",
-        "description": "The Atlas takes +1 difficulty on all engineering checks and saves."
+        "description": "The Atlas receives +1 Difficulty on ENGINEERING checks and saves."
       }
     ],
     "core_system": {
-      "name": "BLOODLINE active assist",
-      "description": "The ATLAS extends microneedles into your musculature and ancillary nervous system, melding flesh, machine, and the memory of all who wore it before you.",
+      "name": "BLOODLINE Active Assist",
+      "description": "The ATLAS extends microneedles into the musculature and ancillary nervous system of its pilot, melding flesh, machine, and the memory of all who wore it before.",
       "active_name": "Final Hunt",
-      "active_effect": "When you take this action, until the end of the current scene gain the following effects:<li>The Atlas's movement from any source (moves, boosts, movement from systems or talents) increases by 1.<li>It always benefits from soft cover, no matter where it is.<li>The Atlas can hide even in the open, without requiring cover (the only way to reveal it is for an actor to search for it or it if breaks hiding the normal way - by boosting, attacking, forcing a save, or taking other actions that break hiding).<li>1/round, when the Atlas makes an attack from hiding, before the attack is rolled, its target must also pass a hull save or be knocked prone.",
+      "active_effect": "<p>For the rest of the scene, you:</p> <ul> <li>Move an additional 1 space when you voluntarily move for any reason (e.g. standard moves, BOOST, movement from systems or talents).</li> <li>Benefits from soft cover at all times, no matter where you are.</li> <li>Can HIDE even in the open, without requiring cover.</li> </ul> <p> The only way to reveal you is for another character to SEARCH for you or for you to lose Hidden as usual &ndash; by using BOOST, attacking, forcing a save, and so on. When active, 1/round, when you make a melee or ranged attack while HIDDEN, your target must also succeed on a HULL save or be knocked PRONE. This takes place before the attack is rolled </p>",
       "tags": [
         {
           "id": "tg_quick_action"
@@ -57,7 +57,7 @@
     },
     "data_type": "frame",
     "aptitude": {},
-    "image_url": "https://i.imgur.com/MWb5XtS.png"
+    "image_url": "https://compcon-image-assets.s3.amazonaws.com/frames/atlas_new.png"
   },
   {
     "id": "mf_caliban",
@@ -68,7 +68,7 @@
       "Controller"
     ],
     "y_pos": 12.5,
-    "description": "The Caliban is a relative newcomer in Interplanetary-Northstar’s line of single-client, chassis, already garnering a reputation among Trunk Security for its efficacy inside of the envelope for which it was designed; unlike many of IPS-N’s modern chassis, the Caliban has no civilian analog or antecedent; it was designed from the ground up to be a military machine.<br>The Caliban is IPS-N’s solution to the Yemanova Problem, or, the Impact-Override Problem. Capital ships, the problem notes, are incredibly expensive and time consuming for corpros and diasporan states to produce and maintain, and anti-ship weaponry has far outstripped capital defenses. In a conventional capital duel, a successful kill means the death of thousands of personnel and the loss of millions of units of manna; this leads many commanders to be gun-shy, relying on subline and fighter-class vessels to accomplish battle objectives rather than risk their big ships — a strategy that proves just as costly on average; instead of one or a handful of large ships being destroyed and signifying the end of a battle, engagements grind on for weeks as squadrons of smaller ships engage inside the unpredictability gap, inching towards victory.<br>IPS-N was the first to crack the Yemanova Problem. Their designers identified the need for a rapidly deployable, sub-signature, directed weapon or weapon system; well armed and armored, small enough to enter a ship and efficiently neutralize personnel in order to achieve victory. IPS-N created the Caliban to solve this mission need.<br>The mechanized chassis, cultural critics argue, venerates a particular humanity’s form, and is an unconscious nod towards the anthrochauvinist roots of the machine among leading chassis designers and fabricators. The Caliban is not that. It was never intended to be an image of man writ large, striding across the battlefield heroically to affect a greater purpose.<br>The Caliban has no roots, as many IPS-N chassis do, in the early efforts of freighter crews and asteroid miners to defend themselves. It was not born from ingenuity - there is no legacy of resilience, heroism, and the frontier spirit to paper over the purpose of its birth. It has no civilian applications in aid, disaster relief, construction, or farming.<br>It does not build, defend, or inspire. It was designed to solve a numbers problem on a ledger. It was only made small so it could to fit through most ship doors and bulkheads with minimal problems, crawl up the spinal corridors of ships, and speed up it’s average job completion rate by five minutes.<br>It is a tool designed to kill human beings very, very quickly.",
+    "description": "<p>The Caliban chassis is a popular new order among anti piracy and stellar marine forces. Unlike many of IPS-N's modern frames, the Caliban was designed from the ground up to be a military machine. </p> <p>The Caliban is IPS-N's solution to the  \"Yemanova \" Problem, more properly known as the Impact-Override Problem. Capital ships, the problem posits, are incredibly expensive, demand a tremendous amount of time for corpros and Diasporan states to produce and maintain, and increasingly outmatched by anti-ship weaponry. In a conventional capital duel, a successful kill means the death of thousands of personnel and the loss of millions of units of manna; this makes many commanders gun-shy, encouraging them to rely on subline vessels and fighters to accomplish battle objectives rather than risk their big ships. This strategy tends to prove just as expensive: instead of one or a handful of large ships being destroyed, signifying the end of a battle, engagements can grind on for weeks as squadrons of smaller ships engage inside the unpredictability gap, inching towards victory. </p> <p>IPS-N was the first to crack the Yemanova Problem. The corpro's designers identified the need for a rapidly deployable, sub-signature, directed weapon. It needed to be well-armed and well-armored, small enough to enter a ship and efficiently neutralize personnel in order to achieve victory. IPS-N created the Caliban to solve this need. </p> <p>Cultural critics argue that mechanized chassis venerate the form of a particular humanity; it is an unconscious nod towards the anthrochauvinist roots of the machine among leading designers and fabricators. The Caliban is not that. It was never intended to be an image of man writ large, striding across the battlefield heroically to affect a greater purpose. </p> <p>Unlike many IPS-N frames, the Caliban has no roots in early attempts at self-defense by freighter crews and asteroid miners. It was not born from ingenuity - there is no legacy of resilience, heroism, or the frontier spirit to paper over the purpose of its birth. It has no civilian applications in aid, disaster relief, construction, or farming; it does not build, defend, or inspire &ndash; it was designed to solve a numbers problem on a ledger. </p> <p>It is a tool designed to kill human beings very, very quickly. </p>",
     "mounts": [
       "Heavy"
     ],
@@ -89,26 +89,26 @@
     "traits": [
       {
         "name": "Wrecking Ball",
-        "description": "The Caliban counts as size 3 when inflicting knock back from any ranged or melee attack."
+        "description": "The Caliban counts as Size 3 when inflicting knockback with any Ram, Ranged, or Melee Attack."
       },
       {
         "name": "Pursue Prey",
-        "description": "When the Caliban inflicts knock-back as part of any action, it can move the same number of spaces afterwards as a free action or reaction, as long as it moves towards its target by the most direct route possible. This movement ignores engagement and doesn’t provoke reactions."
+        "description": "When the Caliban inflicts KNOCKBACK as part of any action, it can move an equal number of spaces towards the same target by the most direct route possible. This movement is part of the same action, ignores engagement and doesn’t provoke reactions."
       },
       {
         "name": "Slam",
-        "description": "1/round when the Caliban knocks a character into a wall, mech, or other obstruction that would cause it to stop moving, it can cause its target to pass a hull save or take 1d6 kinetic damage and become impaired until the end of its next turn."
+        "description": "1/round, when the Caliban knocks a character into a wall, mech, or other obstruction that would cause it to stop moving, it may force its target to pass a HULL save or take 1d6 Kinetic Damage and become IMPAIRED until the end of its next turn."
       },
       {
-        "name": "Weak computer",
-        "description": "The Caliban takes +1 difficulty on all systems saves and checks"
+        "name": "Weak Computer",
+        "description": "The Caliban has +1 Difficulty on all SYSTEMS saves and checks."
       }
     ],
     "core_system": {
       "name": "Flayer Shotgun",
-      "description": "The Heavy Howitzer-Shotgun is a compact, formalized version of the long-popular “Daisy Cutter” pattern howitzer-shotgun used by Trunk Security and other stellar marine security forces. Chambered to accept 75mm shot, shells, and sabots, the “Flayer” shotgun sacrifices some of the raw power of the DC in favor of control and a much-improved fire rate.",
+      "description": "The “Flayer” – officially the Heavy Howitzer-Shotgun 075 – is a compact, formalized version of the popular “Daisy Cutter” howitzer-shotgun used by Trunk Security and other stellar marine forces. Chambered to accept shot, shell, or sabot, the Flayer sacrifices some of the DaisyCutter’s raw power in favor of control and a much-improved fire rate.",
       "active_name": "Equip Autochoke",
-      "active_effect": "The Flayer shotgun comes pre-equipped with a muzzle-mounted auto-choke, which allows its user to better define the spread of shot issuing from the weapon. The extreme heat from equipping the choke renders it unusable in short order and it must be discarded.<br>For the rest of this scene, the flayer shotgun gains the following profile:<br>Main CQB, Accurate, Knockback 5<br>[Cone 3][threat 3][1d6+2 kinetic damage]",
+      "active_effect": "The Flayer shotgun comes pre-equipped with a muzzle-mounted auto-choke that allows its user to better define the spread of shot issuing from the weapon. The extreme heat from equipping the choke renders it unusable in short order and it must be discarded.<br>For the rest of this scene, the HHS-075 “Flayer” Shotgun gains the following profile:<br>Main CQB, Accurate, Knockback 5<br>[Cone 3] [Threat 3] [1d6+2 kinetic damage]",
       "tags": [
         {
           "id": "tg_protocol"
@@ -120,7 +120,7 @@
     },
     "data_type": "frame",
     "aptitude": {},
-    "image_url": "https://i.imgur.com/111stQO.png"
+    "image_url": "https://compcon-image-assets.s3.amazonaws.com/frames/caliban.png"
   },
   {
     "id": "mf_kobold",
@@ -130,7 +130,7 @@
       "Controller"
     ],
     "y_pos": 25,
-    "description": "The Kobold pattern group made its first appearance among Ungrateful partisans serving the House of Dust, a clever suite of hardware and software compatible with a broad portfolio of mining and heavy industry mechs. The steaming, shuddering final result of K-PG exposure is an ugly affair, transformed from plow to blade by a powerful, viral-morph liturgicode that makes it all but impossible for conventional codec sniffers to capture pre-print.<br>The Kobold’s clandestine transmission and application makes it the perfect machine to fight Barony suppression forces. The desperate workers who printed the first Kobolds found the pattern group to be eminently fungible: loaded into their mining exos and chassis, the K-PG repurposed reactors and industrial tools to deadly effect, weaponizing the very materials and superstructures that powered it; the rapid process of flash-melting, processing, and extruding raw material into molten plural-state particles is dangerous — often as dangerous to its pilot as it can be to its target.<br>Danger of operation notwithstanding, the Ungratefuls who first adopted the K-PG stunned their Baronic overseers with a series of rapid, total victories, liberating a great swath of the House of Dust’s lunar helium-3 mines. While eventually contained to Bo’s moon, the Ungrateful insurgency is ongoing, necessitating the deployment of H.Dust’s Graveborn Banner Company for counter-insurgency operations beyond the capability of local security forces.",
+    "description": "<p>The Kobold pattern group first appeared among revolutionary Ungratefuls toiling on Bo, the capital world of the House of Dust, where it manifested as a clever suite of hardware and software compatible with a broad range of mining and heavy industry mechs. The steaming, shuddering final result of K-PG exposure is an ugly affair: a device transformed from plow to blade by powerful, viral-morph liturgicode that is almost impossible for conventional codec sniffers to capture pre-print. </p> <p>The clandestine mechanisms by which the Kobold is transmitted and applied make it the perfect machine for fighting Baronic suppression forces. The desperate workers who printed the first Kobolds found them to be eminently fungible. When loaded into their mining exos and chassis, the K-PG code repurposed reactors and industrial tools to deadly effect, weaponizing the very materials and superstructures that powered it. The rapid flash-melting, processing, and extruding of raw material into molten plural-state particles is dangerous &ndash; often just as dangerous to its pilot as the final product is to its targets. </p> <p>Operational dangers notwithstanding, the Ungratefuls who first adopted the K-PG stunned their Baronic overseers with a series of rapid and total victories, liberating a great swath of lunar helium-3 mines. While the insurgency was eventually contained to Bo, it continues, necessitating the deployment of the House of Dust's Graveborn Banner Company for counter-insurgency operations beyond the capability of local security forces. </p> <p>HORUS's assets in the Long Rim continue to produce K-PG liturgicode seeds. The House of Dust has contracted Mastodon to track down and eliminate HORUS elements in the area; meanwhile, Harrison Armory has reached out to the Brigade-Legion to counter the House of Dust's efforts. </p>",
     "mounts": [
       "Main/Aux"
     ],
@@ -151,22 +151,22 @@
     "traits": [
       {
         "name": "Mimic Carapace",
-        "description": "If the KOBOLD starts its turn adjacent to a piece of terrain or hard cover size 1 or larger it becomes invisible while it remains adjacent to that terrain or cover. This invisibility breaks if it attacks or takes damage."
+        "description": "When the Kobold starts its turn adjacent to a piece of terrain or hard cover of SIZE 1 or larger it becomes INVISIBLE as long as it remains adjacent. It ceases to be INVISIBLE if it attacks or takes damage."
       },
       {
         "name": "Slag Spray",
-        "description": "1/round as a quick action, the KOBOLD can create a size 1 piece of terrain (10 HP, evasion 5) within a free space within range 3 and line of sight. The semi-molten polymer grants hard cover."
+        "description": "1/round, as a quick action, the Kobold may create a SIZE 1 mound of semi-molten polymer in a free space within Range 3 and line of sight. This terrain has 10 HP, EVASION 5, and grants hard cover."
       },
       {
         "name": "Exposed Reactor",
-        "description": "The KOBOLD gets +1 difficulty on engineering checks and saves."
+        "description": "The Kobold gets +1 Difficulty on ENGINEERING checks and saves."
       }
     ],
     "core_system": {
       "name": "Terraform",
-      "description": "Screeching and venting steam, the KOBOLD digs into the earth. In moments, the very ground bends to the pilot’s will, and the air itself shrieks with agony — the cry of every dead Ungrateful, martyred or taken by the Dustmen.",
+      "description": "Screeching and venting steam, the Kobold digs into the earth. Moments later, the very ground bends to the pilot’s will and the air shrieks with agony — the cry of every dead Ungrateful, martyred or taken by the Dustmen",
       "active_name": "Terraform",
-      "active_effect": "The Kobold extrudes a massive amount of polymer and creates up to 10 size 1 cubes of terrain within free, open spaces within range 5 of it. These cubes can be separate or connected, and stacked up to 5 spaces high. If connected, they form a contiguous surface and can potentially block line of sight. They grant soft cover the turn they are extruded, each section is independently destructible, has evasion 5, and 10 HP. At the start of the Kobold’s next turn, they harden into hard cover and each size 1 section gains +10 HP (it keeps any damage it still had).",
+      "active_effect": "Your mech extrudes a massive amount of polymer, creating up to 10 SIZE 1 cubes in free spaces within Range 5. These cubes can be separate or connected and can be stacked up to 5 spaces high. If connected, they form a contiguous surface that can block line of sight. During the turn in which they are extruded, the cubes grant soft cover and each has EVASION 5 and 10 HP. At the start of your next turn, they harden, each cube granting hard cover and gaining +10 HP (but retaining any damage they had taken).",
       "tags": [
         {
           "id": "tg_full_action"
@@ -174,7 +174,8 @@
       ]
     },
     "data_type": "frame",
-    "aptitude": {}
+    "aptitude": {},
+    "image_url": "https://compcon-image-assets.s3.amazonaws.com/frames/kobold.png"
   },
   {
     "id": "mf_lich",
@@ -205,18 +206,18 @@
     "traits": [
       {
         "name": "Soul Vessel",
-        "description": "At the start of the Lich’s turn, set down a marker at it’s current location (any marker created this way replaces previous markers). Once per round, as a reaction to being hit by an attack, failing a saving throw or check, or taking damage or heat from any source (even self), the Lich can immediately become completely immune to all the damage, heat, or conditions from that effect. It then resets its position to the marker or as close as possible, counting as teleporting. The Lich can also take this reaction at the end of any turn, including its own, but if taken this way it merely resets its position. It can’t take this reaction if jammed, stunned, grappled, or unable to take reactions from some other means."
+        "description": "At the start of the Lich's turn, set down a SOUL VESSEL at its current location (replacing any previous markers). 1/round, as a reaction when the Lich is hit by an attack, fails a save or check, or takes damage or Heat from any source (even itself), it may immediately gain IMMUNITY to all damage, heat, or conditions from that effect. It then teleports to the marker or as close as possible. The Lich can also take this reaction at the end of any turn, including its own, but if it does so it only teleports and does not gain IMMUNITY. It can't take this reaction if it is JAMMED, STUNNED, GRAPPLED, or unable to take reactions for any reason."
       },
       {
         "name": "Immortal",
-        "description": "1/scene, If the Lich is destroyed, in the round after it is destroyed, as a reaction to the end of any turn, it immediately returns to the location of its soul vessel, counting as teleporting, heals to full HP, clears all heat, and goes to 1 structure and stress (even if it had more remaining when it was destroyed). It may takes this reaction even though it’s destroyed, and can only take this reaction once per scene. If its pilot is dead and died the same scene, they also return to life. If it chooses not to make this reaction in that round, it remains destroyed and the pilot remains dead."
+        "description": "1/scene, in the round after the Lich has been destroyed, it may return to the location of its SOUL VESSEL as a reaction at the end of any turn. This counts as teleporting; additionally, the Lich appears with full HP, no Heat, 1 STRUCTURE and 1 STRESS (even if it had more when it was destroyed). If its pilot died in the same scene, they also return to life. If the Lich does not take this reaction in that round, it remains destroyed and the pilot remains dead."
       }
     ],
     "core_system": {
       "name": "Chronostutter",
       "description": "“Drink Deep, and Descend.”",
-      "active_name": "Glitch time",
-      "active_effect": "Once this action is taken, for the rest of this scene, 1/round when any attack, effect, or action is made by one character successfully against another character inside the lich’s sensor range (deals damage, inflicts a condition, etc), the lich can instantly disrupt time, interrupting that action before it fully resolves. This is not a reaction. Effects that target self cannot be interrupted this way.<br>The targeted character is pushed up to 3 spaces in a direction of the Lich’s choice, even if it is normally immune to involuntary movement. Then the Lich places itself in one of the spaces that character originally occupied, or as close as possible, no matter how far away it was, counting as teleporting.<br>The Lich becomes the new target of that attack, effect, or action. All damage, conditions, or effects of the action now affect the Lich, and the action must be performed as if targeting the original character. For example, if the effect was to teleport a friendly character to a space, the Lich is teleported instead to that space. If the effect was to repair the a character, the Lich is repaired instead. If the effect was to deal damage and knockback, the Lich takes the damage, using the Lich’s armor, resistance, etc, and is knocked back the same direction the original character would be. If the effect was a condition or status, the Lich takes that condition or status instead.",
+      "active_name": "Glitch Time",
+      "active_effect": "<p>You gain the ability to disrupt time for the rest of this scene. 1/round, when any character successfully attacks, effects, or takes an action against another character within SENSORS, you may interrupt it before it resolves, with the following effects:</p> <ul> <li>The character taking the action is pushed up to 3 spaces in a direction of your choice, even if they have IMMUNITY to involuntary movement</li> <li>.You teleport to one of the spaces originally occupied by that character, or as close as possible, no matter how far away it was.</li> <li>The initial attack, effect, or action resolves with you as its target. </li> </ul> <p>You receive all damage, conditions, statuses, and effects, and the action must be carried out without changes. For example, if the effect was to teleport an allied character to a certain space, you are teleported to that space instead; if the effect was to repair an allied character, you are repaired instead; if the effect was to deal damage and KNOCKBACK, you take the damage (using your ARMOR, RESISTANCE, etc.) and are knocked back in the same direction as the original target would be; if the effect was to inflict a condition or status, you receive that condition or status instead. Initiating this interruption does not count as a reaction. Effects that target the self cannot be interrupted this way </p>",
       "tags": [
         {
           "id": "tg_quick_action"
@@ -224,7 +225,8 @@
       ]
     },
     "data_type": "frame",
-    "aptitude": {}
+    "aptitude": {},
+    "image_url": "https://compcon-image-assets.s3.amazonaws.com/frames/lich_off.png"
   },
   {
     "id": "mf_sunzi",
@@ -235,7 +237,7 @@
       "Controller"
     ],
     "y_pos": 23,
-    "description": "The SUNZI is at the peak of Harrison Armory development in weapons-applicable blink technology, a FRAME that was introduced as late as 5007U to select pilots only. Like the NAPOLEON, it is a compact, highly experimental frame with very limited battlefield presence, using powerful Blackshield technology to tear and warp the physical dimensions of space momentarily. Distortions of this kind are short lived, usually (but not always) visible to the naked eye, and highly unstable. Rumors abound that the SUNZI contains stolen or corrupted Volador technology from the ancient city-ship Mothers Gather and Are Welcome, parts of the extremely advanced machinery that allows their world-ships to remain in blinkspace seemingly indefinitely.<br>Owners of SUNZI licenses waive their privacy rights as part of the extensive (and physically exhausting) licensing process and are often in direct contact with personal handlers from Ras Shamra’s testing forges wishing to collect data.",
+    "description": "<p>The Sunzi represents the peak of Harrison Armory's research into weaponized blink technology. Pilots approved to fabricate and field-test Sunzi components are monitored remotely by the Armory's Special Projects Group, which enjoys wide latitude in gathering telemetry and biometric data. The Sunzi platform is considered by Harrison Armory to still be in development, and not yet available for fleet contracts. </p> <p>Like the Armory's Napoleon chassis before it, the Sunzi utilizes the Armory's H-GOBLIN-derived recursive-mesh interdermal substrate, allowing it to mount outsized weapons and systems on a chassis measuring just over three meters tall. Where it differs is in its technological heritage. The Napoleon was largely the product of the Armory's internal paracausal/ parallel space research and development groups; the Sunzi is rumored to be derived from stolen and extracted Volador technology. This may explain why the Long Rim and the Dawnline Shore are the primary test grounds for the platform &ndash; far from Union's most direct oversight, the Armory may have more time to make what progress it can before Union's regulatory impulse catches up to them. </p> <p>According to Union NavInt reports on the Sunzi, the platform's unshielded emissions are consistent with known blinkspace signatures; corroborating intelligence from undercover elements inside the program's main campus on Ras Shamra show that the Sunzi's development has been fast-tracked to respond to the evolving situation in the Dawnline Shore. Both as a forcemultiplication tool to assist the Armory's legionary presence across the Shore, and more specifically to counter the Ungratefuls' newest weapon there, Object L (see UNI Report CORPSE GATE for more). </p>",
     "mounts": [
       "Main/Aux"
     ],
@@ -256,22 +258,22 @@
     "traits": [
       {
         "name": "Safe Harbor",
-        "description": "Any character other than the Sunzi that teleports always considers free space adjacent to the Sunzi as valid space to teleport to, as long as the Sunzi is in range 50 from them."
+        "description": "When allied characters within Range 50 of the Sunzi teleport or are teleported, free spaces adjacent to the Sunzi are always valid end destinations."
       },
       {
         "name": "Anchor",
-        "description": "The Sunzi cannot be teleported unwillingly."
+        "description": "The Sunzi has Immunity to involuntary movement caused by other characters."
       },
       {
         "name": "Slip",
-        "description": "1/round the Sunzi can teleport 1 space as a free action"
+        "description": "1/round, the Sunzi can teleport 2 spaces as a free action."
       }
     ],
     "core_system": {
       "name": "Reality Carver",
-      "description": "MEMO(TT_CLEARANCE_01): YOU’RE GOING TO READ SOME OBTUSE SHIT HERE. I’VE TRANSCRIBED ONLY THE USEFUL PARTS OF THE VOLS SAID. REFER TO THE VISUAL FOR CORRESPONDING HAND SIGNS. REFER TO REPORTS: VESSEL-PILOT-DOORWAY",
+      "description": "(TT_CLEARANCE_01): JUST A HEADS UP, YOU’RE GOING TO READ SOME OBTUSE SHIT HERE. I’VE TRANSCRIBED ONLY THE USEFUL PARTS OF WHAT THE VOLS SAID. REFER TO THE VISUAL FOR CORRESPONDING HAND SIGNS. REFER TO REPORTS: VESSEL-PILOT-DOORWAY",
       "active_name": "Art of War",
-      "active_effect": "When you take this protocol, gain limited (6) charges until the rest of this scene. You can expend a charge to choose any hostile or allied character in sensor range and line of sight as a reaction to the start of their turn and teleport that character up to 3 spaces in any direction, as long as they end in a free valid space that they can stand on.",
+      "active_effect": "For the rest of the scene, this system gains 6 charges (you can use a die to track this). As a reaction at the start or end of any hostile or allied character’s turn within SENSORS and line of sight, expend a charge to teleport them up to 3 spaces in any direction, as long as they end in a free space in which they can stand.",
       "tags": [
         {
           "id": "tg_protocol"
@@ -285,10 +287,11 @@
         }
       ],
       "passive_name": "Blink Anchor",
-      "passive_effect": "The Sunzi has a blink anchor, a deployable system that is a size 1/2 object immune to all damage and effects (it is a stable point in space). It has limited (2) charges. It can be deployed or picked up and carried around by the Sunzi or any adjacent allied character as a quick action. When any character teleports within line of sight of the Sunzi, it can spend a reaction and a charge to change the end point of the teleport to free valid and adjacent space to the blink anchor instead of the teleporting character’s original target, as long as the character can safely stand in that space."
+      "passive_effect": "Blink Anchor (SIZE 1/2, Tags: DEPLOYABLE, IMMUNITY to all damage and effects, LIMITED 3)<br>You carry a single blink anchor that you can deploy as a quick action. When any character teleports within your line of sight, you may force them to appear in a free space adjacent to the blink anchor instead of their original destination, as long as they can safely stand there. If your target is hostile, this expends a charge.<br>Initiating this interruption does not count as a reaction. Once it’s deployed, you or any allied character can pick it up or put it down while adjacent to it as a quick action."
     },
     "data_type": "frame",
-    "aptitude": {}
+    "aptitude": {},
+    "image_url": "https://compcon-image-assets.s3.amazonaws.com/frames/sunzi.png"
   },
   {
     "id": "mf_zheng",
@@ -298,7 +301,7 @@
       "Striker"
     ],
     "y_pos": 30,
-    "description": "The ZHENG is a relatively new frame in the IPS-N line and is unusual in that its creation can be attributed almost completely to a single mech operator - Xiong Xiaoli, a Mirrorsmoke mercenary operating out of the Long Rim, protecting Armory shipments of supplies to the early Dawnline shore colonies. A relative unknown before the incident, her convoy was attacked by the White Tiger pirate conglomerate and her entire company was KIA.<br>Xiaoli’s Raleigh was almost totally ripped apart in the ensuing chaos, but she managed to activate a distress beacon and attach it to her mech. Over the next forty five days she survived by scavenging the collapsing and melting wreck of the huge transport ship M.S. Say No More, managing to outsmart the fifty or so pirates searching for her by steadily modifying her mech for unarmed, CQB combat. In an tight, close environment where the ship’s decaying reactor core made combustible ranged weapons incredibly dangerous, she showed incredible efficacy and ingenuity. Xiaoli did not survive, perishing hours before the relief fleet arrived, but bought enough time that MSMC was able to position itself to both resupply the colony, fulfilling its contract, and deal a mortal blow to the Tigers, wiping the pirates out completely in the following skirmishes. Her mech was purchased by IPS-N frame development and the Zheng was introduced shortly afterwards based on her improvements.<br>Xiaoli is widely regarded as a Bodhisattva by many Long Rim colonists and nearly all MSMC mercs are familiar with the several drinking games named after her.",
+    "description": "<p>The Zheng is a new frame in IPS-N's line and is unusual in that its development can be attributed almost completely to a single mech pilot &ndash; Xiong Xiaoli, a Mirrorsmoke mercenary operating in the Long Rim, protecting heavy freight/low crew shipments to the early Dawnline Shore colonies. A relative unknown before the incident, MSMC documentation from the time indicates that her convoy was attacked by the White Tiger pirate conglomerate, and her entire company killed in action. Xiong's personal logbook, recovered posthumously, expounds on MSMC's report. </p> <p>In her logbook, Xiong noted that her chassis, a factory-standard IPS-N Raleigh, was almost totally ripped apart in the chaos of the White Tiger's attack. Thrown free of her billeted freighter after it collided with a White Tiger crashboat, Xiong managed to survive the next 45 days by scavenging across the drifting, derelict wreck of the MSMC-S Say No More, the escort cruiser attached to the supply colony. Outnumbered and hunted by the White Tiger pirates prowling the ruined convoy, Xiong took dramatic steps to modify her Raleigh for close-quarters combat. In the dark, claustrophobic environments of the Say No More and ruined freighters leashed to it by the White Tigers, Xiong turned her chassis into a machine of tumbling death. </p> <p>Xiong likely did not survive the long engagement. She is presumed to have perished mere days before an IPS-N Trunk Security patrol arrived, responding to the convoy's initial distress signal. Trunk Security found that Xiong had eliminated every White Tiger pirate assigned to the convoy; her chassis, logbook, and trace elements of her body were discovered in the White Tiger's cored-out gunboat and recovered by IPS-N. Thanks to her efforts, Trunk Security and MSMC were able to hunt down the remaining White Tiger gang and eliminate them. IPS-N and MSMC then engaged in a lengthy negotiation over the modified Raleigh's plans, eventually settling on a mixed licensing fee that benefits both IPS-N and MSMC. The resulting pattern, the Zheng, is now a popular choice among MSMC and Trunk Security pilots operating across the Rim. </p> <p>Xiong Xiaoli is widely regarded as a bodhisattva across the Long Rim; MSMC mercenaries have created several drinking games named after her, and MSMC pilots on combat contracts often compete to hit the \"Xiong Limit\" of 45+ confirmed kills. </p>",
     "mounts": [
       "Main",
       "Main",
@@ -321,21 +324,21 @@
     "traits": [
       {
         "name": "Destructive Swings",
-        "description": "At the end of your turn, if you made at least one melee attack against another hostile character, create a size 1 piece of terrain that grants hard cover in a free adjacent space (10 HP, 5 evasion)"
+        "description": "At the end of the Zheng’s turn, if it made at least one melee attack against a hostile character, the force of its swings creates a SIZE 1 piece of terrain that grants hard coverin a free, adjacent space. It has 10 HP and EVASION 5."
       },
       {
         "name": "Weak Computer",
-        "description": "The Zheng gets +1 difficulty on all systems saves and checks"
+        "description": "The Zheng gets +1 Difficulty on all Systems saves and checks"
       }
     ],
     "core_system": {
       "name": "Xiaoli-Type CQB Suite",
-      "description": "Using scavenged materials from a dying ship and surviving mostly on rations intended for colonists and an increasingly more radioactive air supply, Xiaoli was able to create modifications that gave her mech unprecedented unarmed striking power.",
+      "description": "Surviving mostly on colonial rations and an increasingly radioactive air supply, Xiaoli scavenged materials from a dying ship to create modifications that gave her mech unprecedented unarmed striking power.",
       "active_name": "Xiaoli’s Ingenuity",
-      "active_effect": "Gain 6 charges (you can use a die to track this). For the rest of this combat, you can spend a charge to take this frame's passive action again, ignoring the 1/turn limit. You can spend any number of charges a turn, then regain a charge for each unique target (character, object, or piece of terrain) you damaged with this action, up to a maximum of 6.",
+      "active_effect": "For the rest of the scene, this system gains 6 charges (you can use a die to track this). Expend a charge to use XIAOLI’S TENACITY again, ignoring the 1/Turn limit. You may spend any number of charges a turn. At the end of each turn, you regain a charge for each unique target (character, object, or piece of terrain) you damaged with this action, to a maximum of 6.",
       "tags": [],
-      "passive_name": "Xiaoli-Type CQB Suite",
-      "passive_effect": "Once during your turn as a free action, you can move up to 3 spaces then deal 2 kinetic damage to any adjacent character, object, or piece of terrain. This movement must obey engagement and does not ignore reactions.<br>If an object or piece of terrain took this damage, it instead takes 10 AP kinetic damage. If it's destroyed, it explodes, dealing 1d6 kinetic damage to all adjacent characters other than you and knocking them back 1 space."
+      "passive_name": "Xiaoli's Tenacity",
+      "passive_effect": "As a free action, you may move up to 3 spaces then deal 2 Kinetic Damage to any adjacent character or 10 AP Kinetic Damage to an object or piece of terrain. This movement prompts engagement and does not ignore reactions.<br>If this damage destroys an object or piece of terrain, it explodes, dealing 1d6 Kinetic Damage to all adjacent characters other than you and knocking them back 1 space."
     },
     "data_type": "frame",
     "aptitude": {},
@@ -347,6 +350,7 @@
         "min": 0,
         "max": 6
       }
-    ]
+    ],
+    "image_url": "https://compcon-image-assets.s3.amazonaws.com/frames/zheng.png"
   }
 ]

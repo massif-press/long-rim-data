@@ -18,7 +18,7 @@
     "effect": {
       "effect_type": "Basic",
       "activation": "Quick",
-      "detail": "You fire a zip line 8 spaces long that connects 2 free spaces in line of sight, one of which must be adjacent to you. Both ends must be attached to a surface, such as a wall or floor. It activates at the end of your turn with the following benefits: <ul> <li>SIZE 1/2 characters that are adjacent to either end of the line can move to the other end as a quick action as long as they are able to grab onto it. They can hop off at any point along the line if they wish.&nbsp;</li> <li>Whenever SIZE 1 or larger characters cross the space occupied by the line for the first time in a round or start their turn within one, they must succeed on an AGILITY save or fall PRONE. </li> </ul>Any character adjacent to the start or endpoint of the line can tear the line down by succeeding on a HULL check as a quick action or by successfully performing a melee attack against either end. The line has 1 HP and EVASION 10. Destroying the zip line in this way does not destroy this system. Otherwise, the line lasts until you use this system again."
+      "detail": "You fire a zip line 8 spaces long that connects 2 free spaces in line of sight, one of which must be adjacent to you. Both ends must be attached to a surface, such as a wall or floor. It activates at the end of your turn with the following benefits: <ul> <li>SIZE 1/2 characters that are adjacent to either end of the line can move to the other end as a quick action as long as they are able to grab onto it. They can hop off at any point along the line if they wish. </li> <li>Whenever SIZE 1 or larger characters cross the space occupied by the line for the first time in a round or start their turn within one, they must succeed on an AGILITY save or fall PRONE. </li> </ul>Any character adjacent to the start or endpoint of the line can tear the line down by succeeding on a HULL check as a quick action or by successfully performing a melee attack against either end. The line has 1 HP and EVASION 10. Destroying the zip line in this way does not destroy this system. Otherwise, the line lasts until you use this system again."
     },
     "description": "Used by Sparri hunters to bridge the vast gaps in the ice sheet that cover their world, this system is in high demand among daredevils and thrill-seekers across the planet.",
     "data_type": "system",
@@ -151,7 +151,7 @@
             "type": "Range",
             "val": 5
           }],
-          "detail": "Your target must pass an AGILITY save or the grenade attaches to them and arms itself. It automatically attaches to objects. At the start or end of any turn, while a spike grenade is attached, you may detonate all armed spike grenades as a reaction. Characters to whom they are attached take 1d6+3�and are knocked back 3 spaces in a direction of your choice, while objects just take the damage. Characters can detach spike grenades from themselves by passing another AGILITY save as a quick action on their turn. All grenades detach at the end of the scene."
+          "detail": "Your target must pass an AGILITY save or the grenade attaches to them and arms itself. It automatically attaches to objects. At the start or end of any turn, while a spike grenade is attached, you may detonate all armed spike grenades as a reaction. Characters to whom they are attached take 1d6+3 Kinetic Damage and are knocked back 3 spaces in a direction of your choice, while objects just take the damage. Characters can detach spike grenades from themselves by passing another AGILITY save as a quick action on their turn. All grenades detach at the end of the scene."
         },
         {
           "name": "Spike Mine",
@@ -517,7 +517,7 @@
     ],
     "source": "HA",
     "license": "SUNZI",
-    "license_level": 2,
+    "license_level": 3,
     "effect": {
       "effect_type": "Tech",
       "activation": "Quick",
@@ -539,7 +539,7 @@
     ],
     "source": "HA",
     "license": "SUNZI",
-    "license_level": 3,
+    "license_level": 2,
     "effect": {
       "effect_type": "Basic",
       "activation": "Quick",
@@ -587,7 +587,7 @@
     "effect": {
       "effect_type": "Basic",
       "activation": "Quick",
-      "detail": "You rip up a piece of the environment and hurl it at a character within Range 5 and line of sight. Your target must pass an AGILITY save or take 1d6� and be knocked back 1 space directly away from you. After you take this action, place a SIZE 1 piece of terrain that grants hard cover in a free space adjacent to your target, even if they passed the saved. The terrain has 10 HP and EVASION 5.<br>If there is a SIZE 1 object or piece of cover adjacent to you, you can move it as part of this action; otherwise, your projectile is ripped out of the ground or environment. If there's nothing to grab nearby or you're not on the ground you can't take this action"
+      "detail": "You rip up a piece of the environment and hurl it at a character within Range 5 and line of sight. Your target must pass an AGILITY save or take 1d6 Kinetic Damage and be knocked back 1 space directly away from you. After you take this action, place a SIZE 1 piece of terrain that grants hard cover in a free space adjacent to your target, even if they passed the saved. The terrain has 10 HP and EVASION 5.<br>If there is a SIZE 1 object or piece of cover adjacent to you, you can move it as part of this action; otherwise, your projectile is ripped out of the ground or environment. If there's nothing to grab nearby or you're not on the ground you can't take this action"
     },
     "description": "This whole-system upgrade was the result of tweaks Xiong Xiaoli made to her mech throughout a long career with the MSMC, many of which have now been incorporated into standard IPS-N frame construction protocol. The package comes in three stages, the first of which contains a set of spinal enhancements that allow a mech to rapidly lift and move large weights without systemic damage.",
     "data_type": "system",

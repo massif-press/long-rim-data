@@ -638,5 +638,31 @@
     "description": "The last component of the Total Strength upgrade package gives a mech the ability to inject rapid bursts of intense power into its locomotive systems, resulting in short-lived but incredible strength. The underlying systems are carefully calibrated and misuse can rip apart a mech’s internal systems from within.",
     "data_type": "system",
     "aptitude": {}
+  },
+  {
+    "id": "ms_spaceborn_1",
+    "name": "Spaceborn EVA",
+    "type": "System",
+    "talent_item": true,
+    "talent_id": "t_spaceborn",
+    "talent_rank": 1,
+    "sp": 0,
+    "tags": [{
+        "id": "tg_unique"
+      }
+    ],
+    "source": "",
+    "license": "",
+    "license_level": 0,
+    "effect": {
+      "effect_type": "Basic",
+      "detail": "All of your mechs that your build come with built-in EVA capabilities, meaning you suffer no penalties when operating underwater or in zero-g environments.",
+      "abilites": [{
+        "effect_type": "Basic",
+        "activation": "Quick",
+        "detail": "You can shunt power into this component to fly 3 spaces and take Heat equal to your mech’s Size + 1, although you must land at the end of this movement or fall."
+      }]
+    },
+    "description": "Gained from the <i>Spaceborn: Rank I</i> pilot talent."
   }
 ]

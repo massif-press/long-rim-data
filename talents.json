@@ -6,7 +6,7 @@
     "ranks": [
       {
         "name": "HOME IN THE VOID",
-        "description": "All of your mechs that your build come with built-in EVA capabilities, meaning you suffer no penalties when operating underwater or in zero-g environ‐ ments. As a quick action, you can shunt power into this component to fly 3 spaces and take Heat equal to your mech’s Size + 1, although you must land at the end of this movement or fall."
+        "description": "All of your mechs that your build come with built-in EVA capabilities, meaning you suffer no penalties when operating underwater or in zero-g environments. As a quick action, you can shunt power into this component to fly 3 spaces and take Heat equal to your mech’s Size + 1, although you must land at the end of this movement or fall."
       },
       {
         "name": "SEA LEGS",
@@ -14,7 +14,7 @@
       },
       {
         "name": "SCRAPPER",
-        "description": "1/round, when your mech hits a character with a melee attack, it can immediately give that character +1 Difficulty on all checks or saves to avoid Knockback, Prone, Slowed or Immobilized until the end of its next turn, including any effects that are part of the trig‐ gering attack."
+        "description": "1/round, when your mech hits a character with a melee attack, it can immediately give that character +1 Difficulty on all checks or saves to avoid Knockback, Prone, Slowed or Immobilized until the end of its next turn, including any effects that are part of the triggering attack."
       }
     ]
   },

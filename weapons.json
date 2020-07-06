@@ -26,7 +26,7 @@
     "license_level": 1,
     "effect": {
       "effect_type": "Offensive",
-      "hit": "your target is impaled by this weapon’s harpoon-like projectile. Any time after your target takes any action or movement during their next turn, you can reel in the line and boost as a reaction, moving toward that target by the most direct route possible. They must then pass a hull save or be knocked prone; succeed or fail, this effect ends. The line snaps if your target teleports."
+      "hit": "your target is impaled by this weapon’s harpoon-like projectile. Any time after your target takes any action or movement during their next turn, you can reel in the line and boost as a reaction, moving toward that target by the most direct route possible. They must then pass a HULL save or be knocked PRONE; succeed or fail, this effect ends. The line snaps if your target teleports."
     },
     "description": "Hunting the Vast — the titanic megafauna of Sparr — is a dangerous, profitable venture for the Sparri people. Skins, bones, meat, and other trophies from their bodies can create months – or even years, in the case of especially old, grand, or unique beasts – of prosperity for the hunters and their kin. These popular long rifles, refined to SSC standards, are rugged and durable, perfect for dragging down the great creatures and their attendants.",
     "data_type": "weapon",
@@ -65,7 +65,7 @@
       "detail": "",
       "abilities": [{
           "effect_type": "Protocol",
-          "detail": "You may begin any fight in one of the following stances and may take a stance or shift between stances as a protocol. Once you have taken a stance, you remain in it until you take a new stance, this weapon is destroyed, or you are stunned or jammed. You can also drop a stance as a free action."
+          "detail": "You may begin any fight in one of the following stances and may take a stance or shift between stances as a protocol. Once you have taken a stance, you remain in it until you take a new stance, this weapon is destroyed, or you are STUNNED or JAMMED. You can also drop a stance as a free action."
         },{
           "effect_type": "Profile",
           "name": "Troll Stance",
@@ -94,8 +94,14 @@
             "type": "Threat",
             "val": 1
           }],
-          "detail": "1/round after hitting with this weapon, you may immediately deal 2 kinetic to all other characters adjacent to you and your target as a reaction.",
+          "detail": "You gain the Storm Stance Reaction.",
           "tags": []
+        },{
+          "effect_type": "Reaction",
+          "name": "Storm Stance Reaction",
+          "frequency": "1/round",
+          "trigger": "After hitting with this weapon while in Storm Stance.",
+          "detail": "You may immediately deal 2 kinetic to all other characters adjacent to you and your target."
         },{
           "effect_type": "Profile",
           "name": "Lord's Stance",
@@ -107,7 +113,7 @@
             "type": "Threat",
             "val": 1
           }],
-          "detail": "You cannot make ranged or tech attacks, but any ranged attack against you that misses deflects off your sword, dealing 2 damage (same type as the attack) to a character of your choice in range 3 and line of sight from you. Any melee attack that misses you forces the attacker to pass a HULL save or be knocked prone.",
+          "detail": "You cannot make ranged or tech attacks, but any ranged attack against you that misses deflects off your sword, dealing 2 damage (same type as the attack) to a character of your choice in range 3 and line of sight from you. Any melee attack that misses you forces the attacker to pass a HULL save or be knocked PRONE.",
           "tags": []
         },{
           "effect_type": "Profile",

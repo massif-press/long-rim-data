@@ -332,13 +332,15 @@
       }
     ],
     "core_system": {
-      "name": "Xiaoli-Type CQB Suite",
+      "name": "XIONG-TYPE CQB SUITE",
       "description": "Surviving mostly on colonial rations and an increasingly radioactive air supply, Xiaoli scavenged materials from a dying ship to create modifications that gave her mech unprecedented unarmed striking power.",
       "active_name": "Xiaoli’s Ingenuity",
       "active_effect": "For the rest of the scene, this system gains 6 charges (you can use a die to track this). Expend a charge to use XIAOLI’S TENACITY again, ignoring the 1/Turn limit. You may spend any number of charges a turn. At the end of each turn, you regain a charge for each unique target (character, object, or piece of terrain) you damaged with this action, to a maximum of 6.",
-      "tags": [],
+      "tags": [{
+        "id": "tg_protocol"
+      }],
       "passive_name": "Xiaoli's Tenacity",
-      "passive_effect": "As a free action, you may move up to 3 spaces then deal 2 Kinetic Damage to any adjacent character or 10 AP Kinetic Damage to an object or piece of terrain. This movement prompts engagement and does not ignore reactions.<br>If this damage destroys an object or piece of terrain, it explodes, dealing 1d6 Kinetic Damage to all adjacent characters other than you and knocking them back 1 space."
+      "passive_effect": "1/turn as a free action, you may move up to 3 spaces then deal 2 Kinetic to any adjacent character or 10 Kinetic AP to an object or piece of terrain. This movement prompts engagement and does not ignore reactions.<br>If this damage destroys an object or piece of terrain, it explodes, dealing 1d6 Kinetic to all adjacent characters other than you and knocking them back 1 space."
     },
     "data_type": "frame",
     "aptitude": {},

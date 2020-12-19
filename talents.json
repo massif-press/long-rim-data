@@ -2,11 +2,12 @@
   {
     "id": "t_spaceborn",
     "name": "SPACEBORN",
+    "terse": "Gain mastery of your mech's movement in any environment",
     "description": "You’re adept at planting your feet wherever you find them - even on nothing at all. Where those born downwell have a hard time keeping their lunch down, you thrive. Which way is up? It’s up to you.",
     "ranks": [
       {
         "name": "HOME IN THE VOID",
-        "description": "Any mech you create comes with an EVA module installed (you suffer no penalty for operating in underwater or zero-g environments). You can shunt power into this module as a quick action to fly 3 spaces and take heat equal to your mech’s size+1 (rounded up), though you must land at the end of this movement or fall."
+        "description": "Any mech you create comes with an EVA module installed (you suffer no penalty for operating in underwater or zero-g environments). You can shunt power into this module as a quick action to fly 3 spaces and take heat equal to your mech’s Size +1 (rounded up), though you must land at the end of this movement or fall."
       },
       {
         "name": "SEA LEGS",
@@ -21,6 +22,7 @@
   {
     "id": "t_black_thumb",
     "name": "BLACK THUMB",
+    "terse": "Become more dangerous while outside of your mech.",
     "description": "You’re used to station engineering - the kind that regularly requires crawling through nightmarishly tight vents, squeezing past boiling hot steam pipes, and tapping on thin panes of sheet metal between you and certain death. After that, a little combat engineering is nothing.",
     "ranks": [
       {

@@ -3,19 +3,19 @@
     "id": "t_spaceborn",
     "name": "SPACEBORN",
     "terse": "Gain mastery of your mech's movement in any environment",
-    "description": "You’re adept at planting your feet wherever you find them - even on nothing at all. Where those born downwell have a hard time keeping their lunch down, you thrive. Which way is up? It’s up to you.",
+    "description": "You’re adept at planting your feet wherever you find them – even on nothing at all. In places where people born downwell have a hard time keeping their lunch down, you thrive. Which way is up? It’s up to you",
     "ranks": [
       {
         "name": "HOME IN THE VOID",
-        "description": "Any mech you create comes with an EVA module installed (you suffer no penalty for operating in underwater or zero-g environments). You can shunt power into this module as a quick action to fly 3 spaces and take heat equal to your mech’s Size +1 (rounded up), though you must land at the end of this movement or fall."
+        "description": "All of your mechs that your build come with built-in EVA capabilities, meaning you suffer no penalties when operating underwater or in zero-g environments. As a quick action, you can shunt power into this component to fly 3 spaces and take Heat equal to your mech’s Size + 1, although you must land at the end of this movement or fall."
       },
       {
         "name": "SEA LEGS",
-        "description": "1/round when your mech is involuntarily moved by another character’s attack or failing a save forced by that character, you can choose the direction you move. After your mech stands up from prone, it can moves 2 space in any direction as a free action. This movement doesn’t provoke reactions and ignores engagement."
+        "description": "1/round, when your mech is involuntarily moved by another character’s attack or by failing a save forced by another character, you can choose the direction you move. Additionally, when your mech clears Prone, you may move 2 spaces in any direction as a free action. This movement ignores engagement and doesn’t provoke reactions"
       },
       {
         "name": "SCRAPPER",
-        "description": "Characters gain +1 difficulty on checks made to avoid being knocked back, knocked prone, slowed, or immobilized by any attack or ability you inflict on them."
+        "description": "1/round, when your mech hits a character with a melee attack, it can immediately give that character +1 Difficulty on all checks or saves to avoid Knockback, Prone, Slowed or Immobilized until the end of its next turn, including any effects that are part of the triggering attack."
       }
     ]
   },
@@ -23,19 +23,19 @@
     "id": "t_black_thumb",
     "name": "BLACK THUMB",
     "terse": "Become more dangerous while outside of your mech.",
-    "description": "You’re used to station engineering - the kind that regularly requires crawling through nightmarishly tight vents, squeezing past boiling hot steam pipes, and tapping on thin panes of sheet metal between you and certain death. After that, a little combat engineering is nothing.",
+    "description": "You’re used to station engineering – the kind that regularly requires crawling through nightmarishly tight vents, squeezing past boiling-hot steam pipes, and tapping on thin panes of sheet metal that lie between you and certain death. After that, a little combat engineering is nothing.",
     "ranks": [
       {
         "name": "FLESH TO METAL",
-        "description": "While adjacent to your mech, your pilot has resistance to all damage. Dismounting your mech is only a quick action instead of a full action."
+        "description": "You treat DISMOUNT as a quick action instead of a full action. When you DISMOUNT, your pilot gains a personal shield. The next time your pilot would take damage, reduce that damage to 0, then the shield disperses. Otherwise, it disperses at the end of the scene. You can only have one personal shield at once, and any shields created replace the last one."
       },
       {
         "name": "RODEO",
-        "description": "<p>As a quick action, your pilot can pop the hatch on your mech and climb out, jockeying your own mech. While jockeying your mech, you share its space and move when it moves. You don’t fully dismount (doing so takes a dismount action) and can’t control your mech from outside, so your mech will idle unless it is capable of taking actions independently (if it has an NHP installed, for example, and you handed over control at the start of your turn).</p> <p>You are become a valid target for attacks or other effects while jockeying your mech, and if you take damage your pilot is forced back inside your mech as a reaction, ending this state. Your pilot can also climb back inside as a quick action.</p> <p>While jockeying your pilot can take only the Fight or Reload actions, or any of the following actions:</p> <ul> <li>Extinguish (full action): Immediately end any burn affecting your mech, and your pilot and mech gain resistance to burn until the start of your next turn.</li> <li>Field Repair (full action): Heal your mech 2 hp and end the slowed condition on it.&nbsp;</li> <li>Rig Vents (full action): Cool 2 heat from your mech and end the impaired condition on it.</li> </ul>"
+        "description": "<p>As a protocol, you give up the controls, pop the hatch on your mech and partly climb out, starting a BLACK THUMB RODEO and gaining a personal shield (as above). While in rodeo, your pilot is immune to involuntary movement, occupies your mech’s space and moves when it moves. This does not count as DISMOUNT and the mech can’t be controlled from outside, so it will idle unless it is capable of acting independently (e.g., if it has an NHP that has been given control, which you can do as part of this protocol). <br>While in rodeo, your pilot becomes a valid target and can take damage normally. If you lose your personal shield for any reason, you are immediately forced back inside your mech, ending the effect, and you cannot start a rodeo again on your following turn. You can also end a rodeo as a quick action on any of your turns. <br>While in rodeo, your pilot can only take these actions:</p> <ul> <li>Extinguish (full action): You immediately clear all Burn affecting your mech, and it gains Resistance to Burn until the start of your next turn.</li> <li>Field Repair (full action): Your mech gains Overshield 2 and clears either Slowed or Immobilized.</li> <li>Rig Vents (full action): Your mech clears 2 Heat and clears either Impaired or Jammed.</li> </ul><br>Conditions that were self inflicted cannot be cleared with these actions."
       },
       {
         "name": "RODEO MASTER",
-        "description": "When you exit your mech, your pilot gains overshield 4 and is only forced back inside their mech while jockeying if they lose this overshield. Your Field Repair jockeying action now ends the immobilized condition as well, and your Rig Vents jockeying action now ends the Jammed condition as well."
+        "description": "Your Black Thumb actions can be used on adjacent allied mechs."
       }
     ]
   }

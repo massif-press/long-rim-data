@@ -32,18 +32,6 @@
     "name":"TERASHIMA BLADE",
     "mount":"Main",
     "type":"Melee",
-    "damage":[
-      {
-        "type":"Kinetic",
-        "val":"1d6"
-      }
-    ],
-    "range":[
-      {
-        "type":"Threat",
-        "val":1
-      }
-    ],
     "tags":[
       {
         "id":"tg_unique"
@@ -66,6 +54,21 @@
       }
     ],
     "profiles":[
+      {
+        "name": "No Stance",
+            "damage":[
+      {
+        "type":"Kinetic",
+        "val":"1d6"
+      }
+    ],
+    "range":[
+      {
+        "type":"Threat",
+        "val":1
+      }
+    ]
+      },
       {
         "name":"Troll Stance",
         "damage":[
@@ -103,7 +106,7 @@
             "val":1
           }
         ],
-        "detail":"You gain the Storm Stance Reaction.",
+        "effect":"You gain the Storm Stance Reaction.",
         "actions":[
           {
             "activation":"Reaction",
@@ -129,7 +132,7 @@
             "val":1
           }
         ],
-        "detail":"You cannot make ranged or tech attacks, but any ranged attack against you that misses deflects off your sword, dealing 2 damage (same type as the attack) to a character of your choice in range 3 and line of sight from you. Any melee attack that misses you forces the attacker to pass a HULL save or be knocked PRONE."
+        "effect":"You cannot make ranged or tech attacks, but any ranged attack against you that misses deflects off your sword, dealing 2 damage (same type as the attack) to a character of your choice in range 3 and line of sight from you. Any melee attack that misses you forces the attacker to pass a HULL save or be knocked PRONE."
       },
       {
         "effect_type":"Profile",
@@ -146,7 +149,7 @@
             "val":2
           }
         ],
-        "detail":"After attacking with this weapon, hit or miss, you may move 2 spaces in any direction, ignoring engagement and reactions.",
+        "effect":"After attacking with this weapon, hit or miss, you may move 2 spaces in any direction, ignoring engagement and reactions.",
         "tags":[
           {
             "id":"tg_reliable",
@@ -244,6 +247,16 @@
           {
             "type":"Kinetic",
             "val":"3d6+4"
+          }
+        ],
+                "range":[
+          {
+            "type":"Range",
+            "val":3
+          },
+          {
+            "type":"Threat",
+            "val":3
           }
         ],
         "tags":[
@@ -489,7 +502,10 @@
     "name":"HHS-075 “Flayer” Shotgun",
     "mount":"Main",
     "type":"CQB",
-    "range":[
+    "profiles": [
+      {
+        "name": "Standard",
+            "range":[
       {
         "type":"Range",
         "val":3
@@ -503,6 +519,27 @@
       {
         "type":"Kinetic",
         "val":"1d6+1"
+      }
+    ]
+      },
+      {
+        "name": "Autochoke Equipped",
+            "range":[
+      {
+        "type":"Cone",
+        "val":3
+      },
+      {
+        "type":"Threat",
+        "val":3
+      }
+    ],
+    "damage":[
+      {
+        "type":"Kinetic",
+        "val":"1d6+2"
+      }
+    ]
       }
     ],
     "on_attack":"After any attack with this weapon, you may smack an adjacent character with the butt end, dealing 1 Kinetic Damage and knocking them back 1 space.",

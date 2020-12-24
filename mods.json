@@ -3,7 +3,7 @@
     "id": "wm_supermassive_mod",
     "name": "SUPERMASSIVE MOD",
     "sp": 1,
-    "applied_to": [
+    "allowed_types": [
       "Melee",
       "CQB",
       "Cannon"
@@ -23,7 +23,7 @@
     "id": "wm_molten_wreathe",
     "name": "MOLTEN WREATHE",
     "sp": 2,
-    "applied_to": [
+    "allowed_types": [
       "Melee"
     ],
     "source": "IPS-N",

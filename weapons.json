@@ -505,52 +505,61 @@
     "profiles": [
       {
         "name": "Standard",
-            "range":[
-      {
-        "type":"Range",
-        "val":3
-      },
-      {
-        "type":"Threat",
-        "val":3
-      }
-    ],
-    "damage":[
-      {
-        "type":"Kinetic",
-        "val":"1d6+1"
-      }
-    ]
+        "range":[
+          {
+            "type":"Range",
+            "val":3
+          },
+          {
+            "type":"Threat",
+            "val":3
+          }
+        ],
+        "damage":[
+          {
+            "type":"Kinetic",
+            "val":"1d6+1"
+          }
+        ],
+        "tags":[
+          {
+            "id":"tg_inaccurate"
+          },
+          {
+            "id":"tg_knockback",
+            "val":2
+          }
+        ]
       },
       {
         "name": "Autochoke Equipped",
-            "range":[
-      {
-        "type":"Cone",
-        "val":3
-      },
-      {
-        "type":"Threat",
-        "val":3
+        "range":[
+          {
+            "type":"Cone",
+            "val":3
+          },
+          {
+            "type":"Threat",
+            "val":3
+          }
+        ],
+        "damage":[
+          {
+            "type":"Kinetic",
+            "val":"1d6+2"
+          }
+        ],
+        "tags":[
+          {
+            "id":"tg_accurate"
+          },
+          {
+            "id":"tg_knockback",
+            "val":5
+          }
+        ]
       }
     ],
-    "damage":[
-      {
-        "type":"Kinetic",
-        "val":"1d6+2"
-      }
-    ]
-      }
-    ],
-    "on_attack":"After any attack with this weapon, you may smack an adjacent character with the butt end, dealing 1 Kinetic Damage and knocking them back 1 space.",
-    "tags":[
-      {
-        "id":"tg_inaccurate"
-      },
-      {
-        "id":"tg_knockback",
-        "val":2
-      }
-    ]
+    "on_attack":"After any attack with this weapon, you may smack an adjacent character with the butt end, dealing 1 Kinetic Damage and knocking them back 1 space."
   }
 ]

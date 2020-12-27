@@ -609,6 +609,7 @@
     "effect":"All of your mechs that your build come with built-in EVA capabilities, meaning you suffer no penalties when operating underwater or in zero-g environments.",
     "actions":[
       {
+        "name": "Shunt Power",
         "activation":"Quick",
         "detail":"You can shunt power into this component to fly 3 spaces and take Heat equal to your mech’s Size + 1, although you must land at the end of this movement or fall."
       }

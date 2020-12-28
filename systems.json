@@ -182,11 +182,6 @@
     "name":"FORGE CLAMPS",
     "type":"System",
     "sp":1,
-    "tags":[
-      {
-        "id":"tg_quick_action"
-      }
-    ],
     "source":"HORUS",
     "license":"KOBOLD",
     "license_level":1,
@@ -203,11 +198,6 @@
     "name":"SEISMIC RIPPER",
     "type":"System",
     "sp":2,
-    "tags":[
-      {
-        "id":"tg_full_action"
-      }
-    ],
     "source":"HORUS",
     "license":"KOBOLD",
     "license_level":2,
@@ -278,11 +268,6 @@
     "name":"Wandering Nightmare",
     "type":"Tech",
     "sp":1,
-    "tags":[
-      {
-        "id":"tg_full_tech"
-      }
-    ],
     "source":"HORUS",
     "license":"LICH",
     "license_level":1,
@@ -300,11 +285,6 @@
     "name":"Antilinear Time",
     "type":"Tech",
     "sp":2,
-    "tags":[
-      {
-        "id":"tg_quick_tech"
-      }
-    ],
     "source":"HORUS",
     "license":"LICH",
     "license_level":2,
@@ -321,11 +301,6 @@
     "name":"Unhinge Chronology",
     "type":"Tech",
     "sp":2,
-    "tags":[
-      {
-        "id":"tg_quick_tech"
-      }
-    ],
     "source":"HORUS",
     "license":"LICH",
     "license_level":2,
@@ -405,9 +380,6 @@
     "tags":[
       {
         "id":"tg_unique"
-      },
-      {
-        "id":"tg_quick_tech"
       }
     ],
     "source":"HA",
@@ -462,9 +434,6 @@
     "tags":[
       {
         "id":"tg_unique"
-      },
-      {
-        "id":"tg_quick_tech"
       }
     ],
     "source":"HA",
@@ -485,9 +454,6 @@
     "sp":2,
     "tags":[
       {
-        "id":"tg_protocol"
-      },
-      {
         "id":"tg_heat_self",
         "val":1
       }
@@ -497,7 +463,7 @@
     "license_level":2,
     "actions":[
       {
-        "activation":"Quick",
+        "activation":"Protocol",
         "detail":"You open a blink tear in a free, adjacent space. It lasts until the end of your next turn. As part of any movement, characters other than you (hostile or allied) that enter the space at least partially may teleport to a free space adjacent to you. You may only open one tear at a time, and if you create a new tear it replaces the previous one."
       }
     ],
@@ -508,11 +474,6 @@
     "name":"Final Secret",
     "type":"Tech",
     "sp":2,
-    "tags":[
-      {
-        "id":"tg_quick_tech"
-      }
-    ],
     "source":"HA",
     "license":"SUNZI",
     "license_level":3,
@@ -529,11 +490,6 @@
     "name":"TOTAL STRENGTH SUITE I",
     "type":"System",
     "sp":1,
-    "tags":[
-      {
-        "id":"tg_quick_action"
-      }
-    ],
     "source":"IPS-N",
     "license":"ZHENG",
     "license_level":1,
@@ -553,9 +509,6 @@
     "tags":[
       {
         "id":"tg_unique"
-      },
-      {
-        "id":"tg_protocol"
       }
     ],
     "source":"IPS-N",
@@ -574,11 +527,6 @@
     "name":"TOTAL STRENGTH SUITE III",
     "type":"System",
     "sp":3,
-    "tags":[
-      {
-        "id":"tg_full_action"
-      }
-    ],
     "source":"IPS-N",
     "license":"ZHENG",
     "license_level":3,

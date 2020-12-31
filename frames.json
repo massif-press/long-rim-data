@@ -309,7 +309,7 @@
           "name": "Slip",
           "frequency": "1/Round",
           "activation": "Free",
-          "detail": "1/round the Sunzi can teleport 1 space as a free action"
+          "detail": "1/round the Sunzi can teleport 2 spaces as a free action"
         }]
       }
     ],

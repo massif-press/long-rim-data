@@ -237,9 +237,11 @@
           {
             "id":"tg_knockback",
             "val":2
+          },
+          {
+            "id": "tg_inaccurate"
           }
-        ],
-        "detail":"Fire both barrels at once, causing the weapon to be fired with +1 Difficulty and requiring a reload as normal."
+        ]
       },
       {
         "name":"Both Barrels",
@@ -268,7 +270,7 @@
             "id":"tg_inaccurate"
           }
         ],
-        "detail":"Fire both barrels at once, causing the weapon to be fired with +1 Difficulty and requiring a reload as normal."
+        "effect":"Fire both barrels at once, causing the weapon to be fired with +1 Difficulty and requiring a reload as normal."
       }
     ],
     "description":"The IPS-N Heavy Howitzer-Shotgun 155 “Cannibal” is a large, breech-loaded, over-under cannon chambered to fire shells, shot, and sabots. This is the higher-powered version of the HHS-075, designed to phase out the “Daisy Cutter” by providing comparable stopping power in a format that can be more easily supplied to armies in the field. The Cannibal should be used with caution around mixed units of friendlies, as its ejection action clears the weapon’s barrels of spent cartridges with enough velocity to decapitate unarmored personnel."
@@ -482,7 +484,7 @@
           }
         ],
         "skirmish":false,
-        "detail":"While charged, this weapon deals 30 AP Kinetic Damage when it hits objects or pieces of terrain. If this destroys objects and pieces of terrain, they explode, dealing 1d6 Kinetic Damage to all adjacent characters other than you and knocking them back 1 space.<br>This weapon loses its charge when you hit a target, when you disperse its charge as a free action, or when you become STUNNED or SHUT DOWN.",
+        "on_hit":"While charged, this weapon deals 30 AP Kinetic Damage when it hits objects or pieces of terrain. If this destroys objects and pieces of terrain, they explode, dealing 1d6 Kinetic Damage to all adjacent characters other than you and knocking them back 1 space.<br>This weapon loses its charge when you hit a target, when you disperse its charge as a free action, or when you become STUNNED or SHUT DOWN.",
         "tags":[
           {
             "id":"tg_reliable",

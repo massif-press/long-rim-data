@@ -126,7 +126,7 @@
         "type": "Burst",
         "val": 2
       }],
-      "detail": "Once activated, characters within the affected area must pass an AGILITY save or a spike grenade attaches itself to them as described above."
+      "detail": "Once activated, characters within a Burst 2 must pass an AGILITY save or a spike grenade attaches itself to them as described above."
     }],
     "description": "Originally designed as a load variant for use with the Hammer U-RPL, spike charges carry dozens of hardened flechettes designed to tumble, ricochet, and pierce upon shell detonation, tearing apart flesh and soft targets with sheer torque. As a payload for impact-activated grenades and proximity-activated mine, these devices found their use first in micro/null-grav combat, in which out-ofcontrol vessels and units could themselves be turned into missiles. In gravity-well combat, this system is less deadly but no less chaotic."
   },

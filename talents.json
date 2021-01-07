@@ -7,7 +7,8 @@
     "ranks": [
       {
         "name": "HOME IN THE VOID",
-        "description": "All of your mechs that your build come with built-in EVA capabilities, meaning you suffer no penalties when operating underwater or in zero-g environments. As a quick action, you can shunt power into this component to fly 3 spaces and take Heat equal to your mech’s Size + 1, although you must land at the end of this movement or fall."
+        "description": "All of your mechs that your build come with built-in EVA capabilities, meaning you suffer no penalties when operating underwater or in zero-g environments. As a quick action, you can shunt power into this component to fly 3 spaces and take Heat equal to your mech’s Size + 1, although you must land at the end of this movement or fall.",
+        "integrated": ["ms_spaceborn_1"]
       },
       {
         "name": "SEA LEGS",
@@ -15,7 +16,13 @@
       },
       {
         "name": "SCRAPPER",
-        "description": "1/round, when your mech hits a character with a melee attack, it can immediately give that character +1 Difficulty on all checks or saves to avoid Knockback, Prone, Slowed or Immobilized until the end of its next turn, including any effects that are part of the triggering attack."
+        "description": "1/round, when your mech hits a character with a melee attack, it can immediately give that character +1 Difficulty on all checks or saves to avoid Knockback, Prone, Slowed or Immobilized until the end of its next turn, including any effects that are part of the triggering attack.",
+        "synergies": [{
+          "locations": ["weapon"],
+          "weapon_types": ["Melee"],
+          "weapon_sizes": ["any"],
+          "detail": "1/round, when your mech hits a character with a melee attack, it can immediately give that character +1 Difficulty on all checks or saves to avoid Knockback, Prone, Slowed or Immobilized until the end of its next turn, including any effects that are part of the triggering attack."
+        }]
       }
     ]
   },
@@ -27,11 +34,44 @@
     "ranks": [
       {
         "name": "FLESH TO METAL",
-        "description": "You treat DISMOUNT as a quick action instead of a full action. When you DISMOUNT, your pilot gains a personal shield. The next time your pilot would take damage, reduce that damage to 0, then the shield disperses. Otherwise, it disperses at the end of the scene. You can only have one personal shield at once, and any shields created replace the last one."
+        "description": "You treat DISMOUNT as a quick action instead of a full action. When you DISMOUNT, your pilot gains a personal shield. The next time your pilot would take damage, reduce that damage to 0, then the shield disperses. Otherwise, it disperses at the end of the scene. You can only have one personal shield at once, and any shields created replace the last one.",
+        "actions": [{
+          "name": "Black Thumb Dismount",
+          "activation": "Quick",
+          "detail": "Dismount as per the normal Dismount action. When you DISMOUNT, your pilot gains a personal shield. The next time your pilot would take damage, reduce that damage to 0, then the shield disperses. Otherwise, it disperses at the end of the scene. You can only have one personal shield at once, and any shields created replace the last one.",
+          "synergy_locations": ["dismount"]
+        }]
       },
       {
         "name": "RODEO",
-        "description": "<p>As a protocol, you give up the controls, pop the hatch on your mech and partly climb out, starting a BLACK THUMB RODEO and gaining a personal shield (as above). While in rodeo, your pilot is immune to involuntary movement, occupies your mech’s space and moves when it moves. This does not count as DISMOUNT and the mech can’t be controlled from outside, so it will idle unless it is capable of acting independently (e.g., if it has an NHP that has been given control, which you can do as part of this protocol). <br>While in rodeo, your pilot becomes a valid target and can take damage normally. If you lose your personal shield for any reason, you are immediately forced back inside your mech, ending the effect, and you cannot start a rodeo again on your following turn. You can also end a rodeo as a quick action on any of your turns. <br>While in rodeo, your pilot can only take these actions:</p> <ul> <li>Extinguish (full action): You immediately clear all Burn affecting your mech, and it gains Resistance to Burn until the start of your next turn.</li> <li>Field Repair (full action): Your mech gains Overshield 2 and clears either Slowed or Immobilized.</li> <li>Rig Vents (full action): Your mech clears 2 Heat and clears either Impaired or Jammed.</li> </ul><br>Conditions that were self inflicted cannot be cleared with these actions."
+        "description": "<p>As a protocol, you give up the controls, pop the hatch on your mech and partly climb out, starting a BLACK THUMB RODEO and gaining a personal shield (as above). While in rodeo, your pilot is immune to involuntary movement, occupies your mech’s space and moves when it moves. This does not count as DISMOUNT and the mech can’t be controlled from outside, so it will idle unless it is capable of acting independently (e.g., if it has an NHP that has been given control, which you can do as part of this protocol). <br>While in rodeo, your pilot becomes a valid target and can take damage normally. If you lose your personal shield for any reason, you are immediately forced back inside your mech, ending the effect, and you cannot start a rodeo again on your following turn. You can also end a rodeo as a quick action on any of your turns. <br>While in rodeo, your pilot can only take the <b>Extinguish</b>, <b>Field Repair</b>, or <b>Rig Vents</b> actions granted by Black Thumb.",
+        "actions": [
+          {
+            "name": "Black Thumb Rodeo",
+            "activation": "Protocol",
+            "detail": "Gain a <b>personal shield</b> (as from Flesh to Metal). While in rodeo, your pilot is immune to involuntary movement, occupies your mech’s space and moves when it moves. This does not count as DISMOUNT and the mech can’t be controlled from outside, so it will idle unless it is capable of acting independently (e.g., if it has an NHP that has been given control, which you can do as part of this protocol).<br>While in rodeo, your pilot becomes a valid target and can take damage normally. If you lose your personal shield for any reason, you are immediately forced back inside your mech, ending the effect, and you cannot start a rodeo again on your following turn. You can also end a rodeo as a quick action on any of your turns.<br>While in rodeo, your pilot can only take the <b>Extinguish</b>, <b>Field Repair</b>, or <b>Rig Vents</b> actions granted by Black Thumb."
+          },
+          {
+            "name": "End Black Thumb Rodeo",
+            "activation": "Quick",
+            "detail": "End your current Black Thumb Rodeo."
+          },
+          {
+            "name": "BT: Extinguish",
+            "activation": "Full",
+            "detail": "You immediately clear all Burn affecting your mech, and it gains Resistance to Burn until the start of your next turn. Conditions that were self inflicted cannot be cleared with this action."
+          },
+          {
+            "name": "BT: Field Repair",
+            "activation": "Full",
+            "detail": "Your mech gains Overshield 2 and clears either Slowed or Immobilized. Conditions that were self inflicted cannot be cleared with this action."
+          },
+          {
+            "name": "BT: Rig Vents",
+            "activation": "Full",
+            "detail": "Your mech clears 2 Heat and clears either Impaired or Jammed. Conditions that were self inflicted cannot be cleared with this action."
+          }
+        ]
       },
       {
         "name": "RODEO MASTER",

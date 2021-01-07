@@ -401,7 +401,7 @@
     "license": "SUNZI",
     "license_level": 2,
     "actions": [{
-      "activation": "Quick",
+      "activation": "Protocol",
       "detail": "You open a blink tear in a free, adjacent space. It lasts until the end of your next turn. As part of any movement, characters other than you (hostile or allied) that enter the space at least partially may teleport to a free space adjacent to you. You may only open one tear at a time, and if you create a new tear it replaces the previous one."
     }],
     "description": "MEMO(TT_CLEARANCE_01) (01200): IT’S GONNA GET REAL FUCKING DARK."

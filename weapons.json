@@ -443,7 +443,7 @@
       {
         "name":"Charge D/D 288",
         "activation":"Quick",
-        "detail":"Charge the D/D 288, switching to the \"Charged\" profile, becoming SLOWED, and benefitting from soft cover. Additionally, gain 2 Heat at the start of your turn.<br>The \"Charged\" profile cannot be used to Skirmish."
+        "detail":"Charge the D/D 288. At the start of any of your turns while the D/D 288 is Charged, it uses the \"Charged\" profile. You become SLOWED, and benefit from soft cover. Additionally, gain 2 Heat at the start of your turn.<br>The \"Charged\" profile cannot be used to Skirmish."
       }
     ],
     "profiles":[
@@ -531,7 +531,8 @@
             "id":"tg_knockback",
             "val":2
           }
-        ]
+        ],
+        "on_attack": "After any attack with this weapon, you may smack an adjacent character with the butt end, dealing 1 Kinetic Damage and knocking them back 1 space."
       },
       {
         "name": "Autochoke Equipped",
@@ -559,9 +560,9 @@
             "id":"tg_knockback",
             "val":5
           }
-        ]
+        ],
+            "on_attack":"After any attack with this weapon, you may smack an adjacent character with the butt end, dealing 1 Kinetic Damage and knocking them back 1 space."
       }
-    ],
-    "on_attack":"After any attack with this weapon, you may smack an adjacent character with the butt end, dealing 1 Kinetic Damage and knocking them back 1 space."
+    ]
   }
 ]

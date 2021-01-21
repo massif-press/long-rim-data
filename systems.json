@@ -185,9 +185,6 @@
     "name": "Purifying Code",
     "type": "System",
     "sp": 2,
-    "tags": [{
-      "id": "tg_invade"
-    }],
     "source": "HORUS",
     "license": "KOBOLD",
     "license_level": 3,
@@ -209,9 +206,6 @@
     "name": "IMMOLATE",
     "type": "System",
     "sp": 2,
-    "tags": [{
-      "id": "tg_invade"
-    }],
     "source": "HORUS",
     "license": "KOBOLD",
     "license_level": 3,

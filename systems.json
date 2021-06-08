@@ -100,7 +100,7 @@
   {
     "id": "ms_spike_charges",
     "name": "SPIKE CHARGES",
-    "type": "System",
+    "type": "Deployable",
     "sp": 2,
     "tags": [{
         "id": "tg_limited",
@@ -297,7 +297,7 @@
   {
     "id": "ms_didymos_class_nhp",
     "name": "DIDYMOS-CLASS NHP",
-    "type": "Tech",
+    "type": "AI",
     "sp": 3,
     "tags": [{
         "id": "tg_ai"
@@ -474,6 +474,8 @@
     "sp": 0,
     "tags": [{
       "id": "tg_unique"
+    }, {
+      "id": "tg_indestructible"
     }],
     "source": "",
     "license": "",

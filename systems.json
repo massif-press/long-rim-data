@@ -474,6 +474,8 @@
     "sp": 0,
     "tags": [{
       "id": "tg_unique"
+    }, {
+      "id": "tg_indestructible"
     }],
     "source": "",
     "license": "",

@@ -1,4 +1,5 @@
-[{
+[
+  {
     "id": "mf_atlas",
     "source": "SSC",
     "name": "ATLAS",
@@ -28,15 +29,22 @@
       "speed": 6,
       "sp": 5
     },
-    "traits": [{
+    "traits": [
+      {
         "name": "Giantkiller",
         "description": "The Atlas counts as SIZE 1 for RAM and GRAPPLE. It ignores engagement from larger characters and can freely move through and share the spaces they occupy (even if they’re hostile). While occupying the same spaces as any character, it gains soft cover, even from that character.",
-        "synergies": [{
-            "locations": ["ram", "grapple"],
+        "synergies": [
+          {
+            "locations": [
+              "ram",
+              "grapple"
+            ],
             "detail": "The Atlas counts as size 1 for the purposes of ramming and grappling."
           },
           {
-            "locations": ["active_effects"],
+            "locations": [
+              "active_effects"
+            ],
             "detail": "The Atlas ignores engagement from actors larger than itself, can share space with larger actors (even hostile ones) and move through their spaces unimpeded. While sharing space with any character, it gains soft cover, even from that character."
           }
         ]
@@ -56,12 +64,20 @@
       {
         "name": "Finishing Blow",
         "description": "1/round, deal +1d6 bonus damage on a successful melee attack against a PRONE target.",
-        "synergies": [{
-          "locations": ["weapon"],
-          "weapon_types": ["Melee"],
-          "weapon_sizes": ["any"],
-          "detail": "1/round, the Atlas can deal +1d6 bonus damage with a successful melee attack against a prone target."
-        }]
+        "synergies": [
+          {
+            "locations": [
+              "weapon"
+            ],
+            "weapon_types": [
+              "Melee"
+            ],
+            "weapon_sizes": [
+              "any"
+            ],
+            "detail": "1/round, the Atlas can deal +1d6 bonus damage with a successful melee attack against a prone target."
+          }
+        ]
       },
       {
         "name": "Exposed Reactor",
@@ -116,7 +132,8 @@
       "speed": 3,
       "sp": 5
     },
-    "traits": [{
+    "traits": [
+      {
         "name": "Wrecking Ball",
         "description": "The Caliban counts as Size 3 when inflicting knockback with any Ram, Ranged, or Melee Attack.",
         "synergies": [
@@ -197,7 +214,8 @@
       "speed": 4,
       "sp": 8
     },
-    "traits": [{
+    "traits": [
+      {
         "name": "Mimic Carapace",
         "description": "When the Kobold starts its turn adjacent to a piece of terrain or hard cover of SIZE 1 or larger it becomes INVISIBLE as long as it remains adjacent. It ceases to be INVISIBLE if it attacks or takes damage."
       },
@@ -219,10 +237,15 @@
       {
         "name": "Exposed Reactor",
         "description": "The Kobold gets +1 Difficulty on ENGINEERING checks and saves.",
-        "synergies": [{
-          "locations": ["engineering", "skill_check"],
-          "detail": "The Atlas takes +1 difficulty on Engineering checks and saves."
-        }]
+        "synergies": [
+          {
+            "locations": [
+              "engineering",
+              "skill_check"
+            ],
+            "detail": "The Atlas takes +1 difficulty on Engineering checks and saves."
+          }
+        ]
       }
     ],
     "core_system": {
@@ -263,7 +286,8 @@
       "speed": 5,
       "sp": 8
     },
-    "traits": [{
+    "traits": [
+      {
         "name": "Soul Vessel",
         "description": "At the start of the Lich's turn, set down a SOUL VESSEL at its current location (replacing any previous markers). 1/round, as a reaction when the Lich is hit by an attack, fails a save or check, or takes damage or Heat from any source (even itself), it may immediately gain IMMUNITY to all damage, heat, or conditions from that effect. It then teleports to the marker or as close as possible. The Lich can also take this reaction at the end of any turn, including its own, but if it does so it only teleports and does not gain IMMUNITY. It can't take this reaction if it is JAMMED, STUNNED, GRAPPLED, or unable to take reactions for any reason."
       },
@@ -311,7 +335,8 @@
       "speed": 4,
       "sp": 7
     },
-    "traits": [{
+    "traits": [
+      {
         "name": "Safe Harbor",
         "description": "When allied characters within Range 50 of the Sunzi teleport or are teleported, free spaces adjacent to the Sunzi are always valid end destinations."
       },
@@ -340,15 +365,16 @@
       "active_effect": "For the rest of the scene, this system gains 6 charges (you can use a die to track this). As a reaction at the start or end of any hostile or allied character’s turn within SENSORS and line of sight, expend a charge to teleport them up to 3 spaces in any direction, as long as they end in a free space in which they can stand.",
       "passive_name": "Blink Anchor",
       "passive_effect": "Blink Anchor (SIZE 1/2, Tags: DEPLOYABLE, IMMUNITY to all damage and effects, LIMITED 3)<br>You carry a single blink anchor that you can deploy as a quick action. When any character teleports within your line of sight, you may force them to appear in a free space adjacent to the blink anchor instead of their original destination, as long as they can safely stand there. If your target is hostile, this expends a charge.<br>Initiating this interruption does not count as a reaction. Once it’s deployed, you or any allied character can pick it up or put it down while adjacent to it as a quick action.",
-      "counters": [{
-        "id": "ctr_art_of_war",
-        "name": "ART OF WAR",
-        "default_value": 6,
-        "min": 0,
-        "max": 6
-      }]
+      "counters": [
+        {
+          "id": "ctr_art_of_war",
+          "name": "ART OF WAR",
+          "default_value": 6,
+          "min": 0,
+          "max": 6
+        }
+      ]
     },
-
     "image_url": "https://compcon-image-assets.s3.amazonaws.com/frames/sunzi.png"
   },
   {
@@ -382,9 +408,10 @@
       "speed": 3,
       "sp": 5
     },
-    "traits": [{
+    "traits": [
+      {
         "name": "Destructive Swings",
-        "description": "At the end of the Zheng’s turn, if it made at least one melee attack against a hostile character, the force of its swings creates a SIZE 1 piece of terrain that grants hard coverin a free, adjacent space. It has 10 HP and EVASION 5.",
+        "description": "At the end of the Zheng’s turn, if it made at least one melee attack against a hostile character, the force of its swings creates a SIZE 1 piece of terrain that grants hard cover in a free, adjacent space. It has 10 HP and EVASION 5.",
         "deployables": [
           {
             "name": "Destructive Swing Cover",
@@ -400,10 +427,15 @@
       {
         "name": "Weak Computer",
         "description": "The Zheng takes +1 Difficulty on all systems saves and checks",
-        "synergies": [{
-          "locations": ["systems", "skill_check"],
-          "detail": "The Zheng gets +1 Difficulty on all Systems saves and checks"
-        }]
+        "synergies": [
+          {
+            "locations": [
+              "systems",
+              "skill_check"
+            ],
+            "detail": "The Zheng gets +1 Difficulty on all Systems saves and checks"
+          }
+        ]
       }
     ],
     "core_system": {
@@ -414,16 +446,16 @@
       "activation": "Free",
       "passive_name": "Xiaoli's Tenacity",
       "passive_effect": "1/turn as a free action, you may move up to 3 spaces then deal 2 Kinetic to any adjacent character or 10 Kinetic AP to an object or piece of terrain. This movement prompts engagement and does not ignore reactions.<br>If this damage destroys an object or piece of terrain, it explodes, dealing 1d6 Kinetic to all adjacent characters other than you and knocking them back 1 space.",
-      "counters": [{
-        "id": "ctr_xiaoli_type_cqb_suite",
-        "name": "XIAOLI DIE",
-        "default_value": 6,
-        "min": 0,
-        "max": 6
-      }]
-
+      "counters": [
+        {
+          "id": "ctr_xiaoli_type_cqb_suite",
+          "name": "XIAOLI DIE",
+          "default_value": 6,
+          "min": 0,
+          "max": 6
+        }
+      ]
     },
-
     "image_url": "https://compcon-image-assets.s3.amazonaws.com/frames/zheng.png"
   }
 ]

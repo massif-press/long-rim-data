@@ -2,13 +2,15 @@
   {
     "id": "t_spaceborn",
     "name": "SPACEBORN",
-    "terse": "Gain mastery of your mech's movement in any environment",
+    "terse": "Improve your mobility and gain an inbuilt EVA suite",
     "description": "You’re adept at planting your feet wherever you find them – even on nothing at all. In places where people born downwell have a hard time keeping their lunch down, you thrive. Which way is up? It’s up to you",
     "ranks": [
       {
         "name": "HOME IN THE VOID",
         "description": "All of your mechs that your build come with built-in EVA capabilities, meaning you suffer no penalties when operating underwater or in zero-g environments. As a quick action, you can shunt power into this component to fly 3 spaces and take Heat equal to your mech’s Size + 1, although you must land at the end of this movement or fall.",
-        "integrated": ["ms_spaceborn_1"]
+        "integrated": [
+          "ms_spaceborn_1"
+        ]
       },
       {
         "name": "SEA LEGS",
@@ -17,30 +19,42 @@
       {
         "name": "SCRAPPER",
         "description": "1/round, when your mech hits a character with a melee attack, it can immediately give that character +1 Difficulty on all checks or saves to avoid Knockback, Prone, Slowed or Immobilized until the end of its next turn, including any effects that are part of the triggering attack.",
-        "synergies": [{
-          "locations": ["weapon"],
-          "weapon_types": ["Melee"],
-          "weapon_sizes": ["any"],
-          "detail": "1/round, when your mech hits a character with a melee attack, it can immediately give that character +1 Difficulty on all checks or saves to avoid Knockback, Prone, Slowed or Immobilized until the end of its next turn, including any effects that are part of the triggering attack."
-        }]
+        "synergies": [
+          {
+            "locations": [
+              "weapon"
+            ],
+            "weapon_types": [
+              "Melee"
+            ],
+            "weapon_sizes": [
+              "any"
+            ],
+            "detail": "1/round, when your mech hits a character with a melee attack, it can immediately give that character +1 Difficulty on all checks or saves to avoid Knockback, Prone, Slowed or Immobilized until the end of its next turn, including any effects that are part of the triggering attack."
+          }
+        ]
       }
     ]
   },
   {
     "id": "t_black_thumb",
     "name": "BLACK THUMB",
-    "terse": "Become more dangerous while outside of your mech.",
+    "terse": "Ride your mech to repair it during combat",
     "description": "You’re used to station engineering – the kind that regularly requires crawling through nightmarishly tight vents, squeezing past boiling-hot steam pipes, and tapping on thin panes of sheet metal that lie between you and certain death. After that, a little combat engineering is nothing.",
     "ranks": [
       {
         "name": "FLESH TO METAL",
         "description": "You treat DISMOUNT as a quick action instead of a full action. When you DISMOUNT, your pilot gains a personal shield. The next time your pilot would take damage, reduce that damage to 0, then the shield disperses. Otherwise, it disperses at the end of the scene. You can only have one personal shield at once, and any shields created replace the last one.",
-        "actions": [{
-          "name": "Black Thumb Dismount",
-          "activation": "Quick",
-          "detail": "Dismount as per the normal Dismount action. When you DISMOUNT, your pilot gains a personal shield. The next time your pilot would take damage, reduce that damage to 0, then the shield disperses. Otherwise, it disperses at the end of the scene. You can only have one personal shield at once, and any shields created replace the last one.",
-          "synergy_locations": ["dismount"]
-        }]
+        "actions": [
+          {
+            "name": "Black Thumb Dismount",
+            "activation": "Quick",
+            "detail": "Dismount as per the normal Dismount action. When you DISMOUNT, your pilot gains a personal shield. The next time your pilot would take damage, reduce that damage to 0, then the shield disperses. Otherwise, it disperses at the end of the scene. You can only have one personal shield at once, and any shields created replace the last one.",
+            "synergy_locations": [
+              "dismount"
+            ]
+          }
+        ]
       },
       {
         "name": "RODEO",

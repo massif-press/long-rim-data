@@ -100,7 +100,7 @@
   {
     "id": "ms_spike_charges",
     "name": "SPIKE CHARGES",
-    "type": "System",
+    "type": "Deployable",
     "sp": 2,
     "tags": [{
         "id": "tg_limited",
@@ -297,7 +297,7 @@
   {
     "id": "ms_didymos_class_nhp",
     "name": "DIDYMOS-CLASS NHP",
-    "type": "Tech",
+    "type": "AI",
     "sp": 3,
     "tags": [{
         "id": "tg_ai"
@@ -318,7 +318,7 @@
       "activation": "Quick Tech",
       "detail": "Choose yourself or another character within SENSORS and line of sight. Your target disappears and you create a chronological split in their timeline, replacing them with two fields of mutating paradox energy appear as close to their original position as possible. These fields are new characters that look like holes in space of the same SIZE and roughly the same shape as your target (although you shouldn’t look at them too long). They have 10 HP, SPEED 5, EVASION 5, EDEFENSE 5, HEAT CAP 5, and have IMMUNITY to all conditions and statuses. They are controlled by the player of the affected character and both act on that character’s turn, starting with their next turn. The only actions the fields can take are standard moves and BOOST, and the only reaction they can take is to disperse (see below). They are obstructions and grant hard cover.<br>If a field exceeds its HEAT CAP or is reduced to 0 HP, it immediately disappears. Their player can also cause a field to disappear as a reaction at the end of any character’s turn.<br>If one field disappears, the other immediately coalesces into the original character, who returns to the field in that field’s space. If both fields disappear at the same time, their player decides which field disappears first.<br>An unwilling character can ignore this effect with a successful SYSTEMS save"
     }],
-    "description": "PREPARED BY: UIB-TERMAGANT<br>RECOVERED FOR: CC_HOME OFFICE<br>CLEARANCE REQ: SOLEMN VIGIL (TANGENT ROYAL ADDENDUM)<br>Didymos. It means twin in an old, old tongue. It might be a bit too cute but it’s the name our cask spat out for us. We observed Didymos Prime in action during the fall of Green Zone Alhambra, mounted in a chassis we initially classified as a HORUS Minotaur PG, one of three we ID’d operating among the Ungrateful cell in New Madrassa.<br>It was not that Minotaur.<br>Alhambra fell in three days. The Armory wasn’t keen to give it up, but decided to cut their losses and pull back rather than hold for reinforcements. We moved in after, during the looting. Our local contact [][][][][][][][] escorted us to the New Madrassan commanders, introduced us to them, and secured an audience with the pilot of the chassis.<br>I’m sure you’ve reviewed the records of the debrief we recorded. We don’t know how it arrived in New Madrassa; the Ungratefuls say they received the initial code burst from their contact in the Voladores. The Voladores deny this; the entity, however, conforms to their descriptions of an entity called “la pulga,” or, “The Flea.” We have designated it LITCH. Didymos is the active animus: what serves as its pilot.<br>We have taken the entity into custody. We do not recommend giving this one a long leash."
+    "description": "PREPARED BY: UIB-TERMAGANT<br>RECOVERED FOR: CC_HOME OFFICE<br>CLEARANCE REQ: SOLEMN VIGIL (TANGENT ROYAL ADDENDUM)<br>Didymos. It means twin in an old, old tongue. It might be a bit too cute but it’s the name our cask spat out for us. We observed Didymos Prime in action during the fall of Green Zone Alhambra, mounted in a chassis we initially classified as a HORUS Minotaur PG, one of three we ID’d operating among the Ungrateful cell in New Madrassa.<br>It was not that Minotaur.<br>Alhambra fell in three days. The Armory wasn’t keen to give it up, but decided to cut their losses and pull back rather than hold for reinforcements. We moved in after, during the looting. Our local contact [][][][][][][][] escorted us to the New Madrassan commanders, introduced us to them, and secured an audience with the pilot of the chassis.<br>I’m sure you’ve reviewed the records of the debrief we recorded. We don’t know how it arrived in New Madrassa; the Ungratefuls say they received the initial code burst from their contact in the Voladores. The Voladores deny this; the entity, however, conforms to their descriptions of an entity called “la pulga,” or, “The Flea.” We have designated it LICH. Didymos is the active animus: what serves as its pilot.<br>We have taken the entity into custody. We do not recommend giving this one a long leash."
   },
   {
     "id": "ms_accelerate",

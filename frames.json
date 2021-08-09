@@ -100,7 +100,7 @@
       "active_effect": "<p>For the rest of the scene, you:</p> <ul> <li>Move an additional 1 space when you voluntarily move for any reason (e.g. standard moves, BOOST, movement from systems or talents).</li> <li>Benefits from soft cover at all times, no matter where you are.</li> <li>Can HIDE even in the open, without requiring cover.</li> </ul> <p> The only way to reveal you is for another character to SEARCH for you or for you to lose Hidden as usual &ndash; by using BOOST, attacking, forcing a save, and so on. When active, 1/round, when you make a melee or ranged attack while HIDDEN, your target must also succeed on a HULL save or be knocked PRONE. This takes place before the attack is rolled </p>",
       "activation": "Quick"
     },
-    "image_url": "https://compcon-image-assets.s3.amazonaws.com/frames/atlas_new.png"
+    "image_url": "https://compcon-image-assets.s3.amazonaws.com/frames/mf_atlas.png"
   },
   {
     "id": "mf_caliban",
@@ -255,7 +255,7 @@
       "active_effect": "Your mech extrudes a massive amount of polymer, creating up to 10 SIZE 1 cubes in free spaces within Range 5. These cubes can be separate or connected and can be stacked up to 5 spaces high. If connected, they form a contiguous surface that can block line of sight. During the turn in which they are extruded, the cubes grant soft cover and each has EVASION 5 and 10 HP. At the start of your next turn, they harden, each cube granting hard cover and gaining +10 HP (but retaining any damage they had taken).",
       "activation": "Full"
     },
-    "image_url": "https://compcon-image-assets.s3.amazonaws.com/frames/kobold.png"
+    "image_url": "https://compcon-image-assets.s3.amazonaws.com/frames/mf_kobold.png"
   },
   {
     "id": "mf_lich",
@@ -303,7 +303,7 @@
       "active_effect": "<p>You gain the ability to disrupt time for the rest of this scene. 1/round, when any character successfully attacks, effects, or takes an action against another character within SENSORS, you may interrupt it before it resolves, with the following effects:</p> <ul> <li>The character taking the action is pushed up to 3 spaces in a direction of your choice, even if they have IMMUNITY to involuntary movement</li> <li>You teleport to one of the spaces originally occupied by that character, or as close as possible, no matter how far away it was.</li> <li>The initial attack, effect, or action resolves with you as its target. </li> </ul> <p>You receive all damage, conditions, statuses, and effects, and the action must be carried out without changes. For example, if the effect was to teleport an allied character to a certain space, you are teleported to that space instead; if the effect was to repair an allied character, you are repaired instead; if the effect was to deal damage and KNOCKBACK, you take the damage (using your ARMOR, RESISTANCE, etc.) and are knocked back in the same direction as the original target would be; if the effect was to inflict a condition or status, you receive that condition or status instead. Initiating this interruption does not count as a reaction. Effects that target the self cannot be interrupted this way </p>",
       "activation": "Quick"
     },
-    "image_url": "https://compcon-image-assets.s3.amazonaws.com/frames/lich_off.png"
+    "image_url": "https://compcon-image-assets.s3.amazonaws.com/frames/mf_lich.png"
   },
   {
     "id": "mf_sunzi",
@@ -375,7 +375,7 @@
         }
       ]
     },
-    "image_url": "https://compcon-image-assets.s3.amazonaws.com/frames/sunzi.png"
+    "image_url": "https://compcon-image-assets.s3.amazonaws.com/frames/mf_sunzi.png"
   },
   {
     "id": "mf_zheng",
@@ -456,6 +456,6 @@
         }
       ]
     },
-    "image_url": "https://compcon-image-assets.s3.amazonaws.com/frames/zheng.png"
+    "image_url": "https://compcon-image-assets.s3.amazonaws.com/frames/mf_zheng.png"
   }
 ]

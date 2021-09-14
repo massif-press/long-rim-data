@@ -17,6 +17,15 @@
       {
         "id": "tg_unique"
       }
+    ],
+    "added_tags": [
+      {
+        "id": "tg_overkill"
+      },
+      {
+        "id": "tg_knockback",
+        "val": 1
+      }
     ]
   },
   {

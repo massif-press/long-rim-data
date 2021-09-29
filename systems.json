@@ -178,6 +178,14 @@
     "license": "CALIBAN",
     "license_level": 3,
     "effect": "1/round, when you BOOST, you fly, gain OVERSHIELD 3, and ignore engagement from and may freely pass through spaces occupied by larger characters (but not end your turn in their spaces). You must end this movement in a space on which you can stand, or else you fall.",
+    "synergies": [
+      {
+        "locations": [
+          "boost"
+        ],
+        "detail": "1/round, when you BOOST, you fly, gain OVERSHIELD 3, and ignore engagement from and may freely pass through spaces occupied by larger characters (but not end your turn in their spaces). You must end this movement in a space on which you can stand, or else you fall."
+      }
+    ],
     "description": "Further streamlining and miniaturizing IPS-N’s Ramjet system, IPS-N’s new RMJ frame-volatility package increases a chassis’ control envelope, ensuring its pilot can maintain enhanced mobility at pace. This control, coupled with a raw increase in speed, makes any chassis far more difficult to successfully engage."
   },
   {

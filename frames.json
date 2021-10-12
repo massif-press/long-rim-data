@@ -1,4 +1,5 @@
-[{
+[
+  {
     "id": "mf_atlas",
     "source": "SSC",
     "name": "ATLAS",
@@ -28,15 +29,22 @@
       "speed": 6,
       "sp": 5
     },
-    "traits": [{
+    "traits": [
+      {
         "name": "Giantkiller",
         "description": "The Atlas counts as SIZE 1 for RAM and GRAPPLE. It ignores engagement from larger characters and can freely move through and share the spaces they occupy (even if they’re hostile). While occupying the same spaces as any character, it gains soft cover, even from that character.",
-        "synergies": [{
-            "locations": ["ram", "grapple"],
+        "synergies": [
+          {
+            "locations": [
+              "ram",
+              "grapple"
+            ],
             "detail": "The Atlas counts as size 1 for the purposes of ramming and grappling."
           },
           {
-            "locations": ["active_effects"],
+            "locations": [
+              "active_effects"
+            ],
             "detail": "The Atlas ignores engagement from actors larger than itself, can share space with larger actors (even hostile ones) and move through their spaces unimpeded. While sharing space with any character, it gains soft cover, even from that character."
           }
         ]
@@ -44,30 +52,45 @@
       {
         "name": "Jäger Dodge",
         "description": "1/round, when you take damage from a larger character, gain RESISTANCE to that damage and move 3 spaces in any direction as a reaction. This ignores engagement and doesn’t provoke reactions.",
-        "actions": [{
-          "name": "Jäger Dodge",
-          "activation": "Reaction",
-          "trigger": "You take damage from a character larger than yourself",
-          "detail": "Gain resistance to that damage and move 3 spaces in any direction, ignoring engagement and reactions."
-        }]
+        "actions": [
+          {
+            "name": "Jäger Dodge",
+            "activation": "Reaction",
+            "trigger": "You take damage from a character larger than yourself",
+            "detail": "Gain resistance to that damage and move 3 spaces in any direction, ignoring engagement and reactions."
+          }
+        ]
       },
       {
         "name": "Finishing Blow",
         "description": "1/round, deal +1d6 bonus damage on a successful melee attack against a PRONE target.",
-        "synergies": [{
-          "locations": ["weapon"],
-          "weapon_types": ["Melee"],
-          "weapon_sizes": ["any"],
-          "detail": "1/round, the Atlas can deal +1d6 bonus damage with a successful melee attack against a prone target."
-        }]
+        "synergies": [
+          {
+            "locations": [
+              "weapon"
+            ],
+            "weapon_types": [
+              "Melee"
+            ],
+            "weapon_sizes": [
+              "any"
+            ],
+            "detail": "1/round, the Atlas can deal +1d6 bonus damage with a successful melee attack against a prone target."
+          }
+        ]
       },
       {
         "name": "Exposed Reactor",
         "description": "The Atlas receives +1 Difficulty on ENGINEERING checks and saves.",
-        "synergies": [{
-          "locations": ["engineering", "skill_check"],
-          "detail": "The Atlas takes +1 difficulty on Engineering checks and saves."
-        }]
+        "synergies": [
+          {
+            "locations": [
+              "engineering",
+              "skill_check"
+            ],
+            "detail": "The Atlas takes +1 difficulty on Engineering checks and saves."
+          }
+        ]
       }
     ],
     "core_system": {
@@ -77,7 +100,7 @@
       "active_effect": "<p>For the rest of the scene, you:</p> <ul> <li>Move an additional 1 space when you voluntarily move for any reason (e.g. standard moves, BOOST, movement from systems or talents).</li> <li>Benefits from soft cover at all times, no matter where you are.</li> <li>Can HIDE even in the open, without requiring cover.</li> </ul> <p> The only way to reveal you is for another character to SEARCH for you or for you to lose Hidden as usual &ndash; by using BOOST, attacking, forcing a save, and so on. When active, 1/round, when you make a melee or ranged attack while HIDDEN, your target must also succeed on a HULL save or be knocked PRONE. This takes place before the attack is rolled </p>",
       "activation": "Quick"
     },
-    "image_url": "https://compcon-image-assets.s3.amazonaws.com/frames/atlas_new.png"
+    "image_url": "https://compcon-image-assets.s3.amazonaws.com/frames/mf_atlas.png"
   },
   {
     "id": "mf_caliban",
@@ -109,15 +132,24 @@
       "speed": 3,
       "sp": 5
     },
-    "traits": [{
+    "traits": [
+      {
         "name": "Wrecking Ball",
         "description": "The Caliban counts as Size 3 when inflicting knockback with any Ram, Ranged, or Melee Attack.",
-        "synergies": [{
-          "locations": ["weapon"],
-          "weapon_types": ["any"],
-          "weapon_sizes": ["any"],
-          "detail": "The Caliban counts as size 3 when inflicting knockback from any ranged or melee attack."
-        }]
+        "synergies": [
+          {
+            "locations": [
+              "weapon"
+            ],
+            "weapon_types": [
+              "any"
+            ],
+            "weapon_sizes": [
+              "any"
+            ],
+            "detail": "The Caliban counts as size 3 when inflicting knockback from any ranged or melee attack."
+          }
+        ]
       },
       {
         "name": "Pursue Prey",
@@ -130,10 +162,15 @@
       {
         "name": "Weak Computer",
         "description": "The Caliban takes +1 Difficulty on all SYSTEMS saves and checks.",
-        "synergies": [{
-          "locations": ["systems", "skill_check"],
-          "detail": "The Caliban takes +1 Difficulty on all systems saves and checks"
-        }]
+        "synergies": [
+          {
+            "locations": [
+              "systems",
+              "skill_check"
+            ],
+            "detail": "The Caliban takes +1 Difficulty on all systems saves and checks"
+          }
+        ]
       }
     ],
     "core_system": {
@@ -177,30 +214,38 @@
       "speed": 4,
       "sp": 8
     },
-    "traits": [{
+    "traits": [
+      {
         "name": "Mimic Carapace",
         "description": "When the Kobold starts its turn adjacent to a piece of terrain or hard cover of SIZE 1 or larger it becomes INVISIBLE as long as it remains adjacent. It ceases to be INVISIBLE if it attacks or takes damage."
       },
       {
         "name": "Slag Spray",
         "description": "1/round, as a quick action, the Kobold may create a SIZE 1 mound of semi-molten polymer in a free space within Range 3 and line of sight. This terrain has 10 HP, EVASION 5, and grants hard cover.",
-        "deployables": [{
-          "name": "Slag Spray",
-          "type": "Deployable",
-          "size": 1,
-          "hp": 10,
-          "evasion": 5,
-          "activation": "Quick",
-          "detail": "This semi-molten polymer grants hard cover."
-        }]
+        "deployables": [
+          {
+            "name": "Slag Spray",
+            "type": "Deployable",
+            "size": 1,
+            "hp": 10,
+            "evasion": 5,
+            "activation": "Quick",
+            "detail": "This semi-molten polymer grants hard cover."
+          }
+        ]
       },
       {
         "name": "Exposed Reactor",
         "description": "The Kobold gets +1 Difficulty on ENGINEERING checks and saves.",
-        "synergies": [{
-          "locations": ["engineering", "skill_check"],
-          "detail": "The Atlas takes +1 difficulty on Engineering checks and saves."
-        }]
+        "synergies": [
+          {
+            "locations": [
+              "engineering",
+              "skill_check"
+            ],
+            "detail": "The Kobold takes +1 difficulty on Engineering checks and saves."
+          }
+        ]
       }
     ],
     "core_system": {
@@ -210,7 +255,7 @@
       "active_effect": "Your mech extrudes a massive amount of polymer, creating up to 10 SIZE 1 cubes in free spaces within Range 5. These cubes can be separate or connected and can be stacked up to 5 spaces high. If connected, they form a contiguous surface that can block line of sight. During the turn in which they are extruded, the cubes grant soft cover and each has EVASION 5 and 10 HP. At the start of your next turn, they harden, each cube granting hard cover and gaining +10 HP (but retaining any damage they had taken).",
       "activation": "Full"
     },
-    "image_url": "https://compcon-image-assets.s3.amazonaws.com/frames/kobold.png"
+    "image_url": "https://compcon-image-assets.s3.amazonaws.com/frames/mf_kobold.png"
   },
   {
     "id": "mf_lich",
@@ -241,7 +286,8 @@
       "speed": 5,
       "sp": 8
     },
-    "traits": [{
+    "traits": [
+      {
         "name": "Soul Vessel",
         "description": "At the start of the Lich's turn, set down a SOUL VESSEL at its current location (replacing any previous markers). 1/round, as a reaction when the Lich is hit by an attack, fails a save or check, or takes damage or Heat from any source (even itself), it may immediately gain IMMUNITY to all damage, heat, or conditions from that effect. It then teleports to the marker or as close as possible. The Lich can also take this reaction at the end of any turn, including its own, but if it does so it only teleports and does not gain IMMUNITY. It can't take this reaction if it is JAMMED, STUNNED, GRAPPLED, or unable to take reactions for any reason."
       },
@@ -257,7 +303,7 @@
       "active_effect": "<p>You gain the ability to disrupt time for the rest of this scene. 1/round, when any character successfully attacks, effects, or takes an action against another character within SENSORS, you may interrupt it before it resolves, with the following effects:</p> <ul> <li>The character taking the action is pushed up to 3 spaces in a direction of your choice, even if they have IMMUNITY to involuntary movement</li> <li>You teleport to one of the spaces originally occupied by that character, or as close as possible, no matter how far away it was.</li> <li>The initial attack, effect, or action resolves with you as its target. </li> </ul> <p>You receive all damage, conditions, statuses, and effects, and the action must be carried out without changes. For example, if the effect was to teleport an allied character to a certain space, you are teleported to that space instead; if the effect was to repair an allied character, you are repaired instead; if the effect was to deal damage and KNOCKBACK, you take the damage (using your ARMOR, RESISTANCE, etc.) and are knocked back in the same direction as the original target would be; if the effect was to inflict a condition or status, you receive that condition or status instead. Initiating this interruption does not count as a reaction. Effects that target the self cannot be interrupted this way </p>",
       "activation": "Quick"
     },
-    "image_url": "https://compcon-image-assets.s3.amazonaws.com/frames/lich_off.png"
+    "image_url": "https://compcon-image-assets.s3.amazonaws.com/frames/mf_lich.png"
   },
   {
     "id": "mf_sunzi",
@@ -289,7 +335,8 @@
       "speed": 4,
       "sp": 7
     },
-    "traits": [{
+    "traits": [
+      {
         "name": "Safe Harbor",
         "description": "When allied characters within Range 50 of the Sunzi teleport or are teleported, free spaces adjacent to the Sunzi are always valid end destinations."
       },
@@ -300,12 +347,14 @@
       {
         "name": "Slip",
         "description": "1/round, the Sunzi can teleport 2 spaces as a free action.",
-        "actions": [{
-          "name": "Slip",
-          "frequency": "1/Round",
-          "activation": "Free",
-          "detail": "1/round the Sunzi can teleport 2 spaces as a free action"
-        }]
+        "actions": [
+          {
+            "name": "Slip",
+            "frequency": "1/Round",
+            "activation": "Free",
+            "detail": "1/round the Sunzi can teleport 2 spaces as a free action"
+          }
+        ]
       }
     ],
     "core_system": {
@@ -316,16 +365,17 @@
       "active_effect": "For the rest of the scene, this system gains 6 charges (you can use a die to track this). As a reaction at the start or end of any hostile or allied character’s turn within SENSORS and line of sight, expend a charge to teleport them up to 3 spaces in any direction, as long as they end in a free space in which they can stand.",
       "passive_name": "Blink Anchor",
       "passive_effect": "Blink Anchor (SIZE 1/2, Tags: DEPLOYABLE, IMMUNITY to all damage and effects, LIMITED 3)<br>You carry a single blink anchor that you can deploy as a quick action. When any character teleports within your line of sight, you may force them to appear in a free space adjacent to the blink anchor instead of their original destination, as long as they can safely stand there. If your target is hostile, this expends a charge.<br>Initiating this interruption does not count as a reaction. Once it’s deployed, you or any allied character can pick it up or put it down while adjacent to it as a quick action.",
-      "counters": [{
-        "id": "ctr_art_of_war",
-        "name": "ART OF WAR",
-        "default_value": 6,
-        "min": 0,
-        "max": 6
-      }]
+      "counters": [
+        {
+          "id": "ctr_art_of_war",
+          "name": "ART OF WAR",
+          "default_value": 6,
+          "min": 0,
+          "max": 6
+        }
+      ]
     },
-
-    "image_url": "https://compcon-image-assets.s3.amazonaws.com/frames/sunzi.png"
+    "image_url": "https://compcon-image-assets.s3.amazonaws.com/frames/mf_sunzi.png"
   },
   {
     "id": "mf_zheng",
@@ -358,26 +408,34 @@
       "speed": 3,
       "sp": 5
     },
-    "traits": [{
+    "traits": [
+      {
         "name": "Destructive Swings",
-        "description": "At the end of the Zheng’s turn, if it made at least one melee attack against a hostile character, the force of its swings creates a SIZE 1 piece of terrain that grants hard coverin a free, adjacent space. It has 10 HP and EVASION 5.",
-        "deployables": [{
-          "name": "Destructive Swing Cover",
-          "type": "Deployable",
-          "activation": "Free",
-          "hp": 10,
-          "evasion": 5,
-          "size": 1,
-          "detail": "This terrain grants hard cover"
-        }]
+        "description": "At the end of the Zheng’s turn, if it made at least one melee attack against a hostile character, the force of its swings creates a SIZE 1 piece of terrain that grants hard cover in a free, adjacent space. It has 10 HP and EVASION 5.",
+        "deployables": [
+          {
+            "name": "Destructive Swing Cover",
+            "type": "Deployable",
+            "activation": "Free",
+            "hp": 10,
+            "evasion": 5,
+            "size": 1,
+            "detail": "This terrain grants hard cover"
+          }
+        ]
       },
       {
         "name": "Weak Computer",
         "description": "The Zheng takes +1 Difficulty on all systems saves and checks",
-        "synergies": [{
-          "locations": ["systems", "skill_check"],
-          "detail": "The Zheng gets +1 Difficulty on all Systems saves and checks"
-        }]
+        "synergies": [
+          {
+            "locations": [
+              "systems",
+              "skill_check"
+            ],
+            "detail": "The Zheng gets +1 Difficulty on all Systems saves and checks"
+          }
+        ]
       }
     ],
     "core_system": {
@@ -385,19 +443,25 @@
       "description": "Surviving mostly on colonial rations and an increasingly radioactive air supply, Xiaoli scavenged materials from a dying ship to create modifications that gave her mech unprecedented unarmed striking power.",
       "active_name": "Xiaoli’s Ingenuity",
       "active_effect": "For the rest of the scene, this system gains 6 charges (you can use a die to track this). Expend a charge to use XIAOLI’S TENACITY again, ignoring the 1/Turn limit. You may spend any number of charges a turn. At the end of each turn, you regain a charge for each unique target (character, object, or piece of terrain) you damaged with this action, to a maximum of 6.",
-      "activation": "Free",
+      "activation": "Protocol",
       "passive_name": "Xiaoli's Tenacity",
-      "passive_effect": "1/turn as a free action, you may move up to 3 spaces then deal 2 Kinetic to any adjacent character or 10 Kinetic AP to an object or piece of terrain. This movement prompts engagement and does not ignore reactions.<br>If this damage destroys an object or piece of terrain, it explodes, dealing 1d6 Kinetic to all adjacent characters other than you and knocking them back 1 space.",
-      "counters": [{
-        "id": "ctr_xiaoli_type_cqb_suite",
-        "name": "XIAOLI DIE",
-        "default_value": 6,
-        "min": 0,
-        "max": 6
-      }]
-
+      "passive_actions": [
+        {
+          "name": "Xiaoli's Tenacity",
+          "activation": "Free",
+          "detail": "1/turn as a free action, you may move up to 3 spaces then deal 2 Kinetic to any adjacent character or 10 Kinetic AP to an object or piece of terrain. This movement prompts engagement and does not ignore reactions.<br>If this damage destroys an object or piece of terrain, it explodes, dealing 1d6 Kinetic to all adjacent characters other than you and knocking them back 1 space."
+        }
+      ],
+      "counters": [
+        {
+          "id": "ctr_xiaoli_type_cqb_suite",
+          "name": "XIAOLI DIE",
+          "default_value": 6,
+          "min": 0,
+          "max": 6
+        }
+      ]
     },
-
-    "image_url": "https://compcon-image-assets.s3.amazonaws.com/frames/zheng.png"
+    "image_url": "https://compcon-image-assets.s3.amazonaws.com/frames/mf_zheng.png"
   }
 ]

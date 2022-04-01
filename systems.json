@@ -112,6 +112,9 @@
       },
       {
         "id": "tg_unique"
+      },
+      {
+        "id": "tg_grenade"
       }
     ],
     "source": "IPS-N",
@@ -358,6 +361,9 @@
       {
         "id": "tg_limited",
         "val": 3
+      },
+      {
+        "id": "tg_grenade"
       }
     ],
     "source": "HA",

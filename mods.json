@@ -1,7 +1,7 @@
 [
   {
     "id": "wm_supermassive_mod",
-    "name": "SUPERMASSIVE MOD",
+    "name": "Supermassive Mod",
     "sp": 1,
     "allowed_types": [
       "Melee",
@@ -30,7 +30,7 @@
   },
   {
     "id": "wm_molten_wreathe",
-    "name": "MOLTEN WREATHE",
+    "name": "Molten Wreathe",
     "sp": 2,
     "allowed_types": [
       "Melee"

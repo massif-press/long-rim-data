@@ -1,7 +1,7 @@
 [
   {
     "id":"mw_kraul_rifle",
-    "name":"KRAUL RIFLE",
+    "name":"Kraul Rifle",
     "mount":"Main",
     "type":"CQB",
     "damage":[
@@ -29,7 +29,7 @@
   },
   {
     "id":"mw_terashima_blade",
-    "name":"TERASHIMA BLADE",
+    "name":"Terashima Blade",
     "mount":"Main",
     "type":"Melee",
     "tags":[
@@ -167,7 +167,7 @@
   },
   {
     "id":"mw_hammer_u_rpl",
-    "name":"HAMMER U-RPL",
+    "name":"Hammer U-RPL",
     "mount":"Heavy",
     "type":"Launcher",
     "damage":[
@@ -277,7 +277,7 @@
   },
   {
     "id":"mw_fusion_rifle",
-    "name":"FUSION RIFLE",
+    "name":"Fusion Rifle",
     "mount":"Main",
     "type":"Rifle",
     "damage":[
@@ -303,7 +303,7 @@
   },
   {
     "id":"mw_slag_cannon",
-    "name":"SLAG CANNON",
+    "name":"Slag Cannon",
     "mount":"Main",
     "type":"Cannon",
     "damage":[
@@ -342,7 +342,7 @@
   },
   {
     "id":"mw_unraveler",
-    "name":"UNRAVELER",
+    "name":"Unraveler",
     "mount":"Main",
     "type":"Launcher",
     "damage":[
@@ -371,7 +371,7 @@
   },
   {
     "id":"mw_warp_rifle",
-    "name":"WARP RIFLE",
+    "name":"Warp Rifle",
     "mount":"Main",
     "type":"Rifle",
     "damage":[
@@ -406,7 +406,7 @@
   },
   {
     "id":"mw_xiaoli_combat_sheathe",
-    "name":"TIGER-HUNTER COMBAT SHEATHE",
+    "name":"Tiger-Hunter Combat Sheathe",
     "mount":"Main",
     "type":"Melee",
     "damage":[

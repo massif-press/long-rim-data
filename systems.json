@@ -1,6 +1,6 @@
 [{
     "id": "ms_multi_gear_maneuver_system",
-    "name": "MULTI-GEAR MANEUVER SYSTEM",
+    "name": "Multi-Gear Maneuver System",
     "type": "System",
     "sp": 1,
     "tags": [{
@@ -18,7 +18,7 @@
   },
   {
     "id": "ms_jäger_kunst_i",
-    "name": "JÄGER KUNST I",
+    "name": "Jäger Kunst I",
     "type": "System",
     "sp": 2,
     "tags": [{
@@ -33,7 +33,7 @@
     "license": "ATLAS",
     "license_level": 2,
     "actions": [{
-      "name": "JÄGER KUNST I",
+      "name": "Jäger Kunst I",
       "activation": "Protocol",
       "detail": "For the rest of the turn, any time you move adjacent to an object or free-standing piece of terrain larger than you, you move 2 spaces in any direction as a free action, ignoring engagement and reactions, running, tumbling, or sliding around. You can do this multiple times a turn, but only once for each unique object or piece of terrain."
     }],
@@ -41,7 +41,7 @@
   },
   {
     "id": "ms_ricochet_blades",
-    "name": "RICOCHET BLADES",
+    "name": "Ricochet Blades",
     "type": "System",
     "sp": 3,
     "tags": [{
@@ -64,7 +64,7 @@
   },
   {
     "id": "ms_jäger_kunst_ii",
-    "name": "JÄGER KUNST II",
+    "name": "Jäger Kunst II",
     "type": "System",
     "sp": 3,
     "tags": [{
@@ -89,7 +89,7 @@
   },
   {
     "id": "ms_hardpoint_reinforcement",
-    "name": "HARDPOINT REINFORCEMENT",
+    "name": "Hardpoint Reinforcement",
     "type": "Shield",
     "sp": 2,
     "tags": [{
@@ -103,7 +103,7 @@
   },
   {
     "id": "ms_spike_charges",
-    "name": "SPIKE CHARGES",
+    "name": "Spike Charges",
     "type": "Deployable",
     "sp": 2,
     "tags": [{
@@ -139,7 +139,7 @@
   },
   {
     "id": "ms_rapid_maneuver_jets",
-    "name": "RAPID MANEUVER JETS",
+    "name": "Rapid Maneuver Jets",
     "type": "System",
     "sp": 4,
     "tags": [{
@@ -167,7 +167,7 @@
   },
   {
     "id": "ms_forge_clamps",
-    "name": "FORGE CLAMPS",
+    "name": "Forge Clamps",
     "type": "System",
     "sp": 1,
     "source": "HORUS",
@@ -181,7 +181,7 @@
   },
   {
     "id": "ms_seismic_pulse",
-    "name": "SEISMIC RIPPER",
+    "name": "Seismic Ripper",
     "type": "System",
     "sp": 2,
     "source": "HORUS",
@@ -287,7 +287,7 @@
   },
   {
     "id": "ms_stay_of_execution",
-    "name": "STAY OF EXECUTION",
+    "name": "Stay of Execution",
     "type": "Tech",
     "sp": 2,
     "tags": [{
@@ -309,7 +309,7 @@
   },
   {
     "id": "ms_didymos_class_nhp",
-    "name": "DIDYMOS-CLASS NHP",
+    "name": "DIDYMOS-Class NHP",
     "type": "AI",
     "sp": 3,
     "tags": [{
@@ -335,7 +335,7 @@
   },
   {
     "id": "ms_accelerate",
-    "name": "ACCELERATE",
+    "name": "Accelerate",
     "type": "Tech",
     "sp": 2,
     "tags": [{
@@ -352,7 +352,7 @@
   },
   {
     "id": "ms_blink_charges",
-    "name": "BLINK CHARGES",
+    "name": "Blink Charges",
     "type": "Deployable",
     "sp": 3,
     "tags": [{
@@ -400,7 +400,7 @@
   },
   {
     "id": "ms_blinkspace_tunneler",
-    "name": "BLINKSPACE TUNNELER",
+    "name": "Blinkspace Tunneler",
     "type": "System",
     "sp": 2,
     "tags": [{
@@ -433,7 +433,7 @@
   },
   {
     "id": "ms_total_strength_suite_i",
-    "name": "TOTAL STRENGTH SUITE I",
+    "name": "Total Strength Suite I",
     "type": "System",
     "sp": 1,
     "source": "IPS-N",
@@ -447,7 +447,7 @@
   },
   {
     "id": "ms_total_strength_suite_ii",
-    "name": "TOTAL STRENGTH SUITE II",
+    "name": "Total Strength Suite II",
     "type": "System",
     "sp": 2,
     "tags": [{
@@ -464,7 +464,7 @@
   },
   {
     "id": "ms_total_strength_suite_iii",
-    "name": "TOTAL STRENGTH SUITE III",
+    "name": "Total Strength Suite III",
     "type": "System",
     "sp": 3,
     "source": "IPS-N",

@@ -26,7 +26,8 @@
         "id": "tg_knockback",
         "val": 1
       }
-    ]
+    ],
+    "license_id": "mf_caliban"
   },
   {
     "id": "wm_molten_wreathe",
@@ -39,6 +40,7 @@
     "license": "ZHENG",
     "license_level": 2,
     "effect": "Choose one MELEE weapon: 1/round, after you hit a character with this weapon, you take 1 Heat and it projects a superheated Cone 3 cloud oriented away from your target in a direction of your choice. Your target and any characters caught in this cloud each take 2 Explosive Damage.",
-    "description": "Needing a significant boost to her Raleigh’s melee capacity, Xiong decided upon a crude but effective solution: she would re-route her Raleigh’s coldcore dispersion systems into the chassis’ palms with a simple on/off switch, allowing it to superheat equipped weapons. The resultant ad hoc thermal weapon is so hot that it prompts an explosive vaporization of hard and soft surfaces on impact, creating a secondary backblast cloud that is a deadly weapon in its own right. The production version of this system simply adds a sturdier, dedicated routing system and better insulation."
+    "description": "Needing a significant boost to her Raleigh’s melee capacity, Xiong decided upon a crude but effective solution: she would re-route her Raleigh’s coldcore dispersion systems into the chassis’ palms with a simple on/off switch, allowing it to superheat equipped weapons. The resultant ad hoc thermal weapon is so hot that it prompts an explosive vaporization of hard and soft surfaces on impact, creating a secondary backblast cloud that is a deadly weapon in its own right. The production version of this system simply adds a sturdier, dedicated routing system and better insulation.",
+    "license_id": "mf_zheng"
   }
 ]

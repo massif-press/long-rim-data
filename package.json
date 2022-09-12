@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/OmnesPotens/long-rim-data",
   "scripts": {
+    "build-gpr": "node ./.github/gpr-publishing.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [

@@ -368,7 +368,7 @@
       "counters": [
         {
           "id": "ctr_art_of_war",
-          "name": "ART OF WAR",
+          "name": "Art of War",
           "default_value": 6,
           "min": 0,
           "max": 6
@@ -439,7 +439,7 @@
       }
     ],
     "core_system": {
-      "name": "XIONG-TYPE CQB SUITE",
+      "name": "XIONG-Type CQB Suite",
       "description": "Surviving mostly on colonial rations and an increasingly radioactive air supply, Xiaoli scavenged materials from a dying ship to create modifications that gave her mech unprecedented unarmed striking power.",
       "active_name": "Xiaoli’s Ingenuity",
       "active_effect": "For the rest of the scene, this system gains 6 charges (you can use a die to track this). Expend a charge to use XIAOLI’S TENACITY again, ignoring the 1/Turn limit. You may spend any number of charges a turn. At the end of each turn, you regain a charge for each unique target (character, object, or piece of terrain) you damaged with this action, to a maximum of 6.",
@@ -455,7 +455,7 @@
       "counters": [
         {
           "id": "ctr_xiaoli_type_cqb_suite",
-          "name": "XIAOLI DIE",
+          "name": "Xiaoli Die",
           "default_value": 6,
           "min": 0,
           "max": 6

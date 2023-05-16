@@ -3,16 +3,11 @@
     "id": "mf_atlas",
     "source": "SSC",
     "name": "ATLAS",
-    "mechtype": [
-      "Striker"
-    ],
+    "mechtype": ["Striker"],
     "y_pos": 14,
     "license_level": 2,
     "description": "<p>Originally commissioned as a dueling mech by the Baronic Houses of Smoke and Order, the Atlas blurs the line between mechanized chassis and powered personal armor. Thanks to a long-running research project from SSC's Exotic Materials Group, the designers were able to employ the bleeding edge of reactor miniaturization tech: the result was a chassis that resembled a large, sleek hardsuit, almost skintight in places. While the Atlas sacrifices the durability of a larger frame, its essential systems are so closely melded with its user's movements that it offers unparalleled maneuverability.</p> <p>Although the Atlas was initially licensed only to Baronic clients, its design was leaked when a group of ExoMat personnel lost a suit to a Sparri espada in an intense game of Kapkat. Despite their initial attempt to recover the suit, SSC relented, citing the eager demand from Sparri groups for access to the full license. </p> <p>Considered the perfect warrior frame for hunting the native megafauna of Sparr, the Atlas now enjoys a dual reputation among both the Sparri peoples and Karrakin nobility. To the Sparri, the Atlas &ndash; its combat efficacy notwithstanding &ndash; is highly valued for the direct access its systems allow to their ancestral memory; Atlas frames on Sparr are the heirlooms of great warriors, tied to family (blood and chosen) and maintained by hand. Each suit on Sparr bears the history of its previous pilots in both decorations and FCA-compliant machine learning, which enables Sparri hunters to almost literally call upon their ancestors in battle. The Atlas has become so popular among the Sparri that they even developed a new martial art based on the Atlas: Jäger Kunst. </p> <p>The Karrakin nobility, on the other hand, find the Atlas to be a perfect machine for noble heroism &ndash; that the Sparri have an affinity for it only makes the chassis that much more desirable among Karrakin Sparrist scholars. Commonly decorated with purchased Sparri saga discs, Vast pelts, and saga lines, Karrakin suits blend imagined profiles of Annorum Passacaglia and Annorum Tyrannus-era heroes with profiles of Sparri warriors, daredevils, vast-hunters, and espadas.</p>",
-    "mounts": [
-      "Flex",
-      "Main"
-    ],
+    "mounts": ["Flex", "Main"],
     "stats": {
       "size": 0.5,
       "stress": 4,
@@ -35,16 +30,11 @@
         "description": "The Atlas counts as SIZE 1 for RAM and GRAPPLE. It ignores engagement from larger characters and can freely move through and share the spaces they occupy (even if they’re hostile). While occupying the same spaces as any character, it gains soft cover, even from that character.",
         "synergies": [
           {
-            "locations": [
-              "ram",
-              "grapple"
-            ],
+            "locations": ["ram", "grapple"],
             "detail": "The Atlas counts as size 1 for the purposes of ramming and grappling."
           },
           {
-            "locations": [
-              "active_effects"
-            ],
+            "locations": ["active_effects"],
             "detail": "The Atlas ignores engagement from actors larger than itself, can share space with larger actors (even hostile ones) and move through their spaces unimpeded. While sharing space with any character, it gains soft cover, even from that character."
           }
         ]
@@ -66,15 +56,9 @@
         "description": "1/round, deal +1d6 bonus damage on a successful melee attack against a PRONE target.",
         "synergies": [
           {
-            "locations": [
-              "weapon"
-            ],
-            "weapon_types": [
-              "Melee"
-            ],
-            "weapon_sizes": [
-              "any"
-            ],
+            "locations": ["weapon"],
+            "weapon_types": ["Melee"],
+            "weapon_sizes": ["any"],
             "detail": "1/round, the Atlas can deal +1d6 bonus damage with a successful melee attack against a prone target."
           }
         ]
@@ -84,10 +68,7 @@
         "description": "The Atlas receives +1 Difficulty on ENGINEERING checks and saves.",
         "synergies": [
           {
-            "locations": [
-              "engineering",
-              "skill_check"
-            ],
+            "locations": ["engineering", "skill_check"],
             "detail": "The Atlas takes +1 difficulty on Engineering checks and saves."
           }
         ]
@@ -100,22 +81,17 @@
       "active_effect": "<p>For the rest of the scene, you:</p> <ul> <li>Move an additional 1 space when you voluntarily move for any reason (e.g. standard moves, BOOST, movement from systems or talents).</li> <li>Benefits from soft cover at all times, no matter where you are.</li> <li>Can HIDE even in the open, without requiring cover.</li> </ul> <p> The only way to reveal you is for another character to SEARCH for you or for you to lose Hidden as usual &ndash; by using BOOST, attacking, forcing a save, and so on. When active, 1/round, when you make a melee or ranged attack while HIDDEN, your target must also succeed on a HULL save or be knocked PRONE. This takes place before the attack is rolled </p>",
       "activation": "Quick"
     },
-    "image_url": "https://compcon-image-assets.s3.amazonaws.com/frames/mf_atlas.png"
+    "image_url": "https://d2c79xe1p61csc.cloudfront.net/frames/mf_atlas.png"
   },
   {
     "id": "mf_caliban",
     "source": "IPS-N",
     "name": "CALIBAN",
-    "mechtype": [
-      "Striker",
-      "Controller"
-    ],
+    "mechtype": ["Striker", "Controller"],
     "license_level": 2,
     "y_pos": 12.5,
     "description": "<p>The Caliban chassis is a popular new order among anti piracy and stellar marine forces. Unlike many of IPS-N's modern frames, the Caliban was designed from the ground up to be a military machine. </p> <p>The Caliban is IPS-N's solution to the  \"Yemanova \" Problem, more properly known as the Impact-Override Problem. Capital ships, the problem posits, are incredibly expensive, demand a tremendous amount of time for corpros and Diasporan states to produce and maintain, and increasingly outmatched by anti-ship weaponry. In a conventional capital duel, a successful kill means the death of thousands of personnel and the loss of millions of units of manna; this makes many commanders gun-shy, encouraging them to rely on subline vessels and fighters to accomplish battle objectives rather than risk their big ships. This strategy tends to prove just as expensive: instead of one or a handful of large ships being destroyed, signifying the end of a battle, engagements can grind on for weeks as squadrons of smaller ships engage inside the unpredictability gap, inching towards victory. </p> <p>IPS-N was the first to crack the Yemanova Problem. The corpro's designers identified the need for a rapidly deployable, sub-signature, directed weapon. It needed to be well-armed and well-armored, small enough to enter a ship and efficiently neutralize personnel in order to achieve victory. IPS-N created the Caliban to solve this need. </p> <p>Cultural critics argue that mechanized chassis venerate the form of a particular humanity; it is an unconscious nod towards the anthrochauvinist roots of the machine among leading designers and fabricators. The Caliban is not that. It was never intended to be an image of man writ large, striding across the battlefield heroically to affect a greater purpose. </p> <p>Unlike many IPS-N frames, the Caliban has no roots in early attempts at self-defense by freighter crews and asteroid miners. It was not born from ingenuity - there is no legacy of resilience, heroism, or the frontier spirit to paper over the purpose of its birth. It has no civilian applications in aid, disaster relief, construction, or farming; it does not build, defend, or inspire &ndash; it was designed to solve a numbers problem on a ledger. </p> <p>It is a tool designed to kill human beings very, very quickly. </p>",
-    "mounts": [
-      "Heavy"
-    ],
+    "mounts": ["Heavy"],
     "stats": {
       "size": 0.5,
       "structure": 4,
@@ -138,15 +114,9 @@
         "description": "The Caliban counts as Size 3 when inflicting knockback with any Ram, Ranged, or Melee Attack.",
         "synergies": [
           {
-            "locations": [
-              "weapon"
-            ],
-            "weapon_types": [
-              "any"
-            ],
-            "weapon_sizes": [
-              "any"
-            ],
+            "locations": ["weapon"],
+            "weapon_types": ["any"],
+            "weapon_sizes": ["any"],
             "detail": "The Caliban counts as size 3 when inflicting knockback from any ranged or melee attack."
           }
         ]
@@ -164,10 +134,7 @@
         "description": "The Caliban takes +1 Difficulty on all SYSTEMS saves and checks.",
         "synergies": [
           {
-            "locations": [
-              "systems",
-              "skill_check"
-            ],
+            "locations": ["systems", "skill_check"],
             "detail": "The Caliban takes +1 Difficulty on all systems saves and checks"
           }
         ]
@@ -179,25 +146,19 @@
       "active_name": "Equip Autochoke",
       "active_effect": "The Flayer shotgun comes pre-equipped with a muzzle-mounted auto-choke that allows its user to better define the spread of shot issuing from the weapon. The extreme heat from equipping the choke renders it unusable in short order and it must be discarded.<br>For the rest of this scene, the HHS-075 “Flayer” Shotgun gains the following profile:<br>Main CQB, Accurate, Knockback 5<br>[Cone 3] [Threat 3] [1d6+2 kinetic damage]",
       "activation": "Protocol",
-      "integrated": [
-        "mw_caliban_integrated"
-      ]
+      "integrated": ["mw_caliban_integrated"]
     },
-    "image_url": "https://compcon-image-assets.s3.amazonaws.com/frames/caliban.png"
+    "image_url": "https://d2c79xe1p61csc.cloudfront.net/frames/caliban.png"
   },
   {
     "id": "mf_kobold",
     "source": "HORUS",
     "name": "KOBOLD",
-    "mechtype": [
-      "Controller"
-    ],
+    "mechtype": ["Controller"],
     "y_pos": 25,
     "license_level": 2,
     "description": "<p>The Kobold pattern group first appeared among revolutionary Ungratefuls toiling on Bo, the capital world of the House of Dust, where it manifested as a clever suite of hardware and software compatible with a broad range of mining and heavy industry mechs. The steaming, shuddering final result of K-PG exposure is an ugly affair: a device transformed from plow to blade by powerful, viral-morph liturgicode that is almost impossible for conventional codec sniffers to capture pre-print. </p> <p>The clandestine mechanisms by which the Kobold is transmitted and applied make it the perfect machine for fighting Baronic suppression forces. The desperate workers who printed the first Kobolds found them to be eminently fungible. When loaded into their mining exos and chassis, the K-PG code repurposed reactors and industrial tools to deadly effect, weaponizing the very materials and superstructures that powered it. The rapid flash-melting, processing, and extruding of raw material into molten plural-state particles is dangerous &ndash; often just as dangerous to its pilot as the final product is to its targets. </p> <p>Operational dangers notwithstanding, the Ungratefuls who first adopted the K-PG stunned their Baronic overseers with a series of rapid and total victories, liberating a great swath of lunar helium-3 mines. While the insurgency was eventually contained to Bo, it continues, necessitating the deployment of the House of Dust's Graveborn Banner Company for counter-insurgency operations beyond the capability of local security forces. </p> <p>HORUS's assets in the Long Rim continue to produce K-PG liturgicode seeds. The House of Dust has contracted Mastodon to track down and eliminate HORUS elements in the area; meanwhile, Harrison Armory has reached out to the Brigade-Legion to counter the House of Dust's efforts. </p>",
-    "mounts": [
-      "Main/Aux"
-    ],
+    "mounts": ["Main/Aux"],
     "stats": {
       "size": 0.5,
       "stress": 4,
@@ -239,10 +200,7 @@
         "description": "The Kobold gets +1 Difficulty on ENGINEERING checks and saves.",
         "synergies": [
           {
-            "locations": [
-              "engineering",
-              "skill_check"
-            ],
+            "locations": ["engineering", "skill_check"],
             "detail": "The Kobold takes +1 difficulty on Engineering checks and saves."
           }
         ]
@@ -255,21 +213,17 @@
       "active_effect": "Your mech extrudes a massive amount of polymer, creating up to 10 SIZE 1 cubes in free spaces within Range 5. These cubes can be separate or connected and can be stacked up to 5 spaces high. If connected, they form a contiguous surface that can block line of sight. During the turn in which they are extruded, the cubes grant soft cover and each has EVASION 5 and 10 HP. At the start of your next turn, they harden, each cube granting hard cover and gaining +10 HP (but retaining any damage they had taken).",
       "activation": "Full"
     },
-    "image_url": "https://compcon-image-assets.s3.amazonaws.com/frames/mf_kobold.png"
+    "image_url": "https://d2c79xe1p61csc.cloudfront.net/frames/mf_kobold.png"
   },
   {
     "id": "mf_lich",
     "source": "HORUS",
     "name": "LICH",
-    "mechtype": [
-      "Support"
-    ],
+    "mechtype": ["Support"],
     "license_level": 2,
     "y_pos": 8,
     "description": ">//TRANSCRIPT: M.A2_Recovered[UIB:::TERMAGANT]<br>>//TANGENT ROYAL CLEARANCE<br>>//checking…<br>>//TRC_ACCEPTED. OPEN DOC:::Y<br>>//BEGIN:::<br>CALIGULA: So what is it?<br>DOGFRIEND_68: i wish i could tell you, man, it just showed up on the terminal. whole thing in one ping — it’s like a fucking K or two EXB. tried to autofab but i shut it down jic<br>CALIGULA: Gotta be a joke from Ash — she’s trying to wavedown our rig again, don’t let it print.<br>DOGFRIEND_68: fuck no<br>DOGFRIEND_68: do u think i have a death wish<br>CALIGULA: Yes.<br>CALIGULA: Well, who’s it from? Who’s the author?<br>CALIGULA: Hello?<br>CALIGULA: [waiting.omif]<br>DOGFRIEND_68: uh<br>CALIGULA: Who?<br>DOGFRIEND_68: us<br>CALIGULA: Us what?<br>DOGFRIEND_68: it’s from our terminal — we made it<br>CALIGULA: Pretty sure I’d remember if I wrote 1-2k exabyte fabrication by myself.<br>DOGFRIEND_68: yeah except thats our code man, the hash lines up beaucop-sigma<br>DOGFRIEND_68: ok also BigMama is telling me we didn’t actaully get anything inbound which means its just been local but thats impossible, we don’t have that much storage<br>CALIGULA: Let me see the file<br>CALIGULA: It’s dated 15005U<br>DOGFRIEND_68: [lolfuk.omif]<br>CALIGULA: There’s an audio track buried in here. Should I play it?<br>DOGFRIEND_68: i wanna say no but fuck it i’m curious<br>>//TRANSCRIPT ENDS",
-    "mounts": [
-      "Main/Aux"
-    ],
+    "mounts": ["Main/Aux"],
     "stats": {
       "size": 1,
       "structure": 4,
@@ -303,22 +257,17 @@
       "active_effect": "<p>You gain the ability to disrupt time for the rest of this scene. 1/round, when any character successfully attacks, effects, or takes an action against another character within SENSORS, you may interrupt it before it resolves, with the following effects:</p> <ul> <li>The character taking the action is pushed up to 3 spaces in a direction of your choice, even if they have IMMUNITY to involuntary movement</li> <li>You teleport to one of the spaces originally occupied by that character, or as close as possible, no matter how far away it was.</li> <li>The initial attack, effect, or action resolves with you as its target. </li> </ul> <p>You receive all damage, conditions, statuses, and effects, and the action must be carried out without changes. For example, if the effect was to teleport an allied character to a certain space, you are teleported to that space instead; if the effect was to repair an allied character, you are repaired instead; if the effect was to deal damage and KNOCKBACK, you take the damage (using your ARMOR, RESISTANCE, etc.) and are knocked back in the same direction as the original target would be; if the effect was to inflict a condition or status, you receive that condition or status instead. Initiating this interruption does not count as a reaction. Effects that target the self cannot be interrupted this way </p>",
       "activation": "Quick"
     },
-    "image_url": "https://compcon-image-assets.s3.amazonaws.com/frames/mf_lich.png"
+    "image_url": "https://d2c79xe1p61csc.cloudfront.net/frames/mf_lich.png"
   },
   {
     "id": "mf_sunzi",
     "source": "HA",
     "name": "SUNZI",
-    "mechtype": [
-      "Support",
-      "Controller"
-    ],
+    "mechtype": ["Support", "Controller"],
     "license_level": 2,
     "y_pos": 23,
     "description": "<p>The Sunzi represents the peak of Harrison Armory's research into weaponized blink technology. Pilots approved to fabricate and field-test Sunzi components are monitored remotely by the Armory's Special Projects Group, which enjoys wide latitude in gathering telemetry and biometric data. The Sunzi platform is considered by Harrison Armory to still be in development, and not yet available for fleet contracts. </p> <p>Like the Armory's Napoleon chassis before it, the Sunzi utilizes the Armory's H-GOBLIN-derived recursive-mesh interdermal substrate, allowing it to mount outsized weapons and systems on a chassis measuring just over three meters tall. Where it differs is in its technological heritage. The Napoleon was largely the product of the Armory's internal paracausal/ parallel space research and development groups; the Sunzi is rumored to be derived from stolen and extracted Volador technology. This may explain why the Long Rim and the Dawnline Shore are the primary test grounds for the platform &ndash; far from Union's most direct oversight, the Armory may have more time to make what progress it can before Union's regulatory impulse catches up to them. </p> <p>According to Union NavInt reports on the Sunzi, the platform's unshielded emissions are consistent with known blinkspace signatures; corroborating intelligence from undercover elements inside the program's main campus on Ras Shamra show that the Sunzi's development has been fast-tracked to respond to the evolving situation in the Dawnline Shore. Both as a forcemultiplication tool to assist the Armory's legionary presence across the Shore, and more specifically to counter the Ungratefuls' newest weapon there, Object L (see UNI Report CORPSE GATE for more). </p>",
-    "mounts": [
-      "Main/Aux"
-    ],
+    "mounts": ["Main/Aux"],
     "stats": {
       "size": 1,
       "armor": 1,
@@ -375,23 +324,17 @@
         }
       ]
     },
-    "image_url": "https://compcon-image-assets.s3.amazonaws.com/frames/mf_sunzi.png"
+    "image_url": "https://d2c79xe1p61csc.cloudfront.net/frames/mf_sunzi.png"
   },
   {
     "id": "mf_zheng",
     "source": "IPS-N",
     "name": "ZHENG",
-    "mechtype": [
-      "Striker"
-    ],
+    "mechtype": ["Striker"],
     "license_level": 2,
     "y_pos": 30,
     "description": "<p>The Zheng is a new frame in IPS-N's line and is unusual in that its development can be attributed almost completely to a single mech pilot &ndash; Xiong Xiaoli, a Mirrorsmoke mercenary operating in the Long Rim, protecting heavy freight/low crew shipments to the early Dawnline Shore colonies. A relative unknown before the incident, MSMC documentation from the time indicates that her convoy was attacked by the White Tiger pirate conglomerate, and her entire company killed in action. Xiong's personal logbook, recovered posthumously, expounds on MSMC's report. </p> <p>In her logbook, Xiong noted that her chassis, a factory-standard IPS-N Raleigh, was almost totally ripped apart in the chaos of the White Tiger's attack. Thrown free of her billeted freighter after it collided with a White Tiger crashboat, Xiong managed to survive the next 45 days by scavenging across the drifting, derelict wreck of the MSMC-S Say No More, the escort cruiser attached to the supply colony. Outnumbered and hunted by the White Tiger pirates prowling the ruined convoy, Xiong took dramatic steps to modify her Raleigh for close-quarters combat. In the dark, claustrophobic environments of the Say No More and ruined freighters leashed to it by the White Tigers, Xiong turned her chassis into a machine of tumbling death. </p> <p>Xiong likely did not survive the long engagement. She is presumed to have perished mere days before an IPS-N Trunk Security patrol arrived, responding to the convoy's initial distress signal. Trunk Security found that Xiong had eliminated every White Tiger pirate assigned to the convoy; her chassis, logbook, and trace elements of her body were discovered in the White Tiger's cored-out gunboat and recovered by IPS-N. Thanks to her efforts, Trunk Security and MSMC were able to hunt down the remaining White Tiger gang and eliminate them. IPS-N and MSMC then engaged in a lengthy negotiation over the modified Raleigh's plans, eventually settling on a mixed licensing fee that benefits both IPS-N and MSMC. The resulting pattern, the Zheng, is now a popular choice among MSMC and Trunk Security pilots operating across the Rim. </p> <p>Xiong Xiaoli is widely regarded as a bodhisattva across the Long Rim; MSMC mercenaries have created several drinking games named after her, and MSMC pilots on combat contracts often compete to hit the \"Xiong Limit\" of 45+ confirmed kills. </p>",
-    "mounts": [
-      "Main",
-      "Main",
-      "Heavy"
-    ],
+    "mounts": ["Main", "Main", "Heavy"],
     "stats": {
       "size": 1,
       "structure": 4,
@@ -429,10 +372,7 @@
         "description": "The Zheng takes +1 Difficulty on all systems saves and checks",
         "synergies": [
           {
-            "locations": [
-              "systems",
-              "skill_check"
-            ],
+            "locations": ["systems", "skill_check"],
             "detail": "The Zheng gets +1 Difficulty on all Systems saves and checks"
           }
         ]
@@ -462,6 +402,6 @@
         }
       ]
     },
-    "image_url": "https://compcon-image-assets.s3.amazonaws.com/frames/mf_zheng.png"
+    "image_url": "https://d2c79xe1p61csc.cloudfront.net/frames/mf_zheng.png"
   }
 ]

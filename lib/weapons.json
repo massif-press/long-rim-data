@@ -1,13 +1,13 @@
 [
   {
-    "id":"mw_kraul_rifle",
-    "name":"Kraul Rifle",
-    "mount":"Main",
-    "type":"CQB",
-    "damage":[
+    "id": "mw_kraul_rifle",
+    "name": "Kraul Rifle",
+    "mount": "Main",
+    "type": "CQB",
+    "damage": [
       {
-        "type":"Kinetic",
-        "val":"1d6"
+        "type": "Kinetic",
+        "val": "1d6"
       }
     ],
     "range": [
@@ -29,11 +29,11 @@
     "license_id": "mf_atlas"
   },
   {
-    "id":"mw_terashima_blade",
-    "name":"Terashima Blade",
-    "mount":"Main",
-    "type":"Melee",
-    "tags":[
+    "id": "mw_terashima_blade",
+    "name": "Terashima Blade",
+    "mount": "Main",
+    "type": "Melee",
+    "tags": [
       {
         "id": "tg_unique"
       }
@@ -168,14 +168,14 @@
     "license_id": "mf_atlas"
   },
   {
-    "id":"mw_hammer_u_rpl",
-    "name":"Hammer U-RPL",
-    "mount":"Heavy",
-    "type":"Launcher",
-    "damage":[
+    "id": "mw_hammer_u_rpl",
+    "name": "Hammer U-RPL",
+    "mount": "Heavy",
+    "type": "Launcher",
+    "damage": [
       {
-        "type":"Explosive",
-        "val":"2d6+3"
+        "type": "Explosive",
+        "val": "2d6+3"
       }
     ],
     "range": [
@@ -205,7 +205,7 @@
   },
   {
     "id": "mw_hhs_155_cannibal",
-    "name": "HHS-155 CANNIBAL",
+    "name": "HHS-155 Cannibal",
     "mount": "Heavy",
     "type": "CQB",
     "tags": [
@@ -280,14 +280,14 @@
     "license_id": "mf_caliban"
   },
   {
-    "id":"mw_fusion_rifle",
-    "name":"Fusion Rifle",
-    "mount":"Main",
-    "type":"Rifle",
-    "damage":[
+    "id": "mw_fusion_rifle",
+    "name": "Fusion Rifle",
+    "mount": "Main",
+    "type": "Rifle",
+    "damage": [
       {
-        "type":"Energy",
-        "val":"1-6"
+        "type": "Energy",
+        "val": "1-6"
       }
     ],
     "range": [
@@ -305,14 +305,14 @@
     "license_id": "mf_kobold"
   },
   {
-    "id":"mw_slag_cannon",
-    "name":"Slag Cannon",
-    "mount":"Main",
-    "type":"Cannon",
-    "damage":[
+    "id": "mw_slag_cannon",
+    "name": "Slag Cannon",
+    "mount": "Main",
+    "type": "Cannon",
+    "damage": [
       {
-        "type":"Energy",
-        "val":"1d6"
+        "type": "Energy",
+        "val": "1d6"
       }
     ],
     "range": [
@@ -345,14 +345,14 @@
     "license_id": "mf_kobold"
   },
   {
-    "id":"mw_unraveler",
-    "name":"Unraveler",
-    "mount":"Main",
-    "type":"Launcher",
-    "damage":[
+    "id": "mw_unraveler",
+    "name": "Unraveler",
+    "mount": "Main",
+    "type": "Launcher",
+    "damage": [
       {
-        "type":"Energy",
-        "val":"2d6"
+        "type": "Energy",
+        "val": "2d6"
       }
     ],
     "range": [
@@ -375,14 +375,14 @@
     "license_id": "mf_lich"
   },
   {
-    "id":"mw_warp_rifle",
-    "name":"Warp Rifle",
-    "mount":"Main",
-    "type":"Rifle",
-    "damage":[
+    "id": "mw_warp_rifle",
+    "name": "Warp Rifle",
+    "mount": "Main",
+    "type": "Rifle",
+    "damage": [
       {
-        "type":"Energy",
-        "val":"1d3+1"
+        "type": "Energy",
+        "val": "1d3+1"
       }
     ],
     "range": [
@@ -402,23 +402,23 @@
         "id": "tg_loading"
       }
     ],
-    "source":"HA",
-    "license":"SUNZI",
-    "license_level":2,
+    "source": "HA",
+    "license": "SUNZI",
+    "license_level": 2,
     "effect": "",
-    "on_hit":"The target must pass an ENGINEERING save or be teleported a number of spaces equal to the damage you dealt with this weapon (including bonus damage, etc.; no more than 10 spaces), in a direction of your choice. They must end in a free, valid space.",
-    "description":"Es una abominación. Dicen que \"es como los arados de las espadas; tú también debes aprender a defender tu hogar ”. Ptah, escupí su lógica de espada. Ni siquiera sabíamos de los arados compartidos antes de convertirlos en espadas, y éramos felices.<br>Hiciste la puerta, la abriste. No es nuestra responsabilidad cerrarla.<br>[It is an abomination. They say “it is like plowshares to swords; you too must learn to defend your home.” Ptah, I spit on their blade-law. We did not even know of plowshares before they beat them into swords, and we were happy.<br>You made the door, you swung it open — it is not our responsibility to close it.]",
-    "sp":1
+    "on_hit": "The target must pass an ENGINEERING save or be teleported a number of spaces equal to the damage you dealt with this weapon (including bonus damage, etc.; no more than 10 spaces), in a direction of your choice. They must end in a free, valid space.",
+    "description": "Es una abominación. Dicen que \"es como los arados de las espadas; tú también debes aprender a defender tu hogar ”. Ptah, escupí su lógica de espada. Ni siquiera sabíamos de los arados compartidos antes de convertirlos en espadas, y éramos felices.<br>Hiciste la puerta, la abriste. No es nuestra responsabilidad cerrarla.<br>[It is an abomination. They say “it is like plowshares to swords; you too must learn to defend your home.” Ptah, I spit on their blade-law. We did not even know of plowshares before they beat them into swords, and we were happy.<br>You made the door, you swung it open — it is not our responsibility to close it.]",
+    "sp": 1
   },
   {
-    "id":"mw_xiaoli_combat_sheathe",
-    "name":"Tiger-Hunter Combat Sheathe",
-    "mount":"Main",
-    "type":"Melee",
-    "damage":[
+    "id": "mw_xiaoli_combat_sheathe",
+    "name": "Tiger-Hunter Combat Sheathe",
+    "mount": "Main",
+    "type": "Melee",
+    "damage": [
       {
-        "type":"Kinetic",
-        "val":"1d3+2"
+        "type": "Kinetic",
+        "val": "1d3+2"
       }
     ],
     "range": [

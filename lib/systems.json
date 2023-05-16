@@ -188,7 +188,9 @@
     "effect": "1/round, when you Boost, you fly, gain Overshield 3, and ignore engagement from and may freely pass through spaces occupied by larger characters (but not end your turn in their spaces). You must end this movement in a space on which you can stand, or else you fall.",
     "synergies": [
       {
-        "locations": ["boost"],
+        "locations": [
+          "boost"
+        ],
         "detail": "1/round, when you Boost, you fly, gain Overshield 3, and ignore engagement from and may freely pass through spaces occupied by larger characters (but not end your turn in their spaces). You must end this movement in a space on which you can stand, or else you fall."
       }
     ],
@@ -254,7 +256,7 @@
   },
   {
     "id": "ms_immolate",
-    "name": "IMMOLATE",
+    "name": "Immolate",
     "type": "System",
     "sp": 2,
     "source": "HORUS",

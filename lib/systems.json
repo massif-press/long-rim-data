@@ -10,7 +10,7 @@
       }
     ],
     "source": "SSC",
-    "license": "ATLAS",
+    "license": "Atlas",
     "license_level": 1,
     "actions": [
       {
@@ -37,7 +37,7 @@
       }
     ],
     "source": "SSC",
-    "license": "ATLAS",
+    "license": "Atlas",
     "license_level": 2,
     "actions": [
       {
@@ -63,7 +63,7 @@
       }
     ],
     "source": "SSC",
-    "license": "ATLAS",
+    "license": "Atlas",
     "license_level": 2,
     "actions": [
       {
@@ -90,7 +90,7 @@
       }
     ],
     "source": "SSC",
-    "license": "ATLAS",
+    "license": "Atlas",
     "license_level": 3,
     "actions": [
       {
@@ -115,7 +115,7 @@
       }
     ],
     "source": "IPS-N",
-    "license": "CALIBAN",
+    "license": "Caliban",
     "license_level": 2,
     "effect": "As long as you are not Slowed or Immobilized, you gain Resistance to all damage during your turn.",
     "description": "Also developed in IPS-N’s ongoing Titan–Enceladus Field Project, hardpoint reinforcement systems further strengthen frames, ensuring an across-the-board increase in Caliban chassis TTK.",
@@ -139,7 +139,7 @@
       }
     ],
     "source": "IPS-N",
-    "license": "CALIBAN",
+    "license": "Caliban",
     "license_level": 2,
     "actions": [
       {
@@ -183,7 +183,7 @@
       }
     ],
     "source": "IPS-N",
-    "license": "CALIBAN",
+    "license": "Caliban",
     "license_level": 3,
     "effect": "1/round, when you Boost, you fly, gain Overshield 3, and ignore engagement from and may freely pass through spaces occupied by larger characters (but not end your turn in their spaces). You must end this movement in a space on which you can stand, or else you fall.",
     "synergies": [
@@ -203,7 +203,7 @@
     "type": "System",
     "sp": 1,
     "source": "HORUS",
-    "license": "KOBOLD",
+    "license": "Kobold",
     "license_level": 1,
     "actions": [
       {
@@ -211,7 +211,7 @@
         "detail": "You sink the jaws of your clamp into an adjacent object or piece of terrain of Size 1 or larger. You become Immobilized but gain Immunity to Knockback and Prone. This effect ends if the thing you’re clamped onto is destroyed or if you release the clamp as a protocol."
       }
     ],
-    "description": "Repurposed from polycrete foundry tongs, these simple manipulators are incredibly resistant to heat and deformation. Using the KOBOLD protocols, previously inert forge clamps become the adherent surfaces for thin plasma sheaths; like blades, they can shear through armor, earth, or bulkhead with ease. One common tactic involves “flashing” plasma across the clamps, fusing them to their target until the Kobold pilot “flashes” them free.",
+    "description": "Repurposed from polycrete foundry tongs, these simple manipulators are incredibly resistant to heat and deformation. Using the Kobold protocols, previously inert forge clamps become the adherent surfaces for thin plasma sheaths; like blades, they can shear through armor, earth, or bulkhead with ease. One common tactic involves “flashing” plasma across the clamps, fusing them to their target until the Kobold pilot “flashes” them free.",
     "license_id": "mf_kobold"
   },
   {
@@ -220,7 +220,7 @@
     "type": "System",
     "sp": 2,
     "source": "HORUS",
-    "license": "KOBOLD",
+    "license": "Kobold",
     "license_level": 2,
     "actions": [
       {
@@ -237,7 +237,7 @@
     "type": "System",
     "sp": 2,
     "source": "HORUS",
-    "license": "KOBOLD",
+    "license": "Kobold",
     "license_level": 3,
     "actions": [
       {
@@ -251,16 +251,16 @@
         "detail": "You inject a memetic, proximity based virus into the target’s reactor. At the end of their next turn, if they are adjacent to another character or piece of terrain of Size 1 or larger, the virus catalyzes and they take 1d6+2 AP explosive damage. Once catalyzed, the effect ends.<br>A character can only be affected by one Purifying Code option at a time and are aware of their effects"
       }
     ],
-    "description": "The key to the KOBOLD’s creation — a deceptively simple code that unlocks reactor safety limiters in civilian mining mechs. This also bears the only evidence pointing towards a possible creator: “Dog.”",
+    "description": "The key to the Kobold’s creation — a deceptively simple code that unlocks reactor safety limiters in civilian mining mechs. This also bears the only evidence pointing towards a possible creator: “Dog.”",
     "license_id": "mf_kobold"
   },
   {
     "id": "ms_immolate",
-    "name": "Immolate",
+    "name": "IMMOLATE",
     "type": "System",
     "sp": 2,
     "source": "HORUS",
-    "license": "KOBOLD",
+    "license": "Kobold",
     "license_level": 3,
     "actions": [
       {
@@ -283,7 +283,7 @@
     "type": "Tech",
     "sp": 1,
     "source": "HORUS",
-    "license": "LICH",
+    "license": "Lich",
     "license_level": 1,
     "actions": [
       {
@@ -301,7 +301,7 @@
     "type": "Tech",
     "sp": 2,
     "source": "HORUS",
-    "license": "LICH",
+    "license": "Lich",
     "license_level": 2,
     "actions": [
       {
@@ -318,7 +318,7 @@
     "type": "Tech",
     "sp": 2,
     "source": "HORUS",
-    "license": "LICH",
+    "license": "Lich",
     "license_level": 2,
     "actions": [
       {
@@ -350,7 +350,7 @@
       }
     ],
     "source": "HORUS",
-    "license": "LICH",
+    "license": "Lich",
     "license_level": 3,
     "actions": [
       {
@@ -379,7 +379,7 @@
       }
     ],
     "source": "HORUS",
-    "license": "LICH",
+    "license": "Lich",
     "license_level": 3,
     "actions": [
       {
@@ -388,7 +388,7 @@
         "detail": "Choose yourself or another character within Sensors and line of sight. Your target disappears and you create a chronological split in their timeline, replacing them with two fields of mutating paradox energy appear as close to their original position as possible. These fields are new characters that look like holes in space of the same Size and roughly the same shape as your target (although you shouldn’t look at them too long). They have 10 HP, SPEED 5, Evasion 5, E-Defense 5, Heat Cap 5, and have Immunity to all conditions and statuses. They are controlled by the player of the affected character and both act on that character’s turn, starting with their next turn. The only actions the fields can take are standard moves and Boost, and the only reaction they can take is to disperse (see below). They are obstructions and grant hard cover.<br>If a field exceeds its HEAT CAP or is reduced to 0 HP, it immediately disappears. Their player can also cause a field to disappear as a reaction at the end of any character’s turn.<br>If one field disappears, the other immediately coalesces into the original character, who returns to the field in that field’s space. If both fields disappear at the same time, their player decides which field disappears first.<br>An unwilling character can ignore this effect with a successful Systems save"
       }
     ],
-    "description": "PREPARED BY: UIB-TERMAGANT<br>RECOVERED FOR: CC_HOME OFFICE<br>CLEARANCE REQ: SOLEMN VIGIL (TANGENT ROYAL ADDENDUM)<br>Didymos. It means twin in an old, old tongue. It might be a bit too cute but it’s the name our cask spat out for us. We observed Didymos Prime in action during the fall of Green Zone Alhambra, mounted in a chassis we initially classified as a HORUS Minotaur PG, one of three we ID’d operating among the Ungrateful cell in New Madrassa.<br>It was not that Minotaur.<br>Alhambra fell in three days. The Armory wasn’t keen to give it up, but decided to cut their losses and pull back rather than hold for reinforcements. We moved in after, during the looting. Our local contact [][][][][][][][] escorted us to the New Madrassan commanders, introduced us to them, and secured an audience with the pilot of the chassis.<br>I’m sure you’ve reviewed the records of the debrief we recorded. We don’t know how it arrived in New Madrassa; the Ungratefuls say they received the initial code burst from their contact in the Voladores. The Voladores deny this; the entity, however, conforms to their descriptions of an entity called “la pulga,” or, “The Flea.” We have designated it LICH. Didymos is the active animus: what serves as its pilot.<br>We have taken the entity into custody. We do not recommend giving this one a long leash.",
+    "description": "PREPARED BY: UIB-TERMAGANT<br>RECOVERED FOR: CC_HOME OFFICE<br>CLEARANCE REQ: SOLEMN VIGIL (TANGENT ROYAL ADDENDUM)<br>Didymos. It means twin in an old, old tongue. It might be a bit too cute but it’s the name our cask spat out for us. We observed Didymos Prime in action during the fall of Green Zone Alhambra, mounted in a chassis we initially classified as a HORUS Minotaur PG, one of three we ID’d operating among the Ungrateful cell in New Madrassa.<br>It was not that Minotaur.<br>Alhambra fell in three days. The Armory wasn’t keen to give it up, but decided to cut their losses and pull back rather than hold for reinforcements. We moved in after, during the looting. Our local contact [][][][][][][][] escorted us to the New Madrassan commanders, introduced us to them, and secured an audience with the pilot of the chassis.<br>I’m sure you’ve reviewed the records of the debrief we recorded. We don’t know how it arrived in New Madrassa; the Ungratefuls say they received the initial code burst from their contact in the Voladores. The Voladores deny this; the entity, however, conforms to their descriptions of an entity called “la pulga,” or, “The Flea.” We have designated it Lich. Didymos is the active animus: what serves as its pilot.<br>We have taken the entity into custody. We do not recommend giving this one a long leash.",
     "license_id": "mf_lich"
   },
   {
@@ -402,7 +402,7 @@
       }
     ],
     "source": "HA",
-    "license": "SUNZI",
+    "license": "Sunzi",
     "license_level": 1,
     "actions": [
       {
@@ -431,7 +431,7 @@
       }
     ],
     "source": "HA",
-    "license": "SUNZI",
+    "license": "Sunzi",
     "license_level": 1,
     "deployables": [
       {
@@ -461,7 +461,7 @@
       }
     ],
     "source": "HA",
-    "license": "SUNZI",
+    "license": "Sunzi",
     "license_level": 3,
     "actions": [
       {
@@ -484,7 +484,7 @@
       }
     ],
     "source": "HA",
-    "license": "SUNZI",
+    "license": "Sunzi",
     "license_level": 2,
     "actions": [
       {
@@ -502,7 +502,7 @@
     "sp": 2,
     "tags": [],
     "source": "HA",
-    "license": "SUNZI",
+    "license": "Sunzi",
     "license_level": 3,
     "actions": [
       {
@@ -519,7 +519,7 @@
     "type": "System",
     "sp": 1,
     "source": "IPS-N",
-    "license": "ZHENG",
+    "license": "Zheng",
     "license_level": 1,
     "actions": [
       {
@@ -541,7 +541,7 @@
       }
     ],
     "source": "IPS-N",
-    "license": "ZHENG",
+    "license": "Zheng",
     "license_level": 2,
     "actions": [
       {
@@ -558,7 +558,7 @@
     "type": "System",
     "sp": 3,
     "source": "IPS-N",
-    "license": "ZHENG",
+    "license": "Zheng",
     "license_level": 3,
     "actions": [
       {

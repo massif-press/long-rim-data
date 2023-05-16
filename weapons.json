@@ -1,7 +1,7 @@
 [
   {
     "id":"mw_kraul_rifle",
-    "name":"KRAUL RIFLE",
+    "name":"Kraul Rifle",
     "mount":"Main",
     "type":"CQB",
     "damage":[
@@ -10,164 +10,166 @@
         "val":"1d6"
       }
     ],
-    "range":[
+    "range": [
       {
-        "type":"Range",
-        "val":8
+        "type": "Range",
+        "val": 8
       }
     ],
-    "tags":[
+    "tags": [
       {
-        "id":"tg_inaccurate"
+        "id": "tg_inaccurate"
       }
     ],
-    "source":"SSC",
-    "license":"ATLAS",
-    "license_level":1,
-    "on_hit":"your target is impaled by this weapon’s harpoon-like projectile. Any time after your target takes any action or movement during their next turn, you can reel in the line and boost as a reaction, moving toward that target by the most direct route possible. They must then pass a HULL save or be knocked PRONE; succeed or fail, this effect ends. The line snaps if your target teleports.",
-    "description":"Hunting the Vast — the titanic megafauna of Sparr — is a dangerous, profitable venture for the Sparri people. Skins, bones, meat, and other trophies from their bodies can create months – or even years, in the case of especially old, grand, or unique beasts – of prosperity for the hunters and their kin. These popular long rifles, refined to SSC standards, are rugged and durable, perfect for dragging down the great creatures and their attendants."
+    "source": "SSC",
+    "license": "ATLAS",
+    "license_level": 1,
+    "on_hit": "your target is impaled by this weapon’s harpoon-like projectile. Any time after your target takes any action or movement during their next turn, you can reel in the line and boost as a reaction, moving toward that target by the most direct route possible. They must then pass a HULL save or be knocked PRONE; succeed or fail, this effect ends. The line snaps if your target teleports.",
+    "description": "Hunting the Vast — the titanic megafauna of Sparr — is a dangerous, profitable venture for the Sparri people. Skins, bones, meat, and other trophies from their bodies can create months – or even years, in the case of especially old, grand, or unique beasts – of prosperity for the hunters and their kin. These popular long rifles, refined to SSC standards, are rugged and durable, perfect for dragging down the great creatures and their attendants.",
+    "license_id": "mf_atlas"
   },
   {
     "id":"mw_terashima_blade",
-    "name":"TERASHIMA BLADE",
+    "name":"Terashima Blade",
     "mount":"Main",
     "type":"Melee",
     "tags":[
       {
-        "id":"tg_unique"
+        "id": "tg_unique"
       }
     ],
-    "source":"SSC",
-    "license":"ATLAS",
-    "license_level":3,
-    "effect":"You may begin any fight in any of this weapon's stances and may take a stance or shift between stances as a protocol. Once you have taken a stance, you remain in it until you take a new stance, this weapon is destroyed, or you are STUNNED or JAMMED. You can also drop a stance as a free action.",
-    "actions":[
+    "source": "SSC",
+    "license": "ATLAS",
+    "license_level": 3,
+    "effect": "You may begin any fight in any of this weapon's stances and may take a stance or shift between stances as a protocol. Once you have taken a stance, you remain in it until you take a new stance, this weapon is destroyed, or you are STUNNED or JAMMED. You can also drop a stance as a free action.",
+    "actions": [
       {
-        "name":"Change Stance",
-        "activation":"Protocol",
-        "detail":"Change this weapon's stance."
+        "name": "Change Stance",
+        "activation": "Protocol",
+        "detail": "Change this weapon's stance."
       },
       {
-        "name":"Drop Stance",
-        "activation":"Free",
-        "detail":"Drop this weapon's stance."
+        "name": "Drop Stance",
+        "activation": "Free",
+        "detail": "Drop this weapon's stance."
       }
     ],
-    "profiles":[
+    "profiles": [
       {
         "name": "No Stance",
-            "damage":[
-      {
-        "type":"Kinetic",
-        "val":"1d6"
-      }
-    ],
-    "range":[
-      {
-        "type":"Threat",
-        "val":1
-      }
-    ]
+        "damage": [
+          {
+            "type": "Kinetic",
+            "val": "1d6"
+          }
+        ],
+        "range": [
+          {
+            "type": "Threat",
+            "val": 1
+          }
+        ]
       },
       {
-        "name":"Troll Stance",
-        "damage":[
+        "name": "Troll Stance",
+        "damage": [
           {
-            "type":"Kinetic",
-            "val":"1d6+3"
+            "type": "Kinetic",
+            "val": "1d6+3"
           }
         ],
-        "range":[
+        "range": [
           {
-            "type":"Threat",
-            "val":1
+            "type": "Threat",
+            "val": 1
           }
         ],
-        "tags":[
+        "tags": [
           {
-            "id":"tg_inaccurate"
+            "id": "tg_inaccurate"
           },
           {
-            "id":"tg_ap"
+            "id": "tg_ap"
           }
         ]
       },
       {
-        "name":"Storm Stance",
-        "damage":[
+        "name": "Storm Stance",
+        "damage": [
           {
-            "type":"Kinetic",
-            "val":"1d6"
+            "type": "Kinetic",
+            "val": "1d6"
           }
         ],
-        "range":[
+        "range": [
           {
-            "type":"Threat",
-            "val":1
+            "type": "Threat",
+            "val": 1
           }
         ],
-        "effect":"You gain the Storm Stance Reaction.",
-        "actions":[
+        "effect": "You gain the Storm Stance Reaction.",
+        "actions": [
           {
-            "activation":"Reaction",
-            "name":"Storm Stance Reaction",
-            "frequency":"1/round",
-            "trigger":"After hitting with this weapon while in Storm Stance.",
-            "detail":"You may immediately deal 2 kinetic to all other characters adjacent to you and your target."
+            "activation": "Reaction",
+            "name": "Storm Stance Reaction",
+            "frequency": "1/round",
+            "trigger": "After hitting with this weapon while in Storm Stance.",
+            "detail": "You may immediately deal 2 kinetic to all other characters adjacent to you and your target."
           }
         ]
       },
       {
-        "effect_type":"Profile",
-        "name":"Lord's Stance",
-        "damage":[
+        "effect_type": "Profile",
+        "name": "Lord's Stance",
+        "damage": [
           {
-            "type":"Kinetic",
-            "val":"1d6"
+            "type": "Kinetic",
+            "val": "1d6"
           }
         ],
-        "range":[
+        "range": [
           {
-            "type":"Threat",
-            "val":1
+            "type": "Threat",
+            "val": 1
           }
         ],
-        "effect":"You cannot make ranged or tech attacks, but any ranged attack against you that misses deflects off your sword, dealing 2 damage (same type as the attack) to a character of your choice in range 3 and line of sight from you. Any melee attack that misses you forces the attacker to pass a HULL save or be knocked PRONE."
+        "effect": "You cannot make ranged or tech attacks, but any ranged attack against you that misses deflects off your sword, dealing 2 damage (same type as the attack) to a character of your choice in range 3 and line of sight from you. Any melee attack that misses you forces the attacker to pass a HULL save or be knocked PRONE."
       },
       {
-        "effect_type":"Profile",
-        "name":"Wind Stance",
-        "damage":[
+        "effect_type": "Profile",
+        "name": "Wind Stance",
+        "damage": [
           {
-            "type":"Kinetic",
-            "val":"1d6"
+            "type": "Kinetic",
+            "val": "1d6"
           }
         ],
-        "range":[
+        "range": [
           {
-            "type":"Threat",
-            "val":2
+            "type": "Threat",
+            "val": 2
           }
         ],
-        "effect":"After attacking with this weapon, hit or miss, you may move 2 spaces in any direction, ignoring engagement and reactions.",
-        "tags":[
+        "effect": "After attacking with this weapon, hit or miss, you may move 2 spaces in any direction, ignoring engagement and reactions.",
+        "tags": [
           {
-            "id":"tg_reliable",
-            "val":2
+            "id": "tg_reliable",
+            "val": 2
           },
           {
-            "id":"tg_knockback",
-            "val":2
+            "id": "tg_knockback",
+            "val": 2
           }
         ]
       }
     ],
-    "description":"Forged in the fire of a corralled star in the Constellation, each of these blades bears a unique name and history defined by its users. Terashima blades are perfectly balanced and tempered, scalable from personal use up to Schedule 3. When combined with the weapon and sensor suites of a frame, they have been proven fast and durable enough to deflect weapons fire. Each blade crafted by the Terashima enclave is an heirloom produced once and delivered via conventional travel – their loss is considered an indescribable humiliation for the owner and an incredible triumph by the one who has taken it. The Terashima enclave keeps the casting mold of each blade it produces and displays them in their central hall alongside records of their known histories.",
-    "sp":2
+    "description": "Forged in the fire of a corralled star in the Constellation, each of these blades bears a unique name and history defined by its users. Terashima blades are perfectly balanced and tempered, scalable from personal use up to Schedule 3. When combined with the weapon and sensor suites of a frame, they have been proven fast and durable enough to deflect weapons fire. Each blade crafted by the Terashima enclave is an heirloom produced once and delivered via conventional travel – their loss is considered an indescribable humiliation for the owner and an incredible triumph by the one who has taken it. The Terashima enclave keeps the casting mold of each blade it produces and displays them in their central hall alongside records of their known histories.",
+    "sp": 2,
+    "license_id": "mf_atlas"
   },
   {
     "id":"mw_hammer_u_rpl",
-    "name":"HAMMER U-RPL",
+    "name":"Hammer U-RPL",
     "mount":"Heavy",
     "type":"Launcher",
     "damage":[
@@ -176,67 +178,68 @@
         "val":"2d6+3"
       }
     ],
-    "range":[
+    "range": [
       {
-        "type":"Range",
-        "val":5
+        "type": "Range",
+        "val": 5
       }
     ],
-    "tags":[
+    "tags": [
       {
-        "id":"tg_inaccurate"
+        "id": "tg_inaccurate"
       },
       {
-        "id":"tg_arcing"
+        "id": "tg_arcing"
       },
       {
-        "id":"tg_knockback",
-        "val":2
+        "id": "tg_knockback",
+        "val": 2
       }
     ],
-    "source":"IPS-N",
-    "license":"CALIBAN",
-    "license_level":1,
-    "effect":"",
-    "description":"The Hammer Universal Rotary Projectile Launcher accepts any projectile or weapons system that fits the IPS-N Universal Cartridge System. Most common is the conventional airburst shell – a fragmentation system designed to operate in all theaters, oxygenated or not – a ferocious weapon in the compact halls, safe rooms, and bolt chambers of capital ships and stations."
+    "source": "IPS-N",
+    "license": "CALIBAN",
+    "license_level": 1,
+    "effect": "",
+    "description": "The Hammer Universal Rotary Projectile Launcher accepts any projectile or weapons system that fits the IPS-N Universal Cartridge System. Most common is the conventional airburst shell – a fragmentation system designed to operate in all theaters, oxygenated or not – a ferocious weapon in the compact halls, safe rooms, and bolt chambers of capital ships and stations.",
+    "license_id": "mf_caliban"
   },
   {
-    "id":"mw_hhs_155_cannibal",
-    "name":"HHS-155 CANNIBAL",
-    "mount":"Heavy",
-    "type":"CQB",
-    "tags":[
+    "id": "mw_hhs_155_cannibal",
+    "name": "HHS-155 CANNIBAL",
+    "mount": "Heavy",
+    "type": "CQB",
+    "tags": [
       {
-        "id":"tg_loading"
+        "id": "tg_loading"
       }
     ],
-    "source":"IPS-N",
-    "license":"CALIBAN",
-    "license_level":3,
-    "effect":"You can fire this heavy shotgun twice before it needs to be reloaded. Alternatively, you may fire with both barrels at once, receiving +1 Difficulty, increasing its damage to 3d6+4 Kinetic and its KNOCKBACK to 4, but requiring it to be reloaded as usual. When this weapon is reloaded, you may choose to deal 5 Kinetic Damage to an adjacent character from the force of the ejecting shells.",
-    "profiles":[
+    "source": "IPS-N",
+    "license": "CALIBAN",
+    "license_level": 3,
+    "effect": "You can fire this heavy shotgun twice before it needs to be reloaded. Alternatively, you may fire with both barrels at once, receiving +1 Difficulty, increasing its damage to 3d6+4 Kinetic and its KNOCKBACK to 4, but requiring it to be reloaded as usual. When this weapon is reloaded, you may choose to deal 5 Kinetic Damage to an adjacent character from the force of the ejecting shells.",
+    "profiles": [
       {
-        "name":"Single Barrel",
-        "damage":[
+        "name": "Single Barrel",
+        "damage": [
           {
-            "type":"Kinetic",
-            "val":"2d6+4"
+            "type": "Kinetic",
+            "val": "2d6+4"
           }
         ],
-        "range":[
+        "range": [
           {
-            "type":"Range",
-            "val":3
+            "type": "Range",
+            "val": 3
           },
           {
-            "type":"Threat",
-            "val":3
+            "type": "Threat",
+            "val": 3
           }
         ],
-        "tags":[
+        "tags": [
           {
-            "id":"tg_knockback",
-            "val":2
+            "id": "tg_knockback",
+            "val": 2
           },
           {
             "id": "tg_inaccurate"
@@ -244,40 +247,41 @@
         ]
       },
       {
-        "name":"Both Barrels",
-        "damage":[
+        "name": "Both Barrels",
+        "damage": [
           {
-            "type":"Kinetic",
-            "val":"3d6+4"
+            "type": "Kinetic",
+            "val": "3d6+4"
           }
         ],
-                "range":[
+        "range": [
           {
-            "type":"Range",
-            "val":3
+            "type": "Range",
+            "val": 3
           },
           {
-            "type":"Threat",
-            "val":3
+            "type": "Threat",
+            "val": 3
           }
         ],
-        "tags":[
+        "tags": [
           {
-            "id":"tg_knockback",
-            "val":4
+            "id": "tg_knockback",
+            "val": 4
           },
           {
-            "id":"tg_inaccurate"
+            "id": "tg_inaccurate"
           }
         ],
-        "effect":"Fire both barrels at once, causing the weapon to be fired with +1 Difficulty and requiring a reload as normal."
+        "effect": "Fire both barrels at once, causing the weapon to be fired with +1 Difficulty and requiring a reload as normal."
       }
     ],
-    "description":"The IPS-N Heavy Howitzer-Shotgun 155 “Cannibal” is a large, breech-loaded, over-under cannon chambered to fire shells, shot, and sabots. This is the higher-powered version of the HHS-075, designed to phase out the “Daisy Cutter” by providing comparable stopping power in a format that can be more easily supplied to armies in the field. The Cannibal should be used with caution around mixed units of friendlies, as its ejection action clears the weapon’s barrels of spent cartridges with enough velocity to decapitate unarmored personnel."
+    "description": "The IPS-N Heavy Howitzer-Shotgun 155 “Cannibal” is a large, breech-loaded, over-under cannon chambered to fire shells, shot, and sabots. This is the higher-powered version of the HHS-075, designed to phase out the “Daisy Cutter” by providing comparable stopping power in a format that can be more easily supplied to armies in the field. The Cannibal should be used with caution around mixed units of friendlies, as its ejection action clears the weapon’s barrels of spent cartridges with enough velocity to decapitate unarmored personnel.",
+    "license_id": "mf_caliban"
   },
   {
     "id":"mw_fusion_rifle",
-    "name":"FUSION RIFLE",
+    "name":"Fusion Rifle",
     "mount":"Main",
     "type":"Rifle",
     "damage":[
@@ -286,24 +290,23 @@
         "val":"1-6"
       }
     ],
-    "range":[
+    "range": [
       {
-        "type":"Range",
-        "val":6
+        "type": "Range",
+        "val": 6
       }
     ],
-    "tags":[
-      
-    ],
-    "source":"HORUS",
-    "license":"KOBOLD",
-    "license_level":1,
-    "effect":"This weapon deals damage equal to its RANGE from the target (up to a maximum of 6 Energy Damage).",
-    "description":"Bootstrapped from powerful ore mining lasers, the Kobold’s simple fusion rifle is no less deadly for its humble origins. By burning through solid-state batteries to produce the necessary reaction, the rifle’s simple mechanism proved simple enough for untrained Ungratefuls to learn. As their tactics improved and Baronic forces were pushed back, the fusion rifle took on an iconic reputation and has become a symbol of resistance across the Baronies – often seen stenciled on walls and crossed on Ungrateful flags."
+    "tags": [],
+    "source": "HORUS",
+    "license": "KOBOLD",
+    "license_level": 1,
+    "effect": "This weapon deals damage equal to its RANGE from the target (up to a maximum of 6 Energy Damage).",
+    "description": "Bootstrapped from powerful ore mining lasers, the Kobold’s simple fusion rifle is no less deadly for its humble origins. By burning through solid-state batteries to produce the necessary reaction, the rifle’s simple mechanism proved simple enough for untrained Ungratefuls to learn. As their tactics improved and Baronic forces were pushed back, the fusion rifle took on an iconic reputation and has become a symbol of resistance across the Baronies – often seen stenciled on walls and crossed on Ungrateful flags.",
+    "license_id": "mf_kobold"
   },
   {
     "id":"mw_slag_cannon",
-    "name":"SLAG CANNON",
+    "name":"Slag Cannon",
     "mount":"Main",
     "type":"Cannon",
     "damage":[
@@ -312,37 +315,38 @@
         "val":"1d6"
       }
     ],
-    "range":[
+    "range": [
       {
-        "type":"Range",
-        "val":8
+        "type": "Range",
+        "val": 8
       }
     ],
-    "tags":[
+    "tags": [
       {
-        "id":"tg_heat_self",
-        "val":1
+        "id": "tg_heat_self",
+        "val": 1
       }
     ],
-    "source":"HORUS",
-    "license":"KOBOLD",
-    "license_level":2,
-    "effect":"If your target is on the ground or a flat surface, once this attack resolves place a SIZE 1 mound of slag in a free space adjacent to them. The mound is an object with EVASION 5 and 10 HP.",
-    "deployables":[
+    "source": "HORUS",
+    "license": "KOBOLD",
+    "license_level": 2,
+    "effect": "If your target is on the ground or a flat surface, once this attack resolves place a SIZE 1 mound of slag in a free space adjacent to them. The mound is an object with EVASION 5 and 10 HP.",
+    "deployables": [
       {
-        "name":"Slag",
-        "type":"Deployable",
-        "activation":"Free",
-        "hp":"10",
-        "evasion":"5",
-        "detail":"Created by the Slag Cannon"
+        "name": "Slag",
+        "type": "Deployable",
+        "activation": "Free",
+        "hp": "10",
+        "evasion": "5",
+        "detail": "Created by the Slag Cannon"
       }
     ],
-    "description":"Dripping with molten fury, the Slag Cannon is quick to print and requires little training to use effectively. Temperamental but powerful, the Slag Cannon utilizes a simple rawmat-decomp system wedded to an insulated projector to break down, superheat, and cast a stream of plural-state particles at its target. Once cast in this way, the plural-state particles snap into coherence at a range of roughly 80-100 meters, creating base-element lumps of slag wherever they come to rest."
+    "description": "Dripping with molten fury, the Slag Cannon is quick to print and requires little training to use effectively. Temperamental but powerful, the Slag Cannon utilizes a simple rawmat-decomp system wedded to an insulated projector to break down, superheat, and cast a stream of plural-state particles at its target. Once cast in this way, the plural-state particles snap into coherence at a range of roughly 80-100 meters, creating base-element lumps of slag wherever they come to rest.",
+    "license_id": "mf_kobold"
   },
   {
     "id":"mw_unraveler",
-    "name":"UNRAVELER",
+    "name":"Unraveler",
     "mount":"Main",
     "type":"Launcher",
     "damage":[
@@ -351,27 +355,28 @@
         "val":"2d6"
       }
     ],
-    "range":[
+    "range": [
       {
-        "type":"Range",
-        "val":10
+        "type": "Range",
+        "val": 10
       }
     ],
-    "tags":[
+    "tags": [
       {
-        "id":"tg_reliable",
-        "val":2
+        "id": "tg_reliable",
+        "val": 2
       }
     ],
-    "source":"HORUS",
-    "license":"LICH",
-    "license_level":1,
-    "effect":"If an attack from this weapon would not deal enough damage to destroy its target or cause it to take at least 1 structure damage, it instead only deals RELIABLE 2 damage, even on a hit.",
-    "description":"Speaker 2 (M.A2.SP2) [Audio, length: 120:36][34% corruption][Dated 18593U, 01:50] [UIB-TERMAGANTTANGENT ROYAL]<br>“Dark. Wet. Drink deep, and descend. The water is warm and well. It is very busy here, though you cannot see it. The swimmers are curious. Open your mouth.”"
+    "source": "HORUS",
+    "license": "LICH",
+    "license_level": 1,
+    "effect": "If an attack from this weapon would not deal enough damage to destroy its target or cause it to take at least 1 structure damage, it instead only deals RELIABLE 2 damage, even on a hit.",
+    "description": "Speaker 2 (M.A2.SP2) [Audio, length: 120:36][34% corruption][Dated 18593U, 01:50] [UIB-TERMAGANTTANGENT ROYAL]<br>“Dark. Wet. Drink deep, and descend. The water is warm and well. It is very busy here, though you cannot see it. The swimmers are curious. Open your mouth.”",
+    "license_id": "mf_lich"
   },
   {
     "id":"mw_warp_rifle",
-    "name":"WARP RIFLE",
+    "name":"Warp Rifle",
     "mount":"Main",
     "type":"Rifle",
     "damage":[
@@ -380,33 +385,34 @@
         "val":"1d3+1"
       }
     ],
-    "range":[
+    "range": [
       {
-        "type":"Range",
-        "val":10
+        "type": "Range",
+        "val": 10
       }
     ],
-    "tags":[
+    "tags": [
       {
-        "id":"tg_unique"
+        "id": "tg_unique"
       },
       {
-        "id":"tg_ap"
+        "id": "tg_ap"
       },
       {
-        "id":"tg_loading"
+        "id": "tg_loading"
       }
     ],
     "source":"HA",
     "license":"SUNZI",
     "license_level":2,
-    "effect":"The target must pass an ENGINEERING save or be teleported a number of spaces equal to the damage you dealt with this weapon (including bonus damage, etc.; no more than 10 spaces), in a direction of your choice. They must end in a free, valid space.",
+    "effect": "",
+    "on_hit":"The target must pass an ENGINEERING save or be teleported a number of spaces equal to the damage you dealt with this weapon (including bonus damage, etc.; no more than 10 spaces), in a direction of your choice. They must end in a free, valid space.",
     "description":"Es una abominación. Dicen que \"es como los arados de las espadas; tú también debes aprender a defender tu hogar ”. Ptah, escupí su lógica de espada. Ni siquiera sabíamos de los arados compartidos antes de convertirlos en espadas, y éramos felices.<br>Hiciste la puerta, la abriste. No es nuestra responsabilidad cerrarla.<br>[It is an abomination. They say “it is like plowshares to swords; you too must learn to defend your home.” Ptah, I spit on their blade-law. We did not even know of plowshares before they beat them into swords, and we were happy.<br>You made the door, you swung it open — it is not our responsibility to close it.]",
     "sp":1
   },
   {
     "id":"mw_xiaoli_combat_sheathe",
-    "name":"TIGER-HUNTER COMBAT SHEATHE",
+    "name":"Tiger-Hunter Combat Sheathe",
     "mount":"Main",
     "type":"Melee",
     "damage":[
@@ -415,154 +421,155 @@
         "val":"1d3+2"
       }
     ],
-    "range":[
+    "range": [
       {
-        "type":"Threat",
-        "val":1
+        "type": "Threat",
+        "val": 1
       }
     ],
-    "tags":[
-      
-    ],
-    "source":"IPS-N",
-    "license":"ZHENG",
-    "license_level":1,
-    "effect":"This weapon can attack two targets at a time, and can be used even while JAMMED.",
-    "description":"This enhancement encases a mech’s manipulators and brachial structures in a powerful reactive alloy weave, allowing it to use its fists as blunt weapons, even unarmed."
+    "tags": [],
+    "source": "IPS-N",
+    "license": "ZHENG",
+    "license_level": 1,
+    "effect": "This weapon can attack two targets at a time, and can be used even while JAMMED.",
+    "description": "This enhancement encases a mech’s manipulators and brachial structures in a powerful reactive alloy weave, allowing it to use its fists as blunt weapons, even unarmed.",
+    "license_id": "mf_zheng"
   },
   {
-    "id":"mw_d_d_288",
-    "name":"D/D 288",
-    "mount":"Superheavy",
-    "type":"Melee",
-    "source":"IPS-N",
-    "license":"ZHENG",
-    "license_level":3,
-    "effect":"Unlike other Superheavy weapons, this weapon can be used with the basic profile to Skirmish.<br>You may charge this weapon as a quick action. While charged, you benefit from soft cover, but you are SLOWED, take 2 Heat at the start of your turn, and can no longer use the D/D 288 with SKIRMISH. At the start of any of your turns while it is charged, it has the Charged profile.",
-    "actions":[
+    "id": "mw_d_d_288",
+    "name": "D/D 288",
+    "mount": "Superheavy",
+    "type": "Melee",
+    "source": "IPS-N",
+    "license": "ZHENG",
+    "license_level": 3,
+    "effect": "Unlike other Superheavy weapons, this weapon can be used with the basic profile to Skirmish.<br>You may charge this weapon as a quick action. While charged, you benefit from soft cover, but you are SLOWED, take 2 Heat at the start of your turn, and can no longer use the D/D 288 with SKIRMISH. At the start of any of your turns while it is charged, it has the Charged profile.",
+    "actions": [
       {
-        "name":"Charge D/D 288",
-        "activation":"Quick",
-        "detail":"Charge the D/D 288. At the start of any of your turns while the D/D 288 is Charged, it uses the \"Charged\" profile. You become SLOWED, and benefit from soft cover. Additionally, gain 2 Heat at the start of your turn.<br>The \"Charged\" profile cannot be used to Skirmish."
+        "name": "Charge D/D 288",
+        "activation": "Quick",
+        "detail": "Charge the D/D 288. At the start of any of your turns while the D/D 288 is Charged, it uses the \"Charged\" profile. You become SLOWED, and benefit from soft cover. Additionally, gain 2 Heat at the start of your turn.<br>The \"Charged\" profile cannot be used to Skirmish."
       }
     ],
-    "profiles":[
+    "profiles": [
       {
-        "name":"Uncharged",
-        "damage":[
+        "name": "Uncharged",
+        "damage": [
           {
-            "type":"Kinetic",
-            "val":"1d6"
+            "type": "Kinetic",
+            "val": "1d6"
           }
         ],
-        "range":[
+        "range": [
           {
-            "type":"Threat",
-            "val":1
+            "type": "Threat",
+            "val": 1
           }
         ],
-        "tags":[
+        "tags": [
           {
-            "id":"tg_reliable",
-            "val":3
+            "id": "tg_reliable",
+            "val": 3
           }
         ],
-        "skirmish":true
+        "skirmish": true
       },
       {
-        "name":"Charged",
-        "damage":[
+        "name": "Charged",
+        "damage": [
           {
-            "type":"Explosive",
-            "val":"4d6+8"
+            "type": "Explosive",
+            "val": "4d6+8"
           }
         ],
-        "range":[
+        "range": [
           {
-            "type":"Threat",
-            "val":3
+            "type": "Threat",
+            "val": 3
           }
         ],
-        "skirmish":false,
-        "on_hit":"While charged, this weapon deals 30 AP Kinetic Damage when it hits objects or pieces of terrain. If this destroys objects and pieces of terrain, they explode, dealing 1d6 Kinetic Damage to all adjacent characters other than you and knocking them back 1 space.<br>This weapon loses its charge when you hit a target, when you disperse its charge as a free action, or when you become STUNNED or SHUT DOWN.",
-        "tags":[
+        "skirmish": false,
+        "on_hit": "While charged, this weapon deals 30 AP Kinetic Damage when it hits objects or pieces of terrain. If this destroys objects and pieces of terrain, they explode, dealing 1d6 Kinetic Damage to all adjacent characters other than you and knocking them back 1 space.<br>This weapon loses its charge when you hit a target, when you disperse its charge as a free action, or when you become STUNNED or SHUT DOWN.",
+        "tags": [
           {
-            "id":"tg_reliable",
-            "val":8
+            "id": "tg_reliable",
+            "val": 8
           },
           {
-            "id":"tg_knockback",
-            "val":8
+            "id": "tg_knockback",
+            "val": 8
           }
         ]
       }
     ],
-    "description":"The Zheng’s Devastator/Demolition Weapon 288 is legendary for its ability to breach armor and inflict total destruction on hardened targets. Originally rigged up as a last resort by Xiong Xiaoli, this fistmounted system repurposes a mech reactor’s primary heat vent into a directional, engagement-proximity weapon. The production line D/D 288 must be primed before firing, requiring a dangerous power draw from the mechs’ systems; Trunk Security’s reportage of the recovery mission assumes that using this weapons is what killed Xiong Xiaoli and cored the White Tiger’s gunboat. The D/D 288’s ability to cause enormous collateral damage and its spectacular discharge when fired have earned it the moniker ‘Shā mǎ zhǎng’ or Horse-Killing Palm among MSMC pilots."
+    "description": "The Zheng’s Devastator/Demolition Weapon 288 is legendary for its ability to breach armor and inflict total destruction on hardened targets. Originally rigged up as a last resort by Xiong Xiaoli, this fistmounted system repurposes a mech reactor’s primary heat vent into a directional, engagement-proximity weapon. The production line D/D 288 must be primed before firing, requiring a dangerous power draw from the mechs’ systems; Trunk Security’s reportage of the recovery mission assumes that using this weapons is what killed Xiong Xiaoli and cored the White Tiger’s gunboat. The D/D 288’s ability to cause enormous collateral damage and its spectacular discharge when fired have earned it the moniker ‘Shā mǎ zhǎng’ or Horse-Killing Palm among MSMC pilots.",
+    "license_id": "mf_zheng"
   },
   {
-    "id":"mw_caliban_integrated",
-    "name":"HHS-075 “Flayer” Shotgun",
-    "mount":"Main",
-    "type":"CQB",
+    "id": "mw_caliban_integrated",
+    "name": "HHS-075 “Flayer” Shotgun",
+    "mount": "Main",
+    "type": "CQB",
     "profiles": [
       {
         "name": "Standard",
-        "range":[
+        "range": [
           {
-            "type":"Range",
-            "val":3
+            "type": "Range",
+            "val": 3
           },
           {
-            "type":"Threat",
-            "val":3
+            "type": "Threat",
+            "val": 3
           }
         ],
-        "damage":[
+        "damage": [
           {
-            "type":"Kinetic",
-            "val":"1d6+1"
+            "type": "Kinetic",
+            "val": "1d6+1"
           }
         ],
-        "tags":[
+        "tags": [
           {
-            "id":"tg_inaccurate"
+            "id": "tg_inaccurate"
           },
           {
-            "id":"tg_knockback",
-            "val":2
+            "id": "tg_knockback",
+            "val": 2
           }
         ],
         "on_attack": "After any attack with this weapon, you may smack an adjacent character with the butt end, dealing 1 Kinetic Damage and knocking them back 1 space."
       },
       {
         "name": "Autochoke Equipped",
-        "range":[
+        "range": [
           {
-            "type":"Cone",
-            "val":3
+            "type": "Cone",
+            "val": 3
           },
           {
-            "type":"Threat",
-            "val":3
+            "type": "Threat",
+            "val": 3
           }
         ],
-        "damage":[
+        "damage": [
           {
-            "type":"Kinetic",
-            "val":"1d6+2"
+            "type": "Kinetic",
+            "val": "1d6+2"
           }
         ],
-        "tags":[
+        "tags": [
           {
-            "id":"tg_accurate"
+            "id": "tg_accurate"
           },
           {
-            "id":"tg_knockback",
-            "val":5
+            "id": "tg_knockback",
+            "val": 5
           }
         ],
-            "on_attack":"After any attack with this weapon, you may smack an adjacent character with the butt end, dealing 1 Kinetic Damage and knocking them back 1 space."
+        "on_attack": "After any attack with this weapon, you may smack an adjacent character with the butt end, dealing 1 Kinetic Damage and knocking them back 1 space."
       }
-    ]
+    ],
+    "license_id": ""
   }
 ]

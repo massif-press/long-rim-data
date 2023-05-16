@@ -1,13 +1,13 @@
 [
   {
-    "id": "mw_kraul_rifle",
-    "name": "KRAUL RIFLE",
-    "mount": "Main",
-    "type": "CQB",
-    "damage": [
+    "id":"mw_kraul_rifle",
+    "name":"Kraul Rifle",
+    "mount":"Main",
+    "type":"CQB",
+    "damage":[
       {
-        "type": "Kinetic",
-        "val": "1d6"
+        "type":"Kinetic",
+        "val":"1d6"
       }
     ],
     "range": [
@@ -29,11 +29,11 @@
     "license_id": "mf_atlas"
   },
   {
-    "id": "mw_terashima_blade",
-    "name": "TERASHIMA BLADE",
-    "mount": "Main",
-    "type": "Melee",
-    "tags": [
+    "id":"mw_terashima_blade",
+    "name":"Terashima Blade",
+    "mount":"Main",
+    "type":"Melee",
+    "tags":[
       {
         "id": "tg_unique"
       }
@@ -168,14 +168,14 @@
     "license_id": "mf_atlas"
   },
   {
-    "id": "mw_hammer_u_rpl",
-    "name": "HAMMER U-RPL",
-    "mount": "Heavy",
-    "type": "Launcher",
-    "damage": [
+    "id":"mw_hammer_u_rpl",
+    "name":"Hammer U-RPL",
+    "mount":"Heavy",
+    "type":"Launcher",
+    "damage":[
       {
-        "type": "Explosive",
-        "val": "2d6+3"
+        "type":"Explosive",
+        "val":"2d6+3"
       }
     ],
     "range": [
@@ -280,14 +280,14 @@
     "license_id": "mf_caliban"
   },
   {
-    "id": "mw_fusion_rifle",
-    "name": "FUSION RIFLE",
-    "mount": "Main",
-    "type": "Rifle",
-    "damage": [
+    "id":"mw_fusion_rifle",
+    "name":"Fusion Rifle",
+    "mount":"Main",
+    "type":"Rifle",
+    "damage":[
       {
-        "type": "Energy",
-        "val": "1-6"
+        "type":"Energy",
+        "val":"1-6"
       }
     ],
     "range": [
@@ -305,14 +305,14 @@
     "license_id": "mf_kobold"
   },
   {
-    "id": "mw_slag_cannon",
-    "name": "SLAG CANNON",
-    "mount": "Main",
-    "type": "Cannon",
-    "damage": [
+    "id":"mw_slag_cannon",
+    "name":"Slag Cannon",
+    "mount":"Main",
+    "type":"Cannon",
+    "damage":[
       {
-        "type": "Energy",
-        "val": "1d6"
+        "type":"Energy",
+        "val":"1d6"
       }
     ],
     "range": [
@@ -345,14 +345,14 @@
     "license_id": "mf_kobold"
   },
   {
-    "id": "mw_unraveler",
-    "name": "UNRAVELER",
-    "mount": "Main",
-    "type": "Launcher",
-    "damage": [
+    "id":"mw_unraveler",
+    "name":"Unraveler",
+    "mount":"Main",
+    "type":"Launcher",
+    "damage":[
       {
-        "type": "Energy",
-        "val": "2d6"
+        "type":"Energy",
+        "val":"2d6"
       }
     ],
     "range": [
@@ -375,14 +375,14 @@
     "license_id": "mf_lich"
   },
   {
-    "id": "mw_warp_rifle",
-    "name": "WARP RIFLE",
-    "mount": "Main",
-    "type": "Rifle",
-    "damage": [
+    "id":"mw_warp_rifle",
+    "name":"Warp Rifle",
+    "mount":"Main",
+    "type":"Rifle",
+    "damage":[
       {
-        "type": "Energy",
-        "val": "1d3+1"
+        "type":"Energy",
+        "val":"1d3+1"
       }
     ],
     "range": [
@@ -411,14 +411,14 @@
     "license_id": "mf_sunzi"
   },
   {
-    "id": "mw_xiaoli_combat_sheathe",
-    "name": "TIGER-HUNTER COMBAT SHEATHE",
-    "mount": "Main",
-    "type": "Melee",
-    "damage": [
+    "id":"mw_xiaoli_combat_sheathe",
+    "name":"Tiger-Hunter Combat Sheathe",
+    "mount":"Main",
+    "type":"Melee",
+    "damage":[
       {
-        "type": "Kinetic",
-        "val": "1d3+2"
+        "type":"Kinetic",
+        "val":"1d3+2"
       }
     ],
     "range": [

@@ -10,7 +10,7 @@
       }
     ],
     "source": "SSC",
-    "license": "ATLAS",
+    "license": "Atlas",
     "license_level": 1,
     "actions": [
       {
@@ -37,7 +37,7 @@
       }
     ],
     "source": "SSC",
-    "license": "ATLAS",
+    "license": "Atlas",
     "license_level": 2,
     "actions": [
       {
@@ -63,7 +63,7 @@
       }
     ],
     "source": "SSC",
-    "license": "ATLAS",
+    "license": "Atlas",
     "license_level": 2,
     "actions": [
       {
@@ -90,7 +90,7 @@
       }
     ],
     "source": "SSC",
-    "license": "ATLAS",
+    "license": "Atlas",
     "license_level": 3,
     "actions": [
       {
@@ -115,7 +115,7 @@
       }
     ],
     "source": "IPS-N",
-    "license": "CALIBAN",
+    "license": "Caliban",
     "license_level": 2,
     "effect": "As long as you are not Slowed or Immobilized, you gain Resistance to all damage during your turn.",
     "description": "Also developed in IPS-N’s ongoing Titan–Enceladus Field Project, hardpoint reinforcement systems further strengthen frames, ensuring an across-the-board increase in Caliban chassis TTK.",
@@ -139,7 +139,7 @@
       }
     ],
     "source": "IPS-N",
-    "license": "CALIBAN",
+    "license": "Caliban",
     "license_level": 2,
     "actions": [
       {
@@ -183,7 +183,7 @@
       }
     ],
     "source": "IPS-N",
-    "license": "CALIBAN",
+    "license": "Caliban",
     "license_level": 3,
     "effect": "1/round, when you Boost, you fly, gain Overshield 3, and ignore engagement from and may freely pass through spaces occupied by larger characters (but not end your turn in their spaces). You must end this movement in a space on which you can stand, or else you fall.",
     "synergies": [
@@ -203,7 +203,7 @@
     "type": "System",
     "sp": 1,
     "source": "HORUS",
-    "license": "KOBOLD",
+    "license": "Kobold",
     "license_level": 1,
     "actions": [
       {
@@ -220,7 +220,7 @@
     "type": "System",
     "sp": 2,
     "source": "HORUS",
-    "license": "KOBOLD",
+    "license": "Kobold",
     "license_level": 2,
     "actions": [
       {
@@ -237,7 +237,7 @@
     "type": "System",
     "sp": 2,
     "source": "HORUS",
-    "license": "KOBOLD",
+    "license": "Kobold",
     "license_level": 3,
     "actions": [
       {
@@ -256,11 +256,11 @@
   },
   {
     "id": "ms_immolate",
-    "name": "Immolate",
+    "name": "IMMOLATE",
     "type": "System",
     "sp": 2,
     "source": "HORUS",
-    "license": "KOBOLD",
+    "license": "Kobold",
     "license_level": 3,
     "actions": [
       {
@@ -283,7 +283,7 @@
     "type": "Tech",
     "sp": 1,
     "source": "HORUS",
-    "license": "LICH",
+    "license": "Lich",
     "license_level": 1,
     "actions": [
       {
@@ -301,7 +301,7 @@
     "type": "Tech",
     "sp": 2,
     "source": "HORUS",
-    "license": "LICH",
+    "license": "Lich",
     "license_level": 2,
     "actions": [
       {
@@ -318,7 +318,7 @@
     "type": "Tech",
     "sp": 2,
     "source": "HORUS",
-    "license": "LICH",
+    "license": "Lich",
     "license_level": 2,
     "actions": [
       {
@@ -350,7 +350,7 @@
       }
     ],
     "source": "HORUS",
-    "license": "LICH",
+    "license": "Lich",
     "license_level": 3,
     "actions": [
       {
@@ -379,7 +379,7 @@
       }
     ],
     "source": "HORUS",
-    "license": "LICH",
+    "license": "Lich",
     "license_level": 3,
     "actions": [
       {
@@ -402,7 +402,7 @@
       }
     ],
     "source": "HA",
-    "license": "SUNZI",
+    "license": "Sunzi",
     "license_level": 1,
     "actions": [
       {
@@ -431,7 +431,7 @@
       }
     ],
     "source": "HA",
-    "license": "SUNZI",
+    "license": "Sunzi",
     "license_level": 1,
     "deployables": [
       {
@@ -461,7 +461,7 @@
       }
     ],
     "source": "HA",
-    "license": "SUNZI",
+    "license": "Sunzi",
     "license_level": 3,
     "actions": [
       {
@@ -484,7 +484,7 @@
       }
     ],
     "source": "HA",
-    "license": "SUNZI",
+    "license": "Sunzi",
     "license_level": 2,
     "actions": [
       {
@@ -502,7 +502,7 @@
     "sp": 2,
     "tags": [],
     "source": "HA",
-    "license": "SUNZI",
+    "license": "Sunzi",
     "license_level": 3,
     "actions": [
       {
@@ -519,7 +519,7 @@
     "type": "System",
     "sp": 1,
     "source": "IPS-N",
-    "license": "ZHENG",
+    "license": "Zheng",
     "license_level": 1,
     "actions": [
       {
@@ -541,7 +541,7 @@
       }
     ],
     "source": "IPS-N",
-    "license": "ZHENG",
+    "license": "Zheng",
     "license_level": 2,
     "actions": [
       {
@@ -558,7 +558,7 @@
     "type": "System",
     "sp": 3,
     "source": "IPS-N",
-    "license": "ZHENG",
+    "license": "Zheng",
     "license_level": 3,
     "actions": [
       {

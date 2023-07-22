@@ -22,7 +22,7 @@
       }
     ],
     "source": "SSC",
-    "license": "ATLAS",
+    "license": "Atlas",
     "license_level": 1,
     "on_hit": "your target is impaled by this weapon’s harpoon-like projectile. Any time after your target takes any action or movement during their next turn, you can reel in the line and boost as a reaction, moving toward that target by the most direct route possible. They must then pass a HULL save or be knocked PRONE; succeed or fail, this effect ends. The line snaps if your target teleports.",
     "description": "Hunting the Vast — the titanic megafauna of Sparr — is a dangerous, profitable venture for the Sparri people. Skins, bones, meat, and other trophies from their bodies can create months – or even years, in the case of especially old, grand, or unique beasts – of prosperity for the hunters and their kin. These popular long rifles, refined to SSC standards, are rugged and durable, perfect for dragging down the great creatures and their attendants.",
@@ -39,7 +39,7 @@
       }
     ],
     "source": "SSC",
-    "license": "ATLAS",
+    "license": "Atlas",
     "license_level": 3,
     "effect": "You may begin any fight in any of this weapon's stances and may take a stance or shift between stances as a protocol. Once you have taken a stance, you remain in it until you take a new stance, this weapon is destroyed, or you are STUNNED or JAMMED. You can also drop a stance as a free action.",
     "actions": [
@@ -197,7 +197,7 @@
       }
     ],
     "source": "IPS-N",
-    "license": "CALIBAN",
+    "license": "Caliban",
     "license_level": 1,
     "effect": "",
     "description": "The Hammer Universal Rotary Projectile Launcher accepts any projectile or weapons system that fits the IPS-N Universal Cartridge System. Most common is the conventional airburst shell – a fragmentation system designed to operate in all theaters, oxygenated or not – a ferocious weapon in the compact halls, safe rooms, and bolt chambers of capital ships and stations.",
@@ -205,7 +205,7 @@
   },
   {
     "id": "mw_hhs_155_cannibal",
-    "name": "HHS-155 Cannibal",
+    "name": "HHS-155 CANNIBAL",
     "mount": "Heavy",
     "type": "CQB",
     "tags": [
@@ -214,7 +214,7 @@
       }
     ],
     "source": "IPS-N",
-    "license": "CALIBAN",
+    "license": "Caliban",
     "license_level": 3,
     "effect": "You can fire this heavy shotgun twice before it needs to be reloaded. Alternatively, you may fire with both barrels at once, receiving +1 Difficulty, increasing its damage to 3d6+4 Kinetic and its KNOCKBACK to 4, but requiring it to be reloaded as usual. When this weapon is reloaded, you may choose to deal 5 Kinetic Damage to an adjacent character from the force of the ejecting shells.",
     "profiles": [
@@ -298,7 +298,7 @@
     ],
     "tags": [],
     "source": "HORUS",
-    "license": "KOBOLD",
+    "license": "Kobold",
     "license_level": 1,
     "effect": "This weapon deals damage equal to its RANGE from the target (up to a maximum of 6 Energy Damage).",
     "description": "Bootstrapped from powerful ore mining lasers, the Kobold’s simple fusion rifle is no less deadly for its humble origins. By burning through solid-state batteries to produce the necessary reaction, the rifle’s simple mechanism proved simple enough for untrained Ungratefuls to learn. As their tactics improved and Baronic forces were pushed back, the fusion rifle took on an iconic reputation and has become a symbol of resistance across the Baronies – often seen stenciled on walls and crossed on Ungrateful flags.",
@@ -328,7 +328,7 @@
       }
     ],
     "source": "HORUS",
-    "license": "KOBOLD",
+    "license": "Kobold",
     "license_level": 2,
     "effect": "If your target is on the ground or a flat surface, once this attack resolves place a SIZE 1 mound of slag in a free space adjacent to them. The mound is an object with EVASION 5 and 10 HP.",
     "deployables": [
@@ -368,7 +368,7 @@
       }
     ],
     "source": "HORUS",
-    "license": "LICH",
+    "license": "Lich",
     "license_level": 1,
     "effect": "If an attack from this weapon would not deal enough damage to destroy its target or cause it to take at least 1 structure damage, it instead only deals RELIABLE 2 damage, even on a hit.",
     "description": "Speaker 2 (M.A2.SP2) [Audio, length: 120:36][34% corruption][Dated 18593U, 01:50] [UIB-TERMAGANTTANGENT ROYAL]<br>“Dark. Wet. Drink deep, and descend. The water is warm and well. It is very busy here, though you cannot see it. The swimmers are curious. Open your mouth.”",
@@ -403,7 +403,7 @@
       }
     ],
     "source": "HA",
-    "license": "SUNZI",
+    "license": "Sunzi",
     "license_level": 2,
     "effect": "",
     "on_hit": "The target must pass an ENGINEERING save or be teleported a number of spaces equal to the damage you dealt with this weapon (including bonus damage, etc.; no more than 10 spaces), in a direction of your choice. They must end in a free, valid space.",
@@ -429,7 +429,7 @@
     ],
     "tags": [],
     "source": "IPS-N",
-    "license": "ZHENG",
+    "license": "Zheng",
     "license_level": 1,
     "effect": "This weapon can attack two targets at a time, and can be used even while JAMMED.",
     "description": "This enhancement encases a mech’s manipulators and brachial structures in a powerful reactive alloy weave, allowing it to use its fists as blunt weapons, even unarmed.",
@@ -441,7 +441,7 @@
     "mount": "Superheavy",
     "type": "Melee",
     "source": "IPS-N",
-    "license": "ZHENG",
+    "license": "Zheng",
     "license_level": 3,
     "effect": "Unlike other Superheavy weapons, this weapon can be used with the basic profile to Skirmish.<br>You may charge this weapon as a quick action. While charged, you benefit from soft cover, but you are SLOWED, take 2 Heat at the start of your turn, and can no longer use the D/D 288 with SKIRMISH. At the start of any of your turns while it is charged, it has the Charged profile.",
     "actions": [

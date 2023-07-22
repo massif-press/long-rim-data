@@ -1,0 +1,18 @@
+# This workflow will call org-level reusable workflows for deploying an LCP to itch.io and NPM package to npmjs.com.
+
+name: Deploy LCP
+
+on:
+  workflow_dispatch:
+  release:
+    types: [created]
+
+jobs:
+  call-butler-publish:
+    uses: massif-press/.github/.github/workflows/butler-publish.yml@master
+    secrets:
+      BUTLER_CREDENTIALS: ${{ secrets.BUTLER_CREDENTIALS }}
+  call-npm-publish:
+    uses: massif-press/.github/.github/workflows/npm-publish.yml@master
+    secrets:
+      NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

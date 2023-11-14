@@ -1,6 +1,6 @@
 #!/usr/bin/node
-import readline from 'readline';
-import decap from './_cleanup/decap.js';
+const readline = require('readline');
+const decap = require('./_cleanup/decap.js');
 
 const rl = readline.createInterface({
   input: process.stdin,

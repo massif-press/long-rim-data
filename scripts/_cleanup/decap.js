@@ -1,7 +1,7 @@
 #!/usr/bin/node
 
-import fs from 'fs';
-import path from 'path';
+const fs = require('fs');
+const path = require('path');
 
 const folderPath = './lib';
 const ignore = ['manufacturers.json', 'lcp_manifest.json'];
@@ -27,7 +27,6 @@ const decap = (commit) => {
   const files = fs.readdirSync(folderPath);
 
   files.forEach((file) => {
-    console.log(file);
     if (ignore.some((x) => x === file)) return;
     const filePath = path.join(folderPath, file);
 
@@ -59,4 +58,4 @@ const decap = (commit) => {
   if (commit) console.log(`fixed: ${fixed} entries in ${files.length} files`);
 };
 
-export default decap;
+module.exports = decap;

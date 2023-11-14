@@ -3,7 +3,6 @@
   "version": "1.2.1",
   "description": "Player-facing COMP/CON data for 'The Long Rim', a setting for the LANCER TTRPG",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "build": "node ./scripts/build.js",
     "cleanup": "node ./scripts/cleanup.js",

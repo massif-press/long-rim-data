@@ -1,6 +1,6 @@
-import zl from 'zip-lib';
+const zl = require('zip-lib');
 
-import info from '../package.json' assert { type: 'json' };
+const info = require('../package.json');
 
 const name = info.name.split('/').pop();
 

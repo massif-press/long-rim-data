@@ -1,7 +1,7 @@
 #!/usr/bin/node
 
-import fs from 'fs';
-import path from 'path';
+const fs = require('fs');
+const path = require('path');
 
 const folderPath = './lib';
 const ignore = ['manufacturers.json', 'lcp_manifest.json'];
@@ -59,4 +59,4 @@ const decap = (commit) => {
   if (commit) console.log(`fixed: ${fixed} entries in ${files.length} files`);
 };
 
-export default decap;
+module.exports = decap;

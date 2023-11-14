@@ -27,7 +27,6 @@ const decap = (commit) => {
   const files = fs.readdirSync(folderPath);
 
   files.forEach((file) => {
-    console.log(file);
     if (ignore.some((x) => x === file)) return;
     const filePath = path.join(folderPath, file);
 

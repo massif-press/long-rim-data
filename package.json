@@ -1,6 +1,6 @@
 {
   "name": "@massif/long-rim-data",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Player-facing COMP/CON data for 'The Long Rim', a setting for the LANCER TTRPG",
   "main": "index.js",
   "scripts": {

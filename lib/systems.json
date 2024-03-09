@@ -381,6 +381,7 @@
     "source": "HORUS",
     "license": "Lich",
     "license_level": 3,
+    "effect": "Your mech gains the AI tag and the Time Split Quick Tech action.",
     "actions": [
       {
         "name": "Time Split",

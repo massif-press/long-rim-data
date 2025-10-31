@@ -31,7 +31,7 @@
         "active_effects": [
           {
             "name": "Giantkiller",
-            "detail": "The Atlas counts as size 1 for the purposes of ramming and grappling. It ignores engagement from actors larger than itself, can share space with larger actors (even hostile ones) and move through their spaces unimpeded. While sharing space with any character, it gains soft cover, even from that character."
+            "detail": "You count as size 1 for the purposes of ramming and grappling. You ignores engagement from actors larger than yourself, can share space with larger actors (even hostile ones) and move through their spaces unimpeded. While sharing space with any character, you gain soft cover, even from that character."
           }
         ],
         "synergies": [
@@ -59,7 +59,7 @@
         "active_effects": [
           {
             "name": "Finishing Blow",
-            "detail": "1/round, the Atlas can deal +1d6 bonus damage with a successful melee attack against a prone target.",
+            "detail": "You can deal +1d6 bonus damage with a successful melee attack against a prone target.",
             "condition": "Target is Prone",
             "frequency": "1/round",
             "bonus_damage": "1d6"
@@ -161,7 +161,7 @@
         "active_effects": [
           {
             "name": "Wrecking Ball",
-            "detail": "The Caliban counts as size 3 when inflicting knockback from any ranged or melee attack."
+            "detail": "You count as size 3 when inflicting knockback from any ranged or melee attack."
           }
         ],
         "synergies": [
@@ -179,7 +179,7 @@
         "active_effects": [
           {
             "name": "Pursue Prey",
-            "detail": "When the Caliban inflicts knockback as part of any action, it can move an equal number of spaces towards the same target by the most direct route possible. This movement is part of the same action, ignores engagement and doesn’t provoke reactions."
+            "detail": "When the You inflict knockback as part of any action, you can move an equal number of spaces towards the same target by the most direct route possible. This movement is part of the same action, ignores engagement and doesn’t provoke reactions."
           }
         ]
       },
@@ -189,7 +189,7 @@
         "active_effects": [
           {
             "name": "Slam",
-            "detail": "1/round, when the Caliban knocks a character into a wall, mech, or other obstruction that would cause it to stop moving, it may force its target to pass a HULL save or take 1d6 Kinetic Damage and become IMPAIRED until the end of its next turn.",
+            "detail": "1/round, when you knock a character into a wall, mech, or other obstruction that would cause it to stop moving, you may force its target to pass a HULL save or take 1d6 Kinetic Damage and become IMPAIRED until the end of its next turn.",
             "frequency": "1/round",
             "condition": "You knock a character into a wall, mech, or other obstruction that would cause it to stop moving",
             "add_status": [
@@ -262,8 +262,8 @@
         "active_effects": [
           {
             "name": "Mimic Carapace",
-            "detail": "When the Kobold starts its turn adjacent to a piece of terrain or hard cover of SIZE 1 or larger it becomes INVISIBLE as long as it remains adjacent. It ceases to be INVISIBLE if it attacks or takes damage.",
-            "condition": "Start of your turn, you are adjacent to a piece of terrain or hard cover of size 1 or larger",
+            "condition": "At the start of your turn when you are adjacent to a piece of terrain or hard cover of size 1 or larger",
+            "detail": "You becomes INVISIBLE as long as you remain adjacent. You cease to be INVISIBLE if you attack or take damage.",
             "add_status": [
               {
                 "id": "invisible"
@@ -432,7 +432,7 @@
         "active_effects": [
           {
             "name": "Safe Harbor",
-            "detail": "When allied characters within Range 50 of the Sunzi teleport or are teleported, free spaces adjacent to the Sunzi are always valid end destinations."
+            "detail": "When allied characters within Range 50 of you teleport or are teleported, free spaces adjacent to you are always valid end destinations."
           }
         ]
       },
@@ -442,7 +442,7 @@
         "active_effects": [
           {
             "name": "Anchor",
-            "detail": "The Sunzi has Immunity to involuntary movement caused by other characters."
+            "detail": "You have Immunity to involuntary movement caused by other characters."
           }
         ]
       },
@@ -454,7 +454,7 @@
             "name": "Slip",
             "frequency": "1/Round",
             "activation": "Free",
-            "detail": "1/round the Sunzi can teleport 2 spaces as a free action"
+            "detail": "Teleport 2 spaces."
           }
         ]
       }

@@ -88,7 +88,7 @@
             "detail": "You immediately clear all Burn affecting your mech, and it gains Resistance to Burn until the start of your next turn. Conditions that were self inflicted cannot be cleared with this action.",
             "add_resist": [
               {
-                "resist": "burn",
+                "resistance": "burn",
                 "duration": "start_next_turn_self"
               }
             ]

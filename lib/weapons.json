@@ -154,7 +154,7 @@
           "detail": "If a ranged attack misses you, it deflects off your sword, dealing 2 damage (same type as the attack) to a character of your choice in range 3 and line of sight from you. If a melee attack misses you, the attacker must pass a HULL save or be knocked PRONE.",
           "add_status": [
             {
-              "status": "prone",
+              "id": "prone",
               "save": true,
               "save_stat": "hull"
             }

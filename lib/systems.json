@@ -275,7 +275,7 @@
         "detail": "You sink the jaws of your clamp into an adjacent object or piece of terrain of Size 1 or larger. You become Immobilized but gain Immunity to Knockback and Prone. This effect ends if the thing you’re clamped onto is destroyed or if you release the clamp as a protocol.",
         "add_status": [
           {
-            "status": "immobilized",
+            "id": "immobilized",
             "target": "self"
           }
         ],
@@ -317,7 +317,7 @@
         ],
         "add_status": [
           {
-            "status": "prone",
+            "id": "prone",
             "target": "aoe",
             "save": true,
             "save_stat": "hull"
@@ -441,7 +441,7 @@
         ],
         "add_status": [
           {
-            "status": "slowed",
+            "id": "slowed",
             "target": "aoe",
             "save": true,
             "save_stat": "systems"
@@ -495,7 +495,7 @@
         "detail": "Choose a character within Sensors and line of sight. They must pass a Systems save or take 2 Heat, become Slowed, and become unable to take reactions. This effects ends if they take any amount of damage or make a successful Systems save as a quick action.",
         "add_status": [
           {
-            "status": "slowed",
+            "id": "slowed",
             "target": "self",
             "save": true,
             "save_stat": "systems"
@@ -548,7 +548,7 @@
         ],
         "add_status": [
           {
-            "status": "stunned",
+            "id": "stunned",
             "duration": "end_next_turn_target"
           }
         ],
@@ -658,7 +658,7 @@
         "detail": "Once detonated, the character that triggered it must pass an Engineering save or be teleported to a free, valid space of your choice within Range 5 of the mine and become JAMMED until the end of their next turn. If they pass, they still teleport but do not become Jammed.",
         "add_status": [
           {
-            "status": "jammed",
+            "id": "jammed",
             "save": true,
             "save_stat": "engineering",
             "duration": "end_next_turn_target"
@@ -821,13 +821,13 @@
         "detail": "You end a Grapple, pushing the other character 5 spaces in any direction and knocking them Prone. This movement may pass through spaces occupied by other characters but must end in a free space. All characters they pass through must pass a Hull save or be knocked Prone. If your target collides with an object or piece of terrain, they stop, take 1d6 kinetic damage, and must pass a Hull save or become STUNNED until the end of their next turn.",
         "add_status": [
           {
-            "status": "prone",
+            "id": "prone",
             "target": "aoe",
             "save": true,
             "save_stat": "hull"
           },
           {
-            "status": "stunned",
+            "id": "stunned",
             "save": true,
             "save_stat": "hull"
           }

@@ -40,12 +40,12 @@
         "effect": "You take 1 Heat and it projects a superheated Cone 3 cloud oriented away from your target in a direction of your choice. Your target and any characters caught in this cloud each take 2 Explosive Damage.",
         "damage": [
           {
-            "type": "explosive",
+            "type": "Explosive",
             "val": 2,
             "aoe": "cone 3"
           },
           {
-            "type": "heat",
+            "type": "Heat",
             "val": 1,
             "target": "self"
           }

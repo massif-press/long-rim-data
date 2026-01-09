@@ -77,15 +77,14 @@
         "detail": "As a quick action, you throw a ricochet blade along a line 3 path, dealing 2 Kinetic Damage to all characters within the affected area. If the initial line reaches a piece of terrain or object of Size 1 or larger, draw another line 3 path from that object in a new direction that doesn't overlap with the object it ricocheted off. Characters within the affected area must succeed on an Agility save or take 1d6+3 kinetic damage.",
         "damage": [
           {
-            "type": "kinetic",
+            "type": "Kinetic",
             "val": 2,
             "aoe": "line 3"
           },
           {
-            "type": "kinetic",
+            "type": "Kinetic",
             "val": "1d6+3",
-            "save": true,
-            "save_stat": "agility",
+            "save": "agility",
             "target": "aoe"
           }
         ]
@@ -120,11 +119,11 @@
         "detail": "After damage has been resolved, you and your target each roll a contested Hull or Agility check (each party choosing which to roll). The loser is knocked Prone, takes 1d6 kinetic damage, and is knocked back 3 spaces in a direction chosen by the winner. The winner may then move 3 spaces in any direction, ignoring engagement and not provoking reactions. The loser may immediately take 2 AP kinetic damage to force the contest to be rerolled. This damage cannot be prevented or reduced in any way.<br>If the result is a tie, the contest immediately ends. Otherwise, the contest continues until one character loses without forcing a re-roll or would take structure damage, in which case they immediately lose.",
         "damage": [
           {
-            "type": "kinetic",
+            "type": "Kinetic",
             "val": "1d6"
           },
           {
-            "type": "kinetic",
+            "type": "Kinetic",
             "val": 2,
             "ap": true
           }
@@ -201,7 +200,7 @@
         "detail": "You may detonate all armed spike grenades as a reaction. Characters to whom they are attached take 1d6+3 kinetic damage and are knocked back 3 spaces in a direction of your choice, while objects just take the damage.",
         "damage": [
           {
-            "type": "kinetic",
+            "type": "Kinetic",
             "val": "1d6+3",
             "aoe": true
           }
@@ -319,21 +318,20 @@
           {
             "id": "prone",
             "target": "aoe",
-            "save": true,
-            "save_stat": "hull"
+            "save": "hull"
           }
         ],
         "damage": [
           {
-            "type": "energy",
+            "type": "Energy",
             "val": 10,
             "ap": true
           },
           {
-            "type": "explosive",
+            "type": "Explosive",
             "val": "2d6",
-            "save": "half",
-            "save_stat": "agility",
+            "save": "agility",
+            "save_half": true,
             "aoe": "burst 1"
           }
         ]
@@ -432,19 +430,17 @@
         "detail": "Characters within the affected area cannot take reactions, and if they start their turn within it, they must succeed on a Systems save or take 2 Heat and become Slowed until the end of their next turn.",
         "damage": [
           {
-            "type": "heat",
+            "type": "Heat",
             "val": 2,
             "target": "aoe",
-            "save": true,
-            "save_stat": "systems"
+            "save": "systems"
           }
         ],
         "add_status": [
           {
             "id": "slowed",
             "target": "aoe",
-            "save": true,
-            "save_stat": "systems"
+            "save": "systems"
           }
         ]
       }
@@ -497,13 +493,12 @@
           {
             "id": "slowed",
             "target": "self",
-            "save": true,
-            "save_stat": "systems"
+            "save": "systems"
           }
         ],
         "damage": [
           {
-            "type": "heat",
+            "type": "Heat",
             "val": 2
           }
         ],
@@ -659,8 +654,7 @@
         "add_status": [
           {
             "id": "jammed",
-            "save": true,
-            "save_stat": "engineering",
+            "save": "engineering",
             "duration": "end_next_turn_target"
           }
         ]
@@ -798,7 +792,7 @@
         "detail": "Deal 1d6 kinetic damage to a character you are grappling.",
         "damage": [
           {
-            "type": "kinetic",
+            "type": "Kinetic",
             "val": "1d6"
           }
         ]
@@ -823,21 +817,18 @@
           {
             "id": "prone",
             "target": "aoe",
-            "save": true,
-            "save_stat": "hull"
+            "save": "hull"
           },
           {
             "id": "stunned",
-            "save": true,
-            "save_stat": "hull"
+            "save": "hull"
           }
         ],
         "damage": [
           {
-            "type": "kinetic",
+            "type": "Kinetic",
             "val": "1d6",
-            "save": true,
-            "save_stat": "hull"
+            "save": "hull"
           }
         ]
       }
@@ -871,7 +862,7 @@
         "detail": "You can shunt power into this component to fly 3 spaces and take Heat equal to your mech’s Size + 1, although you must land at the end of this movement or fall.",
         "damage": [
           {
-            "type": "heat",
+            "type": "Heat",
             "val": "{size}+1",
             "target": "self"
           }

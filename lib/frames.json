@@ -62,12 +62,16 @@
             "detail": "You can deal +1d6 bonus damage with a successful melee attack against a prone target.",
             "condition": "Target is Prone",
             "frequency": "1/round",
-            "bonus_damage": "1d6"
+            "bonus_damage": {
+              "detail": "Once per round, you can deal +1d6 bonus damage with a successful melee attack against a prone target.",
+              "val": "1d6",
+              "weapon_types": ["Melee"]
+            }
           }
         ],
         "synergies": [
           {
-            "locations": ["weapon"],
+            "locations": ["weapon", "attack"],
             "weapon_types": ["Melee"],
             "weapon_sizes": ["any"],
             "detail": "1/round, the Atlas can deal +1d6 bonus damage with a successful melee attack against a prone target."
@@ -118,8 +122,7 @@
           "add_status": [
             {
               "id": "prone",
-              "save": true,
-              "save_stat": "hull"
+              "save": "hull"
             }
           ]
         }
@@ -199,8 +202,8 @@
               }
             ],
             "damage": {
-              "amount": "1d6",
-              "type": "kinetic"
+              "val": "1d6",
+              "type": "Kinetic"
             },
             "save": {
               "stat": "hull"
@@ -557,7 +560,7 @@
           "damage": [
             {
               "val": "2",
-              "type": "kinetic"
+              "type": "Kinetic"
             }
           ]
         },
@@ -569,12 +572,12 @@
           "damage": [
             {
               "val": "10",
-              "type": "kinetic",
+              "type": "Kinetic",
               "ap": true
             },
             {
               "val": "1d6",
-              "type": "kinetic",
+              "type": "Kinetic",
               "aoe": "adjacent"
             }
           ]

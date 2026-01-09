@@ -155,8 +155,7 @@
           "add_status": [
             {
               "id": "prone",
-              "save": true,
-              "save_stat": "hull"
+              "save": "hull"
             }
           ]
         }

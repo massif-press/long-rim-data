@@ -12,102 +12,102 @@
         {
           "min": 1,
           "max": 1,
-          "outcome": "A splitting headache"
+          "text": "A splitting headache"
         },
         {
           "min": 2,
           "max": 2,
-          "outcome": "A ledger with a long list of names in it. The corner is spotted with blood, and some of the names are crossed off."
+          "text": "A ledger with a long list of names in it. The corner is spotted with blood, and some of the names are crossed off."
         },
         {
           "min": 3,
           "max": 3,
-          "outcome": "A large canister of slick, vibrant purple liquid labeled \"All Purpose Lubricant\"."
+          "text": "A large canister of slick, vibrant purple liquid labeled \"All Purpose Lubricant\"."
         },
         {
           "min": 4,
           "max": 4,
-          "outcome": "A brand new, very elaborate Sparri saga tattoo"
+          "text": "A brand new, very elaborate Sparri saga tattoo"
         },
         {
           "min": 5,
           "max": 5,
-          "outcome": "A very dry mouth"
+          "text": "A very dry mouth"
         },
         {
           "min": 6,
           "max": 6,
-          "outcome": "An elaborately decorated carnival mask. You cannot remember exactly how you acquired it. The eyes seem to follow you"
+          "text": "An elaborately decorated carnival mask. You cannot remember exactly how you acquired it. The eyes seem to follow you"
         },
         {
           "min": 7,
           "max": 7,
-          "outcome": "An outstanding warrant for your arrest"
+          "text": "An outstanding warrant for your arrest"
         },
         {
           "min": 8,
           "max": 8,
-          "outcome": "A very mild Gliss, Brighteyes, or Gazer addiction"
+          "text": "A very mild Gliss, Brighteyes, or Gazer addiction"
         },
         {
           "min": 9,
           "max": 9,
-          "outcome": "A mini fridge full of sensitive biological samples wanted by an enterprise"
+          "text": "A mini fridge full of sensitive biological samples wanted by an enterprise"
         },
         {
           "min": 10,
           "max": 10,
-          "outcome": "A station security officer who is very obviously attempting to follow you without you noticing"
+          "text": "A station security officer who is very obviously attempting to follow you without you noticing"
         },
         {
           "min": 11,
           "max": 11,
-          "outcome": "A brand new station disease that causes you to break out into hives when someone touches you skin to skin. It'll clear up in a week."
+          "text": "A brand new station disease that causes you to break out into hives when someone touches you skin to skin. It'll clear up in a week."
         },
         {
           "min": 12,
           "max": 12,
-          "outcome": "A thick data wafer with a carefully curated selection of old earth jazz"
+          "text": "A thick data wafer with a carefully curated selection of old earth jazz"
         },
         {
           "min": 13,
           "max": 13,
-          "outcome": "An enormous debt to the station crime syndicate"
+          "text": "An enormous debt to the station crime syndicate"
         },
         {
           "min": 14,
           "max": 14,
-          "outcome": "A large, chitinous, and very affectionate pet krait"
+          "text": "A large, chitinous, and very affectionate pet krait"
         },
         {
           "min": 15,
           "max": 15,
-          "outcome": "A revolver with one spent bullet in the chamber"
+          "text": "A revolver with one spent bullet in the chamber"
         },
         {
           "min": 16,
           "max": 16,
-          "outcome": "A reputation as \"Mistress\""
+          "text": "A reputation as \"Mistress\""
         },
         {
           "min": 17,
           "max": 17,
-          "outcome": "The meat sweats"
+          "text": "The meat sweats"
         },
         {
           "min": 18,
           "max": 18,
-          "outcome": "A pack of unlabeled and suspicious smelling cigarettes."
+          "text": "A pack of unlabeled and suspicious smelling cigarettes."
         },
         {
           "min": 19,
           "max": 19,
-          "outcome": "A hanger-on named &lsquo;Juicy K'. They are a huge fan of you, not very quick on the uptake, but extremely knowledgable about station gossip, current Long Rim pop culture, and varying interesting and creative uses of popular narcotics. They refuse to leave if asked and generally believe the two of you are best friends."
+          "text": "A hanger-on named ‘Juicy K'. They are a huge fan of you, not very quick on the uptake, but extremely knowledgable about station gossip, current Long Rim pop culture, and varying interesting and creative uses of popular narcotics. They refuse to leave if asked and generally believe the two of you are best friends."
         },
         {
           "min": 20,
           "max": 20,
-          "outcome": "A thick pack of stripped dataplating packed densely with incredibly sensitive information such as military schedules, personal financial records, etc."
+          "text": "A thick pack of stripped dataplating packed densely with incredibly sensitive information such as military schedules, personal financial records, etc."
         }
       ]
     }
@@ -125,102 +125,102 @@
         {
           "min": 1,
           "max": 1,
-          "outcome": "Your memory of the previous night."
+          "text": "Your memory of the previous night."
         },
         {
           "min": 2,
           "max": 2,
-          "outcome": "Your dignity (if you had any)."
+          "text": "Your dignity (if you had any)."
         },
         {
           "min": 3,
           "max": 3,
-          "outcome": "Your sense of balance for the next few hours."
+          "text": "Your sense of balance for the next few hours."
         },
         {
           "min": 4,
           "max": 4,
-          "outcome": "Any weapons you carried with you. You can find them being sold on the station black market in the next few days."
+          "text": "Any weapons you carried with you. You can find them being sold on the station black market in the next few days."
         },
         {
           "min": 5,
           "max": 5,
-          "outcome": "Your sense of smell for the next few days."
+          "text": "Your sense of smell for the next few days."
         },
         {
           "min": 6,
           "max": 6,
-          "outcome": "Pretty much everything in your stomach from the last day or so."
+          "text": "Pretty much everything in your stomach from the last day or so."
         },
         {
           "min": 7,
           "max": 7,
-          "outcome": "Any personal identification, station passes, or important documentation you had on you. You get a message asking for ransom to recover them in the next few minutes."
+          "text": "Any personal identification, station passes, or important documentation you had on you. You get a message asking for ransom to recover them in the next few minutes."
         },
         {
           "min": 8,
           "max": 8,
-          "outcome": "About two or three days of local time."
+          "text": "About two or three days of local time."
         },
         {
           "min": 9,
           "max": 9,
-          "outcome": "All the sensation in your fingertips for the next day or so."
+          "text": "All the sensation in your fingertips for the next day or so."
         },
         {
           "min": 10,
           "max": 10,
-          "outcome": "All your hair (it'll grow back)."
+          "text": "All your hair (it'll grow back)."
         },
         {
           "min": 11,
           "max": 11,
-          "outcome": "Your pants."
+          "text": "Your pants."
         },
         {
           "min": 12,
           "max": 12,
-          "outcome": "A large part of the skin on your left arm, currently swaddled in a bandage you don't remember having applied."
+          "text": "A large part of the skin on your left arm, currently swaddled in a bandage you don't remember having applied."
         },
         {
           "min": 13,
           "max": 13,
-          "outcome": "Your largely positive opinion of the station."
+          "text": "Your largely positive opinion of the station."
         },
         {
           "min": 14,
           "max": 14,
-          "outcome": "Your sense of direction."
+          "text": "Your sense of direction."
         },
         {
           "min": 15,
           "max": 15,
-          "outcome": "Any station credit or loose change you had on you."
+          "text": "Any station credit or loose change you had on you."
         },
         {
           "min": 16,
           "max": 16,
-          "outcome": "Movement in your face and the ability to feel your tongue for about an hour or so."
+          "text": "Movement in your face and the ability to feel your tongue for about an hour or so."
         },
         {
           "min": 17,
           "max": 17,
-          "outcome": "A knife fight."
+          "text": "A knife fight."
         },
         {
           "min": 18,
           "max": 18,
-          "outcome": "Your shoes. You'll spot a station kid wearing them in about an hour."
+          "text": "Your shoes. You'll spot a station kid wearing them in about an hour."
         },
         {
           "min": 19,
           "max": 19,
-          "outcome": "One fingernail."
+          "text": "One fingernail."
         },
         {
           "min": 20,
           "max": 20,
-          "outcome": "Free travel around the station, which will be restricted for a while."
+          "text": "Free travel around the station, which will be restricted for a while."
         }
       ]
     }
@@ -238,17 +238,17 @@
         {
           "min": 1,
           "max": 9,
-          "outcome": "Miss your shot and choose one of the following:\n- Get shot, taking harm as established\n- You duck or weave out of the way and an NPC bystander, important object, or item of the GM’s choice (could be something you’re holding or wearing) takes grievous and lasting harm. If you shot first, the blame for this falls on you. If not, it falls on your opponent."
+          "text": "Miss your shot and choose one of the following:\n- Get shot, taking harm as established\n- You duck or weave out of the way and an NPC bystander, important object, or item of the GM’s choice (could be something you’re holding or wearing) takes grievous and lasting harm. If you shot first, the blame for this falls on you. If not, it falls on your opponent."
         },
         {
           "min": 10,
           "max": 19,
-          "outcome": "Your shot hits, dealing harm as established. If you shot first, your target doesn’t get a chance to respond. If you didn’t shoot first, take harm as established."
+          "text": "Your shot hits, dealing harm as established. If you shot first, your target doesn’t get a chance to respond. If you didn’t shoot first, take harm as established."
         },
         {
           "min": 20,
           "max": 20,
-          "outcome": "Your shot instantly kills your opponent (intentionally or not!). If you shot first, you shoot them before they even get a chance to draw, and folk present squarely place the blame for the death on you. If you didn’t shoot first, you are seen as acting at least partly in self defense."
+          "text": "Your shot instantly kills your opponent (intentionally or not!). If you shot first, you shoot them before they even get a chance to draw, and folk present squarely place the blame for the death on you. If you didn’t shoot first, you are seen as acting at least partly in self defense."
         }
       ]
     }

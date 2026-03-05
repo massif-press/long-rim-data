@@ -127,7 +127,7 @@
             "damage": [
               {
                 "type": "Kinetic",
-                "val": "2",
+                "val": 2,
                 "aoe": "adjacent to you and your target"
               }
             ]
@@ -135,7 +135,6 @@
         ]
       },
       {
-        "effect_type": "Profile",
         "name": "Lord's Stance",
         "damage": [
           {
@@ -161,7 +160,6 @@
         }
       },
       {
-        "effect_type": "Profile",
         "name": "Wind Stance",
         "damage": [
           {
@@ -224,13 +222,12 @@
     "source": "IPS-N",
     "license": "Caliban",
     "license_level": 1,
-    "effect": "",
     "description": "The Hammer Universal Rotary Projectile Launcher accepts any projectile or weapons system that fits the IPS-N Universal Cartridge System. Most common is the conventional airburst shell – a fragmentation system designed to operate in all theaters, oxygenated or not – a ferocious weapon in the compact halls, safe rooms, and bolt chambers of capital ships and stations.",
     "license_id": "mf_caliban"
   },
   {
     "id": "mw_hhs_155_cannibal",
-    "name": "HHS-155 CANNIBAL",
+    "name": "HHS-155 Cannibal",
     "mount": "Heavy",
     "type": "CQB",
     "tags": [
@@ -242,6 +239,15 @@
     "license": "Caliban",
     "license_level": 3,
     "effect": "You can fire this heavy shotgun twice before it needs to be reloaded. Alternatively, you may fire with both barrels at once, receiving +1 Difficulty, increasing its damage to 3d6+4 Kinetic and its KNOCKBACK to 4, but requiring it to be reloaded as usual. When this weapon is reloaded, you may choose to deal 5 Kinetic Damage to an adjacent character from the force of the ejecting shells.",
+    "actions": [
+      {
+        "name": "Shell Ejection",
+        "activation": "Free",
+        "trigger": "You reload this weapon.",
+        "detail": "Deal 5 Kinetic Damage to an adjacent character from the force of the ejecting shells.",
+        "damage": [{ "type": "Kinetic", "val": 5 }]
+      }
+    ],
     "profiles": [
       {
         "name": "Single Barrel",
@@ -312,7 +318,7 @@
     "damage": [
       {
         "type": "Energy",
-        "val": "1-6"
+        "val": 1
       }
     ],
     "range": [
@@ -325,6 +331,12 @@
     "license": "Kobold",
     "license_level": 1,
     "effect": "This weapon deals damage equal to its RANGE from the target (up to a maximum of 6 Energy Damage).",
+    "active_effects": [
+      {
+        "name": "Fusion Rifle",
+        "detail": "This weapon deals damage equal to its range from the target (up to a maximum of 6 Energy Damage)."
+      }
+    ],
     "description": "Bootstrapped from powerful ore mining lasers, the Kobold’s simple fusion rifle is no less deadly for its humble origins. By burning through solid-state batteries to produce the necessary reaction, the rifle’s simple mechanism proved simple enough for untrained Ungratefuls to learn. As their tactics improved and Baronic forces were pushed back, the fusion rifle took on an iconic reputation and has become a symbol of resistance across the Baronies – often seen stenciled on walls and crossed on Ungrateful flags.",
     "license_id": "mf_kobold"
   },
@@ -360,8 +372,8 @@
         "name": "Slag",
         "type": "Deployable",
         "activation": "Free",
-        "hp": "10",
-        "evasion": "5",
+        "hp": 10,
+        "evasion": 5,
         "detail": "Created by the Slag Cannon"
       }
     ],
@@ -395,6 +407,12 @@
     "license": "Lich",
     "license_level": 1,
     "effect": "If an attack from this weapon would not deal enough damage to destroy its target or cause it to take at least 1 structure damage, it instead only deals RELIABLE 2 damage, even on a hit.",
+    "active_effects": [
+      {
+        "name": "Unraveler",
+        "detail": "If an attack from this weapon would not deal enough damage to destroy its target or cause it to take at least 1 structure damage, it instead only deals Reliable 2 damage, even on a hit."
+      }
+    ],
     "description": "Speaker 2 (M.A2.SP2) [Audio, length: 120:36][34% corruption][Dated 18593U, 01:50] [UIB-TERMAGANTTANGENT ROYAL]<br>“Dark. Wet. Drink deep, and descend. The water is warm and well. It is very busy here, though you cannot see it. The swimmers are curious. Open your mouth.”",
     "license_id": "mf_lich"
   },
@@ -429,9 +447,15 @@
     "source": "HA",
     "license": "Sunzi",
     "license_level": 2,
-    "on_hit": "The target must pass an ENGINEERING save or be teleported a number of spaces equal to the damage you dealt with this weapon (including bonus damage, etc.; no more than 10 spaces), in a direction of your choice. They must end in a free, valid space.",
+    "on_hit": {
+      "detail": "The target must pass an ENGINEERING save or be teleported a number of spaces equal to the damage you dealt with this weapon (including bonus damage, etc.; no more than 10 spaces), in a direction of your choice. They must end in a free, valid space.",
+      "save": {
+        "stat": "engineering"
+      }
+    },
     "description": "Es una abominación. Dicen que \"es como los arados de las espadas; tú también debes aprender a defender tu hogar ”. Ptah, escupí su lógica de espada. Ni siquiera sabíamos de los arados compartidos antes de convertirlos en espadas, y éramos felices.<br>Hiciste la puerta, la abriste. No es nuestra responsabilidad cerrarla.<br>[It is an abomination. They say “it is like plowshares to swords; you too must learn to defend your home.” Ptah, I spit on their blade-law. We did not even know of plowshares before they beat them into swords, and we were happy.<br>You made the door, you swung it open — it is not our responsibility to close it.]",
-    "sp": 1
+    "sp": 1,
+    "license_id": "mf_sunzi"
   },
   {
     "id": "mw_xiaoli_combat_sheathe",
@@ -512,7 +536,9 @@
           }
         ],
         "skirmish": false,
-        "on_hit": "While charged, this weapon deals 30 AP Kinetic Damage when it hits objects or pieces of terrain. If this destroys objects and pieces of terrain, they explode, dealing 1d6 Kinetic Damage to all adjacent characters other than you and knocking them back 1 space.<br>This weapon loses its charge when you hit a target, when you disperse its charge as a free action, or when you become STUNNED or SHUT DOWN.",
+        "on_hit": {
+          "detail": "While charged, this weapon deals 30 AP Kinetic Damage when it hits objects or pieces of terrain. If this destroys objects and pieces of terrain, they explode, dealing 1d6 Kinetic Damage to all adjacent characters other than you and knocking them back 1 space.<br>This weapon loses its charge when you hit a target, when you disperse its charge as a free action, or when you become STUNNED or SHUT DOWN."
+        },
         "tags": [
           {
             "id": "tg_reliable",
@@ -566,7 +592,7 @@
           "damage": [
             {
               "type": "Kinetic",
-              "val": "1"
+              "val": 1
             }
           ]
         }
@@ -603,7 +629,7 @@
           "damage": [
             {
               "type": "Kinetic",
-              "val": "1"
+              "val": 1
             }
           ]
         }

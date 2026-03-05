@@ -16,7 +16,7 @@
         "active_effects": [
           {
             "name": "Sea Legs",
-            "effect": "1/round, when your mech is involuntarily moved by another character’s attack or by failing a save forced by another character, you can choose the direction you move. Additionally, when your mech clears Prone, you may move 2 spaces in any direction as a free action. This movement ignores engagement and doesn’t provoke reactions.",
+            "detail": "1/round, when your mech is involuntarily moved by another character’s attack or by failing a save forced by another character, you can choose the direction you move. Additionally, when your mech clears Prone, you may move 2 spaces in any direction as a free action. This movement ignores engagement and doesn’t provoke reactions.",
             "condition": "You are involuntarily moved or clear Prone",
             "frequency": "1/round"
           }
@@ -28,7 +28,7 @@
         "active_effects": [
           {
             "name": "Scrapper",
-            "effect": "1/round, when your mech hits a character with a melee attack, it can immediately give that character +1 Difficulty on all checks or saves to avoid Knockback, Prone, Slowed or Immobilized until the end of its next turn, including any effects that are part of the triggering attack.",
+            "detail": "1/round, when your mech hits a character with a melee attack, it can immediately give that character +1 Difficulty on all checks or saves to avoid Knockback, Prone, Slowed or Immobilized until the end of its next turn, including any effects that are part of the triggering attack.",
             "condition": "You hit a character with a melee attack",
             "frequency": "1/round",
             "add_special": [
@@ -113,7 +113,13 @@
       },
       {
         "name": "Rodeo Master",
-        "description": "Your Black Thumb actions can be used on adjacent allied mechs."
+        "description": "Your Black Thumb actions can be used on adjacent allied mechs.",
+        "synergies": [
+          {
+            "locations": ["active_effects"],
+            "detail": "Your Black Thumb actions (Extinguish, Field Repair, Rig Vents) can be used on adjacent allied mechs."
+          }
+        ]
       }
     ]
   }

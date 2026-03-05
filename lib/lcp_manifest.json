@@ -5,5 +5,13 @@
   "item_prefix": "msf-tlr-",
   "version": "2.0.0",
   "image_url": "https://img.itch.zone/aW1hZ2UvNTY3MjM4LzI5OTU1NjMuanBn/347x500/wib3ez.jpg",
-  "website": "https://massif-press.itch.io/the-long-rim"
+  "website": "https://massif-press.itch.io/the-long-rim",
+  "version_history": [
+    {
+      "version": "2.0.0",
+      "date": "2026-03-04",
+      "changes": ["Updated to v3."]
+    }
+  ],
+  "v3": true
 }

@@ -4,7 +4,7 @@ const info = require('../package.json');
 
 const name = info.name.split('/').pop();
 
-const filepath = `./dist/${name}-${info.version}.lcp`;
+const filepath = `./dist/long-rim-data.lcp`;
 
 zl.archiveFolder('./lib', filepath).then(
   function () {

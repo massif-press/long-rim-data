@@ -13,7 +13,7 @@
       "changes": ["Updated to v3."]
     },
     {
-      "version": "2.0.3",
+      "version": "2.0.1",
       "date": "2026-05-01",
       "changes": [
         "Added 'None' Action proxies to several v3-specific automations",

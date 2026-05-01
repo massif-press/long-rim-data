@@ -3,7 +3,7 @@
   "author": "Massif Press",
   "description": "This setting expansion for Lancer features a wealth of information on the Long Rim sector of space, including: Two new talents, Spaceborn, and Black Thumb for pilots who want to excel in null-gravity combat, and access to six additional mechs to pilot, in addition to their unique gear: The proud, memory-driven ATLAS, favored by Sparri espadas and Karrakin knights; The resourceful KOBOLD, the messy face of liberation for many across Baronic space; The storied ZHENG, the chassis first crafted by the bodhisattva-saint Xiong Xiaoli; The brutal CALIBAN, IPS-N's new corridor-clearing chassis designed specifically for boarding actions; The Harrison Armory SUNZI, a battlefield manipulator built from stolen Volador tech; and the deathless LICH, a timeless entity released from blinkspace to haunt our reality.",
   "item_prefix": "msf-tlr-",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "image_url": "https://img.itch.zone/aW1hZ2UvNTY3MjM4LzI5OTU1NjMuanBn/347x500/wib3ez.jpg",
   "website": "https://massif-press.itch.io/the-long-rim",
   "version_history": [
@@ -11,6 +11,17 @@
       "version": "2.0.0",
       "date": "2026-03-18",
       "changes": ["Updated to v3."]
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-05-01",
+      "changes": [
+        "Added 'None' Action proxies to several v3-specific automations",
+        "Removed a number of deprecated item properties",
+        "Corrected incorrect Slow condition IDs in several actions",
+        "Removed some erroneous Drone stat values",
+        "Removed some erroneous action costs from free and non-action actions"
+      ]
     }
   ],
   "v3": true

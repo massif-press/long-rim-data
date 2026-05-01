@@ -364,6 +364,7 @@
         "deployables": [
           {
             "name": "Soul Vessel",
+            "activation": "None",
             "type": "Marker"
           }
         ],
@@ -534,7 +535,7 @@
           {
             "name": "Destructive Swing Cover",
             "type": "Deployable",
-            "activation": "Free",
+            "activation": "None",
             "hp": 10,
             "evasion": 5,
             "size": 1,

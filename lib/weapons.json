@@ -242,7 +242,7 @@
     "actions": [
       {
         "name": "Shell Ejection",
-        "activation": "Free",
+        "activation": "None",
         "trigger": "You reload this weapon.",
         "detail": "Deal 5 Kinetic Damage to an adjacent character from the force of the ejecting shells.",
         "damage": [{ "type": "Kinetic", "val": 5 }]

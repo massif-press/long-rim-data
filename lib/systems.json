@@ -435,7 +435,7 @@
       {
         "name": "Distorted Timeflow",
         "type": "Zone",
-        "size": 2,
+        "size": 5,
         "detail": "Characters within the affected area cannot take reactions, and if they start their turn within it, they must succeed on a Systems save or take 2 Heat and become Slowed until the end of their next turn.",
         "damage": [
           {
@@ -447,11 +447,13 @@
         ],
         "add_status": [
           {
-            "id": "slowed",
+            "id": "slow",
             "target": "aoe",
             "save": "systems"
           }
-        ]
+        ],
+        "tags": [{ "id": "tg_invulnerable" }],
+        "activation": "None"
       }
     ],
     "description": "Speaker 1 (M.A2.SP1) [Audio, Length: 150:06][Dated 7658U, 35:50] (recovered: GZ Alhambra) [UIBTERMAGANT-TANGENT ROYAL]<br>“Where does it go? Where does it go? Where does it go? Where does it go? Where does it go? Where does it go? Where does it go? Where does it go? Where does it go? Where does it go?",
@@ -501,7 +503,7 @@
         "detail": "Choose a character within Sensors and line of sight. They must pass a Systems save or take 2 Heat, become Slowed, and become unable to take reactions. This effects ends if they take any amount of damage or make a successful Systems save as a quick action.",
         "add_status": [
           {
-            "id": "slowed",
+            "id": "slow",
             "target": "self",
             "save": "systems"
           }
@@ -792,6 +794,7 @@
       {
         "name": "Hard Cover Terrain",
         "type": "Object",
+        "activation": "None",
         "detail": "A Size 1 piece of terrain that grants hard cover, placed in a free space adjacent to the target.",
         "size": 1,
         "hp": 10,
@@ -923,8 +926,6 @@
         "name": "Blink Anchor",
         "type": "Deployable",
         "size": 0.5,
-        "hp": 10,
-        "evasion": 10,
         "activation": "Quick",
         "redeploy": "Quick",
         "detail": "When any character teleports within your line of sight, you may force them to appear in a free space adjacent to the blink anchor instead of their original destination, as long as they can safely stand there. If your target is hostile, this expends a charge. Initiating this interruption does not count as a reaction. Once deployed, you or any allied character can pick the Blink Anchor up or put it down while adjacent to it as a quick action.",
@@ -933,7 +934,8 @@
           {
             "immunity": "all"
           }
-        ]
+        ],
+        "tags": [{ "id": "tg_invulnerable" }]
       }
     ],
     "description": "Gained from the <i>Sunzi Blink Anchor</i> Core passive.",

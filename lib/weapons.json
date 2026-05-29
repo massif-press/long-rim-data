@@ -374,6 +374,7 @@
         "activation": "Free",
         "hp": 10,
         "evasion": 5,
+        "size": 1,
         "detail": "Created by the Slag Cannon"
       }
     ],
